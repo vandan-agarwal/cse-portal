@@ -1,0 +1,11 @@
+.top-nav-bar{
+	float: right;
+	position: relative;
+	top: 100px;
+}
+
+@media (max-width: 786px){
+	.top-nav-bar{
+		top: 0px;
+	}
+}
