@@ -1,0 +1,201 @@
+/*!
+ * Start Bootstrap - Shop Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+   /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+body {
+  overflow-x: hidden !important;
+  /*background-color: #d8dadc;*/
+}
+body > * {
+  max-width: 100% !important;
+  background-color: white;
+
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+    
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+    background-color: #223140;
+}
+#navbar{
+    min-height: 30px !important;
+
+
+}
+#navbar-bottom{
+    min-height: 30px !important;
+    border-radius: 5px !important;
+}
+.navbar{
+    min-height: 30px !important;
+    border-radius: 0px !important;
+}
+.nav>li>a{
+    padding: 5px 10px !important;
+}
+#navbar-bottom .nav>li>a{
+    
+    padding: 5px 20px !important;
+}
+
+
+
+
+
+.dropdown-menu > li.kopie > a {
+    padding-left:5px;
+}
+ 
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+   top:0;left:100%;
+   margin-top:-6px;margin-left:-1px;
+   -webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;
+ }
+  
+.dropdown-submenu > a:after {
+  border-color: transparent transparent transparent #333;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  content: " ";
+  display: block;
+  float: right;  
+  height: 0;     
+  margin-right: -10px;
+  margin-top: 5px;
+  width: 0;
+}
+ 
+.dropdown-submenu:hover>a:after {
+    border-left-color:#555;
+ }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+  text-decoration: underline;
+}  
+  
+@media (max-width: 767px) {
+
+  .navbar-nav  {
+     display: inline;
+  }
+  .navbar-default .navbar-brand {
+    display: inline;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  .navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: red;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-top: 2px;   
+  }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+     color: #333;
+   }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+     background-color: #ccc;
+   }
+
+   .navbar-nav .open .dropdown-menu {
+     border-bottom: 1px solid white; 
+     border-radius: 0;
+   }
+  .dropdown-menu {
+      padding-left: 10px;
+  }
+  .dropdown-menu .dropdown-menu {
+      padding-left: 20px;
+   }
+   .dropdown-menu .dropdown-menu .dropdown-menu {
+      padding-left: 30px;
+   }
+   li.dropdown.open {
+    border: 0px solid red;
+   }
+
+}
+ 
+@media (min-width: 768px) 
+{
+ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+  }
+  #navbar {
+    text-align: center;
+  }slider
+}  
+
+#newsitem{
+    height:270px;
+    /*background-color: red;*/
+    overflow-y:scroll;
+    /*border:5px solid red!important;*/
+
+}
+
+#myCarousel p{
+    /*margin-top: 500px!important;*/
+    /*margin-left: 900px!important;*/
+    color:#075298!important;
+    /*font-style: italic;*/
+    /*font-weight: bold;*/
+    /*background-color:#ece9e5;*/
+    background-color:rgba(255, 255, 255, 0.5)!important;
+    /*border-radius: 5px;*/
+    text-align: left!important;
+    padding: 5px!important;
+    padding-left: 10px!important;
+    /*margin-bottom: 100px!important;*/
+    /*min-width: 100px;*/
+    /*width: auto;*/
+    /*width: 500px!important;*/
+}
+
+#topmenu{
+    width:440px!important;
+    /*margin-left:5px;*/
+    float: right;
+    border-radius: 10px;
+    
+
+}
+
+@media (min-width: 320px) {
+#topmenu{
+    width:200px!important;
+  }
+}
+@media (min-width: 768px) {
+#topmenu{
+    width:430px!important;
+  }
+}
