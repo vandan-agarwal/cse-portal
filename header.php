@@ -43,10 +43,10 @@
    </head>
 
 
-<div class="container-fluid" style="color:#022d10; font-size:2em; background-color:#5d8aa8 ; margin-top:-75px; min-height:140px; font-family: 'Fjalla One', sans-serif;">
+<div class="container-fluid" style="color:#022d10; font-size:2em; background-color:#5d8aa8 ; margin-top:-75px; font-family: 'Fjalla One', sans-serif;">
 
 
-<div class="container" style="margin-top:12px;"> 
+<div class="container IITI-container" style="margin-top:12px;"> 
     <div class="row">
         <div class="col-sm-8" style="float: left; ">
                 <div class="navbar-header">
@@ -75,12 +75,12 @@
 </div>
           
 </div>	  
-      
+        
 	
 
-<div class="container-fluid" style="background-color: #f2f3f4; min-height:110px;"> 
-<div class="container" >
-    <img src=images/header2.jpg alt="logo1" class="img-responsive" style="padding-top:5px;">
+<div class="container-fluid cse-logo" style="background-color: #f2f3f4;"> 
+<div class="container cse-logo" >
+    <img src=images/header2.jpg alt="logo1" class="cse-image" style="padding-top:5px;">
 </div>
  
  

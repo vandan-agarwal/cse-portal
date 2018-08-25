@@ -50,7 +50,6 @@
   @media (max-width: 767px) {
     .navbar-nav  {
        display: inline;
-
     }
     .navbar-default .navbar-brand {
       display: inline;
@@ -69,6 +68,8 @@
 	   /*background-color: red!important;*/
 
      }
+
+
      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
      .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
        background-color: #ccc;
@@ -79,9 +80,20 @@
        border-bottom: 1px solid red; 
        border-radius: 0;
      }
-    .dropdown-menu {
+    .dropdown1 {
         padding-left: 10px;
+        z-index: 2000;
+        display: none;
     }
+    .dropdown:hover >.dropdown1{
+      display: block;
+    }
+    .dropdown2{
+        display: none;
+     }
+     .dropdown-submenu:hover >.dropdown2{
+        display: block;
+     }
     .dropdown-menu .dropdown-menu {
         padding-left: 20px;
      }
@@ -91,6 +103,9 @@
      li.dropdown.open {
       border: 0px solid red;
      }
+     .navbar{
+      overflow: visible;
+    }
 
   }
    
@@ -109,31 +124,32 @@
 #navbar-collapse-1 ul li{
   color: white!important;
 }
+
 </style>
 
-<div id="navbar">
-  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="background-color:; margin-top:10px; margin-bottom:0px;">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target="#navbar-collapse-1">
+<div id="navbar" style="overflow-y: visible;">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="background-color:#21abcd; margin-top:10px; margin-bottom:0px; overflow-y: visible;">
+    <div class="navbar-header" style="overflow-y: visible;">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target="#navbar-collapse-1" style="background-color: white" >
       <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+      <span class="icon-bar" style="background-color: #21abcd;"></span>
+      <span class="icon-bar" style="background-color: #21abcd;"></span>
+      <span class="icon-bar" style="background-color: #21abcd;"></span>
       </button>
     </div>
-    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="navbar-collapse-1" style="overflow-y: visible;">
       <ul class="nav navbar-nav">
         <li><a href="index.php"> <font size="3" color="White"> <b>Home </b></font> </a></li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" color="White"><b>People</b></font>  <b class="caret"></b> </a> 
-          <ul class="dropdown-menu">
+          <a href="#" class="dropdown-toggle  trial" data-toggle="dropdown"><font size="3" color="White"><b>People</b></font>  <b class="caret"></b> </a> 
+          <ul class="dropdown-menu dropdown1" id="Peoples">
             <li><a href="faculty.php" target="_blank"> Faculty</a></li>
             <li><a href="staff.php" target="_blank">Staff</a></li>
 			       <li><a href="phdstudents.php" target="_blank" >PhD Students </a></li>
 				   <li class="dropdown dropdown-submenu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">B. Tech Students</a>
-            <ul class="dropdown-menu">
+            <a href="#" class="dropdown-toggle " data-toggle="dropdown">B. Tech Students</a>
+            <ul class="dropdown-menu dropdown2">
               <li><a href="btech_stu_2014.php">2014 Btach</a></li>
               <li><a href="btech_stu_2015.php">2015 Btach</a></li>
 			  <li><a href="btech_stu_2016.php">2016 Btach</a></li>
@@ -147,19 +163,19 @@
         </li>
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" color="White"><b>Research</b></font> <b class="caret"></b></a> 
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown1">
             <li><a href="research_area.php">Area</a></li>
-            <li><a href="#">Sponsored Projects</a>
-			<ul class="dropdown-menu">
-			  <li><a href="srprojects.php">Research Projects</a></li>
-              <li><a href="gian.php">GIAN Projects</a></li>
-			  <li><a href="patent.php">Fellowships</a></li>
-                           
+            <li class="dropdown dropdown-submenu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sponsored Projects</a>
+		      	<ul class="dropdown-menu dropdown2">
+		    	  <li><a href="srprojects.php">Research Projects</a></li>
+            <li><a href="gian.php">GIAN Projects</a></li>
+			      <li><a href="patent.php">Fellowships</a></li>
             </ul>
-			</li>
+		      	</li>
 				    <li class="dropdown dropdown-submenu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Publication</a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu dropdown2">
               <li><a href="journal.php">Journal</a></li>
               <li><a href="conference.php">Conference</a></li>
 			  <li><a href="patent.php">Patent</a></li>
@@ -174,7 +190,7 @@
 
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" color="White"><b>Teaching</b></font> <b class="caret"></b></a> 
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown1">
             <li><a href="cse_courses.php">Courses</a></li>
             <li><a href="http://moodle.cse.iiti.ac.in/moodle/" target="_blank">Moodle Login</a></li>
             
@@ -183,7 +199,7 @@
         </li>
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <font size="3" color="White"><b>Programs</b></font>  <b class="caret"></b></a> 
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown1">
             <li><a href="phd_program.php">PhD</a></li>
             <li><a href="btech_program.php">BTech</a></li>
             
@@ -193,7 +209,7 @@
 
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" color="White"><b>Admissions</b></font> <b class="caret"></b></a> 
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown1">
             <li><a href="http://academic.iiti.ac.in:8080/nregistration.jsp"target="_blank">PhD</a></li>
             <li><a href="https://www.jeeadv.ac.in//"target="_blank">JEE</a></li>
           </ul>
@@ -201,7 +217,7 @@
 
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" color="White"><b>About us</b> </font><b class="caret"></b></a> 
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown1">
             <li><a href="cse_discipline_iit_indore.php"target="_blank">Discipline</a></li>
       			<li><a href="administration.php"target="_blank">Administration </a></li>
             <li><a href="facilities.php"target="_blank">Facilities</a></li>

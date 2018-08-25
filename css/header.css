@@ -3,17 +3,40 @@
 	float: right;
 	position: relative;
 	top: 100px;
+	width: 33.33%;
+}
+.cse-logo{
+	height: 110px;
+}
+.cse-image{
+		width: 100%;
+		margin-bottom: 2px;
+	}
+.IITI-container{
+		min-height: 140px;
 }
 
-@media and screen (max-width: 768px){
+@media (max-width: 768px){
 	.top-nav-bar{
-		top: 0px;
+		top: 4px;
+		width: 100%;
 	}
-	.iiti{
-		font-size: 20px;
+	.iiti{ 
+		font-size: 15px;
 	}
-	.container-fluid{
-		padding-right: 0px;
-		padding-left: 0px;
+	.IITI-container{
+		min-height: 120px;
+	}
+
+	.cse-logo{
+		max-height: 70px;
+		width: 100%;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.cse-image{
+		width: 95%;
+		margin-left:5%;
+		height: 70px;
 	}
 }
