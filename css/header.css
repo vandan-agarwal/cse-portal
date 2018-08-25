@@ -1,11 +1,19 @@
+
 .top-nav-bar{
 	float: right;
 	position: relative;
 	top: 100px;
 }
 
-@media (max-width: 786px){
+@media and screen (max-width: 768px){
 	.top-nav-bar{
 		top: 0px;
+	}
+	.iiti{
+		font-size: 20px;
+	}
+	.container-fluid{
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }

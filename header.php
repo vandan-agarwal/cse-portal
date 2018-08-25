@@ -50,13 +50,8 @@
     <div class="row">
         <div class="col-sm-8" style="float: left; ">
                 <div class="navbar-header">
-                    <strong> <br>Indian Institute of Technology Indore </br> </strong>
-                    <strong>   भारतीय प्रौद्योगिकी संस्थान इंदौर   <strong>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                    <strong class="iiti"> <br>Indian Institute of Technology Indore </br> </strong>
+                    <strong class="iiti">   भारतीय प्रौद्योगिकी संस्थान इंदौर   <strong>
                 </div>
         </div>
         <div class="col-sm-4 top-nav-bar" >
