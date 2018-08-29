@@ -13,12 +13,11 @@
 		height: 80px!important;
 	}
 	.event-list > li {
-		width: 100%;
 		background-color: rgb(255, 255, 255);
 		box-shadow: 0px 0px 5px rgb(51, 51, 51);
 		box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
 		padding: 0px;
-		margin: 0px 0px 20px 0px;
+		margin: 0px 0px 20px;
 		/*height: 80px!important;*/
 	}
 	.event-list > li > time {
@@ -39,26 +38,16 @@
 		display: none;
 	}
 	.event-list > li > time > .day {
-		display: inline;
-		padding: 0px 2px 0px 2px;
-		font-size: 12pt;
+		display: block;
+		font-size: 35pt;
 		font-family: 'Sintony', sans-serif!important;
 		font-weight: 300;
 		line-height: 1;
 	}
 	.event-list > li time > .month {
-		display: inline;
-		font-size: 12pt;
-		padding: 0px 2px 0px 2px;
-		font-weight: 300;
-		font-family: 'Sintony', sans-serif!important;
-		line-height: 1.5;
-	}
-	.event-list > li time > .year {
-		display: inline;
-		font-size: 12pt;
-		padding: 0px 2px 0px 2px;
-		font-weight: 300;
+		display: block;
+		font-size: 20pt;
+		font-weight: 900;
 		font-family: 'Sintony', sans-serif!important;
 		line-height: 1.5;
 	}
@@ -70,13 +59,13 @@
 		text-align: center;
 	}
 	.event-list > li > .info > .title {
-		font-size: 12pt;
+		font-size: 14pt;
 		font-weight: bold;
 		margin: 0px;
 		font-family: 'Sintony', sans-serif!important;
 	}
 	.event-list > li > .info > .desc {
-		font-size: 12.5px;
+		font-size: 11pt;
 		font-weight: 300;
 		margin: 0px;
 		font-family: 'Sintony', sans-serif!important;
@@ -98,8 +87,9 @@
 		display: table-cell;
 		cursor: pointer;
 		color: rgb(30, 30, 30);
-		font-size: 8pt;
+		font-size: 10pt;
 		font-weight: 300;
+        padding: 3px 0px;
 	}
     .event-list > li > .info > ul > li > a {
 		display: block;
@@ -151,43 +141,32 @@
 			position: relative;
 			display: block;
 			width: 100%;
-			height: 90px;
+			height: 100px;
 			padding: 0px;
 		}
-		.event-list > li > time {
-			display: block;
+		.event-list > li > time,
+		.event-list > li > img  {
+			display: inline-block;
 		}
-		.event-list > li > time > .day {
-		display: block;
-		width: 100%;
-		padding: 5px 5px 4px 5px;
-		font-size: 15pt;
-		font-weight: 600;
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 140px;
+			float: left;
 		}
-	.event-list > li time > .month {
-		display: block;
-		font-size: 15pt;
-		width:100%;
-		padding: 2px 5px 5px 5px;
-		font-weight: 600;
-		}
-	.event-list > li time > .year {
-		display: none;
-	}
 		.event-list > li > .info {
 			background-color: rgb(245, 245, 245);
 			overflow: hidden;
 		}
-		.event-list > li > time{
-			width: 75px;
-			height: 90px;
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 90px;
+			height: 100px;
 			padding: 0px;
 			margin: 0px;
-			float: left;
 		}
 		.event-list > li > .info {
 			position: relative;
-			height: 90px;
+			height: 100px;
 			text-align: left;
 			/*padding-right: 40px;*/
 		}	

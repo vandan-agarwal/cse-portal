@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/slider.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
 
 
 </head>
@@ -116,18 +113,18 @@ h3{
 
     <!-- Page Content -->
     <?php include('header.php') ; ?>
-    <div class="container" style="background-color:white;">
+    <div class="container" style="background-color:white; margin-top:-20px;">
 
     <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
               <?php include('menu1.php'); ?>
 
-            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:10px;" >
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:10px;">
                  
-                  <div class="carousel-inner my-slider" role="listbox">
+                  <div class="carousel-inner" role="listbox">
                     <div class="item active">
                       <img src="images/slider_img/cseiiti1.jpg" class="slider img-thumbnail">
-                       <div class="carousel-caption" >
+                       <div class="carousel-caption">
                        <p>First Caption</p>
                       </div>
                     </div>
@@ -152,7 +149,11 @@ h3{
                        <p>Fourth Caption</p>
                       </div>
                     </div>
-            </div>
+
+                   
+
+                   
+                  </div>
 
   <!-- Left and right controls -->
                 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -177,10 +178,10 @@ h3{
                   <div class="alert-success" style="margin-bottom:10px; height:30px;">
                   <table width="100%">
                   <tr>
-                  <td style="background-color:#022d10; height:30px; color:white; font-weight:bold; font-family: 'Sintony';" width="20%" id="latestupdates">
+                  <td style="background-color:#022d10; height:30px; color:white; font-weight:bold; font-family: 'Sintony';" width="14%">
                   &nbsp;LATEST UPDATES :
                   </td>
-                  <td  width="86%"> 
+                  <td width="86%"> 
                     <marquee id='scroll_news' style="font-family: 'Sintony';" >
                       <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();"> 
                           <a href="phdadmissionwebsite/2017_10/adv.html"><font color="#022d10">PhD Admission Advertisement | </font></a> 
@@ -206,7 +207,7 @@ h3{
             <div class="panel-heading"><strong> <font color="#08569F" style="font-size:1.2em; font-family: 'Sintony', sans-serif; ">About CSE</font></strong></div>
                 <div class="panel-body">
                 
-                 <span  class="panel-text" align="justify" style="font-family: 'Sintony', sans-serif; font-size:1em; color:#051e42;">The Discipline of Computer Science and Engineering (CSE) was set up in July 2009. It is one of the disciplines under the School of Engineering and offers Bachelor of Technology (BTech) and Doctor of Philosophy (PhD) programs. The discipline adopts a modern approach to teaching wherein students are rendered in adequate academic freedom to innovate and learn in the process. State of the art facilities including the latest software and advanced hardware are available in various laboratories for the use in both teaching and research. This facilitates adequate implementation of major B.Tech projects and for verification and validation of research results.
+                 <span align="justify" style="font-family: 'Sintony', sans-serif; font-size:1em; color:#051e42;">The Discipline of Computer Science and Engineering (CSE) was set up in July 2009. It is one of the disciplines under the School of Engineering and offers Bachelor of Technology (BTech) and Doctor of Philosophy (PhD) programs. The discipline adopts a modern approach to teaching wherein students are rendered in adequate academic freedom to innovate and learn in the process. State of the art facilities including the latest software and advanced hardware are available in various laboratories for the use in both teaching and research. This facilitates adequate implementation of major B.Tech projects and for verification and validation of research results.
                  <br /><br />
                   The faculty members of the discipline are from diverse streams and specializations. Being a part of an emerging and relatively new institute, together with extremely competent research faculty, the Computer Science and Engineering faculty of IIT Indore offer a unique interactive platform for the students to explore the arena of fundamental and applied research.
                   <br /><br />
@@ -251,14 +252,59 @@ h3{
 
  
 
-  
+  <div class="row mb-5" style="background-color:#F9F6EF">
+    <p align="center" style="font-family: 'Fjalla One', sans-serif; font-size:2em; padding-top:5px;"><font color="black"><strong>Academics</strong></font></p>
+              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                  <div class="card card-inverse card-info">
+                      <img class="card-img-top" src="images/ug.jpg">
+                      <div class="card-block">
+                        <h4 class="card-title mt-3">Undergraduate Program</h4>
+                          <div class="card-text">
+                              B. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
+                          </div>
+                        <br /><a href="" class="btn btn-info float-right btn-sm">Read More...</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                  <div class="card card-inverse card-info">
+                      <img class="card-img-top" src="images/phd.jpg">
+                      <div class="card-block">
+                        <h4 class="card-title mt-3">Masters Program</h4>
+                          <div class="card-text">
+                              M. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
+                          </div>
+                        <br /><a href="" class="btn btn-info float-right btn-sm">Read More...</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                  <div class="card card-inverse card-info">
+                      <img class="card-img-top" src="images/pg.jpg">
+                      <div class="card-block">
+                        <h4 class="card-title mt-3">Doctoral Program</h4>
+                          <div class="card-text">
+                               Ph. D. Program at Discipline of Computer Science & Engineering, IIT Indore
+                          </div>
+                        <br /><a href="" class="btn btn-info float-right btn-sm">Read More...</a>
+                      </div>
+                  </div>
+              </div>
+
+              
+          </div>
+
 
     <div class="row" style="margin-top:15px;"> 
-       <div class="col-md-4 col-sm-4 col-xs-12 info-panel" style="margin: 0;"> 
+
+        
+        <div class="col-md-6 col-sm-12 col-xs-12"> 
             <div class="panel panel-default">
                 <div class="panel-heading"><strong> <font color="#08569F" style="font-size:1.2em; font-family: 'Sintony', sans-serif;">L-A-T-E-S-T </font></strong></div>
                     <div class="panel-body" style="height:440px; overflow-y: scroll; padding-left:20px;">
-                      <ul class="latest-list"style="font-size:.96em; font-family: 'Sintony', sans-serif;">
+                      <ul style="font-size:.96em; font-family: 'Sintony', sans-serif;">
                          <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
                          <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
                          <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
@@ -286,7 +332,7 @@ h3{
             
         </div>
 
-<div class="col-md-4 col-sm-4 col-xs-12 info-panel" style="margin: 0;"> 
+        <div class="col-md-6 col-sm-12 col-xs-12"> 
 
             <div class="panel panel-default">
                 <div class="panel-heading"><strong> <font color="#08569F" style="font-size:1.2em; font-family: 'Sintony', sans-serif;">EVENTS</font></strong></div>
@@ -382,90 +428,18 @@ h3{
                                     </ul>
                                   </div>
                                 </li>
-                       </ul>
+
+
+                                
+
+                              </ul>
                     </div>
                     <div class="panel-footer">
                       <a href="" style="font-size:1em; font-family: 'Sintony', sans-serif;">All Events</a>
                     </div>
             </div>
         </div>
-        
-        <div class="col-md-4 col-sm-4 col-xs-12 info-panel" style="margin: 0;"> 
-            <div class="panel panel-default">
-                <div class="panel-heading"><strong> <font color="#08569F" style="font-size:1.2em; font-family: 'Sintony', sans-serif;">RECRUITMENTS </font></strong></div>
-                    <div class="panel-body" style="height:440px; overflow-y: scroll; padding-left:20px;">
-                      <ul class="recruitments-list" style="font-size:.96em; font-family: 'Sintony', sans-serif;" >
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li>The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         </ul>
-                    </div>
-                <div class="panel-footer">
-                  <a href="" style="font-size:1em; font-family: 'Sintony', sans-serif;">More Announcement</a>
-                </div>
-            </div>
-            
-        </div> 
  </div>
- <div class="row mb-5 " style="background-color:#F9F6EF">
-    <p align="center" style="font-family: 'Fjalla One', sans-serif; font-size:2em; padding-top:5px;"><font color="black"><strong>Academics</strong></font></p>
-              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                  <div class="card card-inverse card-info">
-                      <img class="card-img-top" src="images/Homepage_UndergraduatePrograms.jpg">
-                      <div class="card-block">
-                        <h4 class="card-title mt-3">Undergraduate Program</h4>
-                          <div class="card-text">
-                              B. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
-                          </div>
-                        <br /><a href="btech_program.php" class="btn btn-info float-right btn-sm">Read More...</a>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                  <div class="card card-inverse card-info">
-                      <img class="card-img-top" src="images/Homepage_SpecializedMastersPrograms.jpg">
-                      <div class="card-block">
-                        <h4 class="card-title mt-3">Masters Program</h4>
-                          <div class="card-text">
-                              M. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
-                          </div>
-                        <br /><a href="" class="btn btn-info float-right btn-sm">Read More...</a>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                  <div class="card card-inverse card-info">
-                      <img class="card-img-top" src="images/Homepage_DoctoralPrograms.jpg">
-                      <div class="card-block">
-                        <h4 class="card-title mt-3">Doctoral Program</h4>
-                          <div class="card-text">
-                               Ph. D. Program at Discipline of Computer Science & Engineering, IIT Indore
-                          </div>
-                        <br /><a href="phd_program.php" class="btn btn-info float-right btn-sm">Read More...</a>
-                      </div>
-                  </div>
-              </div>
-
-              
-          </div>
-
 <?php include('footer.php') ; ?>
 </body>
 
