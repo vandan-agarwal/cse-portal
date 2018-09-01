@@ -47,8 +47,8 @@
     <div class="row">
         <div class="col-sm-8" style="float: left; ">
                 <div class="navbar-header">
-                    <strong class="iiti"> <br>Indian Institute of Technology Indore </br> </strong>
-                    <strong class="iiti">   भारतीय प्रौद्योगिकी संस्थान इंदौर   <strong>
+                    <strong class="iiti" style="color: #f2f2f2"> <br>Indian Institute of Technology Indore </br> </strong>
+                    <strong class="iiti" style="color: #f2f2f2">   भारतीय प्रौद्योगिकी संस्थान इंदौर   <strong>
                 </div>
         </div>
         <div class="col-sm-4 top-nav-bar" >
