@@ -8,7 +8,7 @@
 
     <title>Discipline of Computer Science and Engineering </title>
 
- -   <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -36,11 +36,8 @@
     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet"> 
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-     <link href="css/header.css" rel="stylesheet">
-
-
--
-   </head>
+    <link href="css/header.css" rel="stylesheet">
+</head>
 
 
 <div class="container-fluid" style="color:#022d10; font-size:2em; background-color:#5d8aa8 ; margin-top:-75px; font-family: 'Fjalla One', sans-serif;">
@@ -55,22 +52,32 @@
                 </div>
         </div>
         <div class="col-sm-4 top-nav-bar" >
-	        <table id="topNavBar" style="float: right;">
-            <tbody>
-            <tr valign="bottom">
-                <td align="right" >
-                    <a href="index.php"> 
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coolnavbar">
+            <span class="caret"></span>                       
+            </button>
+            </div>
+            <div class="collapse navbar-collapse" id="coolnavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.php"> 
                         <h5 style="display: inline">
-                            <font color="white" ;="" style="font-family:calibri"> 
+                            <font style="font-family:calibri"> 
                             Home
                             </font>
                         </h5>
                     </a>
-                    |<a href="http://www.iiti.ac.in/"target="_blank">
+                </li>
+                <li><a href="http://www.iiti.ac.in/"target="_blank">
                         <h5 style="display: inline">
-                            <font color="white" ;="" style="font-family:calibri">
-                            IIT Indore </font></h5></a>|<a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=iiti.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1#identifier"target="_blank"> <h5 style="display: inline"><font color="white" ;="" style="font-family:calibri">  Webmail</font></h5></a></td></tr></tbody></table>
-        </div>
+                            <font style="font-family:calibri">
+                            IIT Indore </font></h5></a></li>
+                <li>
+                    <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=iiti.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1#identifier"target="_blank"> <h5 style="display: inline"><font style="font-family:calibri">  Webmail</font></h5></a>
+                </li>
+            </ul>
+            </div>
+
+	        </div>
     </div>
 </div>
           
