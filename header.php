@@ -42,13 +42,14 @@
 
 <div class="container-fluid" style="color:#022d10; font-size:2em; background-color:#5d8aa8 ; margin-top:-75px; font-family: 'Fjalla One', sans-serif;">
 
-
-<div class="container IITI-container" style="margin-top:12px;"> 
+<strong class="iiti"> <br>Computer Science and Engineering </br> </strong>
+<img src="images/iiti_logo.png">
+ <!-- <div class="container IITI-container" style="margin-top:12px;"> 
     <div class="row">
         <div class="col-sm-8" style="float: left; ">
                 <div class="navbar-header">
-                    <strong class="iiti" style="color: #f2f2f2"> <br>Indian Institute of Technology Indore </br> </strong>
-                    <strong class="iiti" style="color: #f2f2f2">   भारतीय प्रौद्योगिकी संस्थान इंदौर   <strong>
+                    
+                    <strong class="iiti">भारतीय प्रौद्योगिकी संस्थान इंदौर <strong>
                 </div>
         </div>
         <div class="col-sm-4 top-nav-bar" >
@@ -79,7 +80,63 @@
 
 	        </div>
     </div>
-</div>
+ </div> -->
+ <nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="caret" ></span> 
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.php"> 
+                        <h5 style="display: inline">
+                            <font style="font-family:calibri"> 
+                            Home
+                            </font>
+                        </h5>
+                    </a>
+                </li>
+                <li><a href="http://www.iiti.ac.in/"target="_blank">
+                        <h5 style="display: inline">
+                            <font style="font-family:calibri">
+                            IIT Indore </font></h5></a></li>
+                <li>
+                    <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=iiti.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1#identifier"target="_blank"> <h5 style="display: inline"><font style="font-family:calibri">  Webmail</font></h5></a>
+                </li>
+            </ul>
+    </div>
+  </div>
+</nav>
+ <!-- <div class="top-nav-bar" >
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coolnavbar">
+            <span class="caret"></span>                       
+            </button>
+            </div>
+            <div class="collapse navbar-collapse" id="coolnavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.php"> 
+                        <h5 style="display: inline">
+                            <font style="font-family:calibri"> 
+                            Home
+                            </font>
+                        </h5>
+                    </a>
+                </li>
+                <li><a href="http://www.iiti.ac.in/"target="_blank">
+                        <h5 style="display: inline">
+                            <font style="font-family:calibri">
+                            IIT Indore </font></h5></a></li>
+                <li>
+                    <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=iiti.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1#identifier"target="_blank"> <h5 style="display: inline"><font style="font-family:calibri">  Webmail</font></h5></a>
+                </li>
+            </ul>
+            </div>
+
+            </div> -->
           
 </div>	  
         
