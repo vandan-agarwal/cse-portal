@@ -36,23 +36,21 @@
     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet"> 
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Crimson+Text|Orbitron|Prompt|Righteous" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
 </head>
 
 
-<div class="container-fluid" style="color:#022d10; font-size:2em; background-color:#5d8aa8 ; margin-top:-75px; font-family: 'Fjalla One', sans-serif;">
+<div class="container-fluid" style="color:#022d10; font-size:2em; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#5d8aa8)); margin-top:-85px; font-family: 'Fjalla One', sans-serif;">
 
-<strong class="iiti"> <br>Computer Science and Engineering </br> </strong>
-<img src="images/iiti_logo.png">
- <!-- <div class="container IITI-container" style="margin-top:12px;"> 
-    <div class="row">
-        <div class="col-sm-8" style="float: left; ">
-                <div class="navbar-header">
-                    
-                    <strong class="iiti">भारतीय प्रौद्योगिकी संस्थान इंदौर <strong>
-                </div>
+<div class="col-sm-8" style="float: left; ">
+
+<h1 class="iiti" style="margin-top: 10px;"> <br>Computer Science & Engineering </br> </h1>
+</div>
+<div class="col-sm-8" style="float: left; ">
+                    <img src="images/iiti_logo.png" class="img-responsive cse-image">
         </div>
-        <div class="col-sm-4 top-nav-bar" >
+  <div class="col-sm-4 top-nav-bar" style="color: white;" >
             <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coolnavbar">
             <span class="caret"></span>                       
@@ -77,83 +75,9 @@
                 </li>
             </ul>
             </div>
-
-	        </div>
-    </div>
- </div> -->
- <nav class="navbar">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="caret" ></span> 
-      </button>
-      <a class="navbar-brand" href="#"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php"> 
-                        <h5 style="display: inline">
-                            <font style="font-family:calibri"> 
-                            Home
-                            </font>
-                        </h5>
-                    </a>
-                </li>
-                <li><a href="http://www.iiti.ac.in/"target="_blank">
-                        <h5 style="display: inline">
-                            <font style="font-family:calibri">
-                            IIT Indore </font></h5></a></li>
-                <li>
-                    <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=iiti.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1#identifier"target="_blank"> <h5 style="display: inline"><font style="font-family:calibri">  Webmail</font></h5></a>
-                </li>
-            </ul>
-    </div>
-  </div>
-</nav>
- <!-- <div class="top-nav-bar" >
-            <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coolnavbar">
-            <span class="caret"></span>                       
-            </button>
             </div>
-            <div class="collapse navbar-collapse" id="coolnavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php"> 
-                        <h5 style="display: inline">
-                            <font style="font-family:calibri"> 
-                            Home
-                            </font>
-                        </h5>
-                    </a>
-                </li>
-                <li><a href="http://www.iiti.ac.in/"target="_blank">
-                        <h5 style="display: inline">
-                            <font style="font-family:calibri">
-                            IIT Indore </font></h5></a></li>
-                <li>
-                    <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=iiti.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1#identifier"target="_blank"> <h5 style="display: inline"><font style="font-family:calibri">  Webmail</font></h5></a>
-                </li>
-            </ul>
-            </div>
-
-            </div> -->
-          
 </div>	  
-        
-	
-
-<div class="container-fluid cse-logo" style="background-color: #f2f3f4;"> 
-<div class="container cse-logo" >
-    <img src=images/header2.jpg alt="logo1" class="cse-image" style="padding-top:5px;">
 </div>
- 
- 
-       
-</div>
-<br />
-
-
-
 <script>
 $('ul.nav li.dropdown').hover(function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(100);

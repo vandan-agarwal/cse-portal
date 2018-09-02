@@ -2,53 +2,43 @@
 .top-nav-bar{
 	float: right;
 	position: relative;
-	top: 100px;
+	top: 50px;
+	margin-bottom: 10px;
 	width: 33.33%;
 }
-.cse-logo{
-	height: 110px;
-}
 .cse-image{
-		width: 100%;
-		margin-bottom: 2px;
+		margin-bottom: 5px;
 	}
 .iiti{
-	color: #f2f2f2;
+	color: white;
+	font-family: 'Audiowide', cursive;
 }
 .IITI-container{
 		min-height: 140px;
 }
 .navbar-nav > li > a {
-    color: #fff ;
+    color: white ;
     background-color: transparent;
     padding-right: 0;
 }
 .navbar-nav > li > a:hover {
-    color:  #a6a6a6;
+    color:  #f2f2f2;
     background-color: transparent;
 }
 
 @media (max-width: 768px){
 	.top-nav-bar{
-		top: 4px;
+		top: 0px;
 		width: 100%;
 	}
 	.iiti{ 
 		font-size: 15px;
+		font-family: Prompt, sans-serif;
 	}
 	.IITI-container{
 		min-height: 120px;
 	}
-
-	.cse-logo{
-		max-height: 70px;
-		width: 100%;
-		padding-left: 2px;
-		padding-right: 2px;
-	}
 	.cse-image{
-		width: 95%;
-		margin-left:5%;
-		height: 70px;
+		margin-bottom: 0px;
 	}
 }
