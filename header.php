@@ -41,7 +41,7 @@
 </head>
 
 
-<div class="container-fluid" style="color:#022d10; font-size:2em; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#5d8aa8)); margin-top:-85px; font-family: 'Fjalla One', sans-serif;">
+<div class="container-fluid" style="color:#022d10; font-size:2em; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#5d8aa8), to(#013953)); margin-top:-85px; font-family: 'Fjalla One', sans-serif;">
 
 <div class="col-sm-8" style="float: left; ">
 
