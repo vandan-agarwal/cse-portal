@@ -12,9 +12,9 @@
       color: red!important;
   }
   .dropdown-submenu>.dropdown-menu {
-     top:0;left:100%;
-     margin-top:-6px;margin-left:-1px;
-     -webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;
+     top:0;
+     left:100%;
+     -webkit-border-radius:4px 4px 4px 4px;
    }
     
   .dropdown-submenu > a:after {
@@ -29,24 +29,26 @@
     margin-top: 5px;
     width: 0;
   }
-   
-  .dropdown-menu > li  {
-    /*color: red!important;*/
-    /*text-decoration: underline;*/
-    /*background-color: #436187!important; */
-  }  
     
 
   .dropdown-submenu:hover>a:after {
       border-left-color:#555;
-   }
-
-  
-  .dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
-    /*text-decoration: underline;*/
-    /*color: red!important;*/
-  }  
-    
+   } 
+  .dropdown1{
+     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5d8aa8), to(#013953));
+  }
+  .dropdown-menu{
+        border: 1px solid #ccc;
+  }
+  .dropdown-menu>li>a, .dropdown-menu>li>span{
+    color: white;
+  }
+  .dropdown2{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5d8aa8), to(#013953));
+  }
+  a.dropdown-toggle::after{
+    color: white;
+  }
   @media (max-width: 767px) {
     .navbar-nav  {
        display: inline;
@@ -58,19 +60,16 @@
       background-color: #fff;
     }
     .navbar-default .navbar-nav .dropdown-menu > li > a {
-      /*color: red!important;*/
-      background-color: #ccc;
       border-radius: 4px;
       margin-top: 2px;
       margin-left: 0px;   
     }
      .navbar-default .navbar-nav .open .dropdown-menu > li > a {
        color: #333;
-	   /*background-color: red!important;*/
 
      }
       .dropdown-submenu {
-      min-width: 0px;
+      min-width: 30%;
   }
 
 
@@ -98,7 +97,7 @@
         display: block;
      }
      .dropdown-menu{
-      min-width: 40%;
+      min-width: 50%  ;
       padding: 0px 0;
       margin: 0px 0 0;
      }
@@ -115,6 +114,7 @@
      .navbar{
       overflow: visible;
     }
+    
 
   }
    
@@ -125,9 +125,13 @@
     #navbar {
       text-align: center ;
     }
+    .menu1>li>a{
+      padding-right: 20px;
+      padding-left: 30px;
+    }
   }  
 #navbar-collapse-1{
-  background-color:#21abcd!important;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#013953), to(#5d8aa8));
   color: black!important;
 }
 #navbar-collapse-1 ul li{
@@ -137,21 +141,23 @@
 </style>
 
 <div id="navbar" style="overflow-y: visible;">
-  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="background-color:#21abcd; margin-top:10px; margin-bottom:0px; overflow-y: visible;">
-    <div class="navbar-header" style="overflow-y: visible;">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-top:10px; margin-bottom:0px; overflow-y: visible;">
+    <div class="navbar-header" style="overflow-y: visible; background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#013953), to(#5d8aa8));">
       <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target="#navbar-collapse-1" style="background-color: white" >
       <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar" style="background-color: #21abcd;"></span>
-      <span class="icon-bar" style="background-color: #21abcd;"></span>
-      <span class="icon-bar" style="background-color: #21abcd;"></span>
+      <span class="icon-bar" style="background-color: #013953;"></span>
+      <span class="icon-bar" style="background-color: #013953;"></span>
+      <span class="icon-bar" style="background-color: #013953;"></span>
       </button>
     </div>
     <div class="collapse navbar-collapse" id="navbar-collapse-1" style="overflow-y: visible;">
-      <ul class="nav navbar-nav">
-        <li><a href="index.php"> <font size="3" color="White"> <b>Home </b></font> </a></li>
+      <ul class="nav navbar-nav menu1">
+        <li><a href="index.php"> <font size="3" style=
+          "color:white; font-weight: 400;" > Home </font> </a></li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle  trial" data-toggle="dropdown"><font size="3" color="White"><b>People</b></font>  <b class="caret"></b> </a> 
+          <a href="#" class="dropdown-toggle  trial" data-toggle="dropdown"><font size="3" style=
+          "color:white; font-weight: 400;">People</font>  <b class="caret" style="color: white;"></b> </a> 
           <ul class="dropdown-menu dropdown1" id="Peoples">
             <li><a href="faculty.php" target="_blank"> Faculty</a></li>
             <li><a href="staff.php" target="_blank">Staff</a></li>
@@ -171,7 +177,8 @@
           </ul>
         </li>
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" color="White"><b>Research</b></font> <b class="caret"></b></a> 
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" style=
+          "color:white; font-weight: 400;">Research</font> <b class="caret" style="color: white;"></b></a> 
           <ul class="dropdown-menu dropdown1">
             <li><a href="research_area.php">Area</a></li>
             <li class="dropdown dropdown-submenu">
@@ -198,7 +205,8 @@
 
 
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" color="White"><b>Teaching</b></font> <b class="caret"></b></a> 
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" style=
+          "color:white; font-weight: 400;">Teaching</font> <b class="caret" style="color: white;"></b></a> 
           <ul class="dropdown-menu dropdown1">
             <li><a href="cse_courses.php">Courses</a></li>
             <li><a href="http://moodle.cse.iiti.ac.in/moodle/" target="_blank">Moodle Login</a></li>
@@ -207,7 +215,8 @@
           </ul>
         </li>
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <font size="3" color="White"><b>Programs</b></font>  <b class="caret"></b></a> 
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <font size="3" style=
+          "color:white; font-weight: 400;">Programs</font><b class="caret" style="color: white;"></b></a> 
           <ul class="dropdown-menu dropdown1">
             <li><a href="phd_program.php">PhD</a></li>
             <li><a href="btech_program.php">BTech</a></li>
@@ -217,7 +226,8 @@
         </li>
 
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" color="White"><b>Admissions</b></font> <b class="caret"></b></a> 
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" style=
+          "color:white; font-weight: 400;">Admissions</font> <b class="caret" style="color: white;"></b></a> 
           <ul class="dropdown-menu dropdown1">
             <li><a href="http://academic.iiti.ac.in:8080/nregistration.jsp"target="_blank">PhD</a></li>
             <li><a href="https://www.jeeadv.ac.in//"target="_blank">JEE</a></li>
@@ -225,7 +235,8 @@
         </li>
 
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" color="White"><b>About us</b> </font><b class="caret"></b></a> 
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" style=
+          "color:white; font-weight: 400;">About us</font><b class="caret" style="color: white;"></b></a> 
           <ul class="dropdown-menu dropdown1">
             <li><a href="cse_discipline_iit_indore.php"target="_blank">Discipline</a></li>
       			<li><a href="administration.php"target="_blank">Administration </a></li>
@@ -234,7 +245,8 @@
             <li><a href="about_indore.php"target="_blank">About Indore</a></li>
           </ul>
         </li>
-       <li><a href="reach_iiti.php"><font size="3" color="White"><b>How to reach</b> </font>  </a></li>
+       <li><a href="reach_iiti.php"><font size="3" style=
+          "color:white; font-weight: 400;">How to reach</font>  </a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
