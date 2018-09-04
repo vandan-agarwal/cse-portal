@@ -54,18 +54,19 @@
     font-weight: 400;
   }
   .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    font-weight: 500;
+    color: #013953;
+    font-weight: 550;
     text-decoration: none;
+    background-color: white;
   }
   .navbar-default .navbar-nav>li>a:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 3px;
-  bottom: 0;
+  top: 0;
   left: 0;
-  background-color: white;
+  background-color: #013953;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
