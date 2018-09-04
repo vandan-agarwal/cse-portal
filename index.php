@@ -1,4 +1,4 @@
-<head>
+	<head>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/event.css" rel="stylesheet">
