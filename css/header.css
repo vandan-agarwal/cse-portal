@@ -54,8 +54,7 @@
 		width: 100%;
 	}
 	.iiti{ 
-		font-size: 15px;
-		font-family: Prompt, sans-serif;
+		font-size: 17px;
 	}
 	.IITI-container{
 		min-height: 120px;
@@ -63,4 +62,4 @@
 	.cse-image{
 		margin-bottom: 0px;
 	}
-}
+} 	
