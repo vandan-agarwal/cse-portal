@@ -88,18 +88,17 @@
 
 
 
-
+<!-- 
         <div class="row" style="margin-top:20px;">
               <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top:-10px;"> 
-                
-                 <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
                   <div class="alert-success" style="margin-bottom:10px; height:30px;">
                   <table width="100%">
                   <tr>
                   <td style="background-color:#013953; height:30px; color:white; font-weight:bold; font-family: 'Sintony';" width="20%" id="latestupdates">
                   &nbsp;LATEST UPDATES :
                   </td>
-                  <td  width="86%" style="background-color: #eef3f6"> 
+                  <td  width="86%" style="background-color: #eef3f6
+"> 
                        <marquee id='scroll_news' style="font-family: 'Sintony';" >
                       <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();"> 
                           <a href="phdadmissionwebsite/2017_10/adv.html"><font color="#013953">PhD Admission Advertisement | </font></a> 
@@ -114,9 +113,9 @@
                  </div>
 
          </div>
-        </div>
+        </div> -->
   <div class="row" style="margin-top:5px;">
-        <div class="col-md-12 col-sm-12 col-xs-12"> 
+        <div class="col-md-12 col-sm-8 col-xs-12 col-lg-9"> 
 
         <div class="panel panel-default">
             <div class="panel-heading"><strong> <font color="#08569F" style="font-size:1.2em; font-family: 'Sintony', sans-serif; ">About CSE</font></strong></div>
@@ -130,6 +129,37 @@
                 </div>
         </div>
     </div>
+    <div class="col-md-12 col-sm-4 col-xs-12 col-lg-3">
+  <!--Working here-->
+      <div class="Latest-updates panel-aside c" style="width: 100%;">
+        <header class="aside-header">
+        <div class="header__bg"></div>
+        <h4 class="aside-heading">LATEST UPDATES</h4>
+        </header>
+        <div class="aside-body">
+          <ul>
+            <li><a href="phdadmissionwebsite/2017_10/adv.html"><font color="#013953" >PhD Admission Advertisement </font></a> </li>
+            <li><a href="http://www.iiti.ac.in/Careers/careers.php"><font color="#013953">Faculty Recruitment </font></a> </li>
+            <li> <a href="http://academic.iiti.ac.in:8080/Admm/28_3_2018%20Advertisement-for%20MTech-Admission.pdf"><font color="#013953">MS admission advertisement</font></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="RECRUITMENTS panel-aside" style="width: 100%;">
+        <header class="aside-header">
+        <div class="header__bg"></div>
+        <h4 class="aside-heading">RECRUITMENTS</h4>
+        </header>
+         <div class="aside-body">
+          <ul>
+            <li><a href="phdadmissionwebsite/2017_10/adv.html"><font color="#013953">PhD Admission Advertisement </font></a> </li>
+            <li><a href="http://www.iiti.ac.in/Careers/careers.php"><font color="#013953">Faculty Recruitment </font></a> </li>
+            <li> <a href="http://academic.iiti.ac.in:8080/Admm/28_3_2018%20Advertisement-for%20MTech-Admission.pdf"><font color="#013953">MS admission advertisement</font></a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+
+
 
        <!--  <div class="col-md-4 col-sm-12 col-xs-12"> 
 
