@@ -2,7 +2,6 @@
     <!-- Bootstrap Core CSS -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/event.css" rel="stylesheet">
     <link href="css/card.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -11,9 +10,11 @@
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Crete+Round|Kanit|Monoton|Play|Ubuntu+Condensed" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Crete+Round|Lekton|Lobster|Merienda|Monoton|Pacifico|Play|Righteous|Ruslan+Display" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/slider.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/event.css" rel="stylesheet">
 
 
 </head>
@@ -116,8 +117,15 @@
         </div> -->
   <div class="row" style="margin-top:5px;">
         <div class="col-md-12 col-sm-8 col-xs-12 col-lg-9"> 
-
-        <div class="panel panel-default">
+          <div id="About_cse" style="margin-top: 20px; ">
+            <h1 style="font-family: 'Crete Round', serif; color: #013953; text-shadow:2px 2px #bdcfdb">&nbsp;ABOUT CSE</h1>
+            <p style="text-align: justify; font-family: 'Lekton', sans-serif; font-size: 1.1em; color: #013953; font-weight: 500;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Discipline of Computer Science and Engineering (CSE) was set up in July 2009. It is one of the disciplines under the School of Engineering and offers Bachelor of Technology (BTech) and Doctor of Philosophy (PhD) programs. The discipline adopts a modern approach to teaching wherein students are rendered in adequate academic freedom to innovate and learn in the process. State of the art facilities including the latest software and advanced hardware are available in various laboratories for the use in both teaching and research. This facilitates adequate implementation of major B.Tech projects and for verification and validation of research results.
+                 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The faculty members of the discipline are from diverse streams and specializations. Being a part of an emerging and relatively new institute, together with extremely competent research faculty, the Computer Science and Engineering faculty of IIT Indore offer a unique interactive platform for the students to explore the arena of fundamental and applied research.
+                  <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indore is fast developing into a major IT hub in central India. Organizations like CSC and Impetus have a strong presence in the city and major players like TCS, Infosys, and Wipro are in the process of setting up their offices. For the discipline this provides an excellent opportunity to foster industry-academia partnerships.
+            </p>
+          </div>
+        <!-- <div class="panel panel-default">
             <div class="panel-heading"><strong> <font color="#08569F" style="font-size:1.2em; font-family: 'Sintony', sans-serif; ">About CSE</font></strong></div>
                 <div class="panel-body">
                 
@@ -127,11 +135,11 @@
                   <br /><br />
                   Indore is fast developing into a major IT hub in central India. Organizations like CSC and Impetus have a strong presence in the city and major players like TCS, Infosys, and Wipro are in the process of setting up their offices. For the discipline this provides an excellent opportunity to foster industry-academia partnerships.</span>
                 </div>
-        </div>
+        </div> -->
     </div>
     <div class="col-md-12 col-sm-4 col-xs-12 col-lg-3">
   <!--Working here-->
-      <div class="Latest-updates panel-aside c" style="width: 100%;">
+      <div class="Latest-updates panel-aside" style="width: 100%;">
         <header class="aside-header">
         <div class="header__bg"></div>
         <h4 class="aside-heading">LATEST UPDATES</h4>
@@ -158,7 +166,7 @@
         </div>
       </div>
     </div> 
-
+  </div>
 
 
        <!--  <div class="col-md-4 col-sm-12 col-xs-12"> 
@@ -193,9 +201,153 @@
                 </div>
         </div>
     </div> -->
-  </div>
+<div class="row" style="margin-top: 10px;">
+ <div class="container">
+  <div class="tab-content">
+    <header class="fullwidth-header">
+        <div class="header_full"></div>
+        <h2 class="fullwidth-heading" >EVENTS</h2>
+        </header>
+    <div id="home" class="tab-pane fade in active col-sm-12">
+     <div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
 
- 
+                                 <time datetime="2014-07-20">
+                                    <span class="day">4</span>
+                                    <span class="month">Jul</span>
+                                    <span class="year">2014</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                    <h3 class="title">GIAN Course</h3>
+                                    <p class="desc"> Linear and Non-linear Systems with Applications in Medical Imaging, Optimal Design, and Graphics.</p>
+                                  <a class="Details" href="#">Details</a>
+       </div>
+       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
+                                  <time datetime="2014-07-20">
+                                    <span class="day">17</span>
+                                    <span class="month">Jul</span>
+                                    <span class="year">2017</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                    <h3 class="title">NTU-India Connect Program</h3>
+                                    <p class="desc">NTU-India Connect Program during July 17 - 19, 2017.</p>
+                                  <a class="Details" href="#">Details</a>
+      </div>
+<div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
+                                  <time datetime="2014-07-20">
+                                    <span class="day">07</span>
+                                    <span class="month">Apr</span>
+                                    <span class="year">2017</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                 
+                                    <h3 class="title">Short Term Course  </h3>
+                                    <p class="desc">Short Term Course On Recent Advances in Network and Cloud Security.</p>
+                                    <a class="Details" href="#">Details</a>
+                              
+      </div>
+       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
+                                 <time datetime="2014-07-20">
+                                    <span class="day">18</span>
+                                    <span class="month">Apr</span>
+                                    <span class="year">2017</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                  
+                                    <h3 class="title">Research Seminar </h3>
+                                    <p class="desc">Statistical Modelling and Inference for Computer Experiments" by Prof. Pritam Ranjan IIM Indore.</p>
+                                  <a class="Details" href="#">Details</a>
+                                 
+      </div>
+
+    </div>
+    <div id="menu1" class="tab-pane fade col-sm-12" >
+       <div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
+
+                                 <time datetime="2014-07-20">
+                                    <span class="day">4</span>
+                                    <span class="month">Jul</span>
+                                    <span class="year">2014</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                    <h3 class="title">GIAN Course</h3>
+                                    <p class="desc"> Linear and Non-linear Systems with Applications in Medical Imaging, Optimal Design, and Graphics.</p>
+                                  <a class="Details" href="#">Details</a>
+       </div>
+       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
+                                  <time datetime="2014-07-20">
+                                    <span class="day">17</span>
+                                    <span class="month">Jul</span>
+                                    <span class="year">2017</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                    <h3 class="title">NTU-India Connect Program</h3>
+                                    <p class="desc">NTU-India Connect Program during July 17 - 19, 2017.</p>
+                                  <a class="Details" href="#">Details</a>
+      </div>
+      <div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
+                                  <time datetime="2014-07-20">
+                                    <span class="day">07</span>
+                                    <span class="month">Apr</span>
+                                    <span class="year">2017</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                 
+                                    <h3 class="title">Short Term Course  </h3>
+                                    <p class="desc">Short Term Course On Recent Advances in Network and Cloud Security.</p>
+                                    <a class="Details" href="#">Details</a>
+                              
+      </div>
+       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
+                                 <time datetime="2014-07-20">
+                                    <span class="day">18</span>
+                                    <span class="month">Apr</span>
+                                    <span class="year">2017</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                  
+                                    <h3 class="title">Research Seminar </h3>
+                                    <p class="desc">Statistical Modelling and Inference for Computer Experiments" by Prof. Pritam Ranjan IIM Indore.</p>
+                                  <a class="Details" href="#">Details</a>
+                                 
+       </div>
+    </div>
+    <div id="menu2" class="tab-pane fade col-sm-12" >
+      <div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
+                                  <time datetime="2014-07-20">
+                                    <span class="day">07</span>
+                                    <span class="month">Apr</span>
+                                    <span class="year">2017</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                 
+                                    <h3 class="title">Short Term Course  </h3>
+                                    <p class="desc">Short Term Course On Recent Advances in Network and Cloud Security.</p>
+                                    <a class="Details" href="#">Details</a>
+                              
+      </div>
+       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
+                                 <time datetime="2014-07-20">
+                                    <span class="day">18</span>
+                                    <span class="month">Apr</span>
+                                    <span class="year">2017</span>
+                                    <span class="time">ALL DAY</span>
+                                  </time>
+                                  
+                                    <h3 class="title">Research Seminar </h3>
+                                    <p class="desc">Statistical Modelling and Inference for Computer Experiments" by Prof. Pritam Ranjan IIM Indore.</p>
+                                  <a class="Details" href="#">Details</a>
+                                 
+       </div>
+    </div>
+  </div>
+  <ul class="nav nav-pills" style="width: 100%;">
+    <li class="active"><a data-toggle="pill" href="#home">1</a></li>
+    <li><a class="Next" data-toggle="pill" href="#menu1">2</a></li>
+    <li><a data-toggle="pill" href="#menu2">3</a></li>
+  </ul>
+</div>
+</div>
+
 
   
 
@@ -232,6 +384,10 @@
             
         </div>
 
+
+
+
+
 <div class="col-md-4 col-sm-4 col-xs-12 info-panel" style="margin: 0;"> 
 
             <div class="panel panel-default">
@@ -247,12 +403,12 @@
                                     <span class="time">ALL DAY</span>
                                   </time>
                                   <div class="info">
-                                    <h2 class="title">GIAN Course</h2>
+                                    <h3 class="title">GIAN Course</h3>
                                     <p class="desc"> Linear and Non-linear Systems with Applications in Medical Imaging, Optimal Design, and Graphics.</p>
                                   <ul>
                                       <li style="width:50%;"><a href="#website">
-                                      <!-- <span class="fa fa-globe"></span> -->
-                                       Details</a></li>
+                                    <!--   <span class="fa fa-globe"></span>
+                                     -->   Details</a></li> 
                                     </ul>
                                   </div>
                                 </li>
