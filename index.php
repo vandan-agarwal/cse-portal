@@ -208,7 +208,7 @@
         <div class="header_full"></div>
         <h2 class="fullwidth-heading" >EVENTS</h2>
         </header>
-    <div id="home" class="tab-pane fade in active col-sm-12">
+    <div id="home" class="tab-pane fade in active col-sm-12" >
      <div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
 
                                  <time datetime="2014-07-20">
@@ -341,16 +341,78 @@
     </div>
   </div>
   <ul class="nav nav-pills" style="width: 100%;">
-    <li class="active"><a data-toggle="pill" href="#home">1</a></li>
-    <li><a class="Next" data-toggle="pill" href="#menu1">2</a></li>
-    <li><a data-toggle="pill" href="#menu2">3</a></li>
+    <li class="active" ><a data-toggle="pill" href="#home"><span class="badge badge-primary" style="background-color: #013953; color: white;">1</span></a></li>
+    <li><a class="Next" data-toggle="pill" href="#menu1"><span class="badge badge-primary" style="background-color: #013953; color: white;">2</span></a></li>
+    <li><a data-toggle="pill" href="#menu2"><span class="badge badge-primary" style="background-color: #013953; color: white;">3</span></a></li>
   </ul>
 </div>
 </div>
 
-
+<div class="row" style="margin-top:5px;">
+    <div class="col-md-12 col-sm-4 col-xs-12 col-lg-3">
+      <div class="News panel-aside" style="width: 100%;">
+        <header class="aside-header">
+        <div class="header__bg"></div>
+        <h3 class="aside-heading">News</h3>
+        </header>
+        <div class="News-list" style="height: 400px; overflow-y: scroll; background-color: #5d8aa8;">
+                        <ul class="News fa-ul">
+                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
+                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
+                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
+                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
+                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
+                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
+                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
+                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
+                        
+                        </ul>
+        </div>
+      </div>
+    </div>
+     
+    <div class="col-md-12 col-sm-8 col-xs-12 col-lg-9"> 
+    <p align="center" style="font-family: 'Fjalla One', sans-serif; font-size:2em; padding-top:5px;"><font color="#013953"><strong>Academics</strong></font></p>
+  </div>
+                  <div class="col-sm-4 col-lg-3" style="height: 410px;">
+                        <h4>Undergraduate Program</h4>
+                          <div>
+                              B. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
+                          </div>
+                        <br /><a href="btech_program.php" class="btn btn-info float-right btn-sm">Read More...</a>
+                      </div>
+                  </div>
+                </div>
+                  <div class="col-sm-4 col-lg-3">
+                  <div class="card card-inverse card-info">
+                     <!--  <img class="card-img-top" src="images/Homepage_SpecializedMastersPrograms.jpg">
+                      --> <div class="card-block">
+                        <h4 class="card-title mt-3">Masters Program</h4>
+                          <div class="card-text">
+                              M. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
+                          </div>
+                        <br /><a href="" class="btn btn-info float-right btn-sm">Read More...</a>
+                      </div>
+                  </div>
+                </div>
+                  <div class="col-sm-4 col-lg-3">
+                  <div class="card card-inverse card-info">
+                     <!--  <img class="card-img-top" src="images/Homepage_DoctoralPrograms.jpg">
+                      --> <div class="card-block">
+                        <h4 class="card-title mt-3">Doctoral Program</h4>
+                          <div class="card-text">
+                               Ph. D. Program at Discipline of Computer Science & Engineering, IIT Indore
+                          </div>
+                        <br /><a href="phd_program.php" class="btn btn-info float-right btn-sm">Read More...</a>
+                      </div>
+                    </div>
+                  </div>
+                     </div>
+          
+            </div> 
+ 
   
-
+<!-- 
     <div class="row" style="margin-top:15px;"> 
        <div class="col-md-4 col-sm-4 col-xs-12 info-panel" style="margin: 0;"> 
             <div class="panel panel-default">
@@ -382,12 +444,12 @@
                 </div>
             </div>
             
-        </div>
+        </div> -->
 
 
 
 
-
+<!-- 
 <div class="col-md-4 col-sm-4 col-xs-12 info-panel" style="margin: 0;"> 
 
             <div class="panel panel-default">
@@ -407,8 +469,7 @@
                                     <p class="desc"> Linear and Non-linear Systems with Applications in Medical Imaging, Optimal Design, and Graphics.</p>
                                   <ul>
                                       <li style="width:50%;"><a href="#website">
-                                    <!--   <span class="fa fa-globe"></span>
-                                     -->   Details</a></li> 
+                                      Details</a></li> 
                                     </ul>
                                   </div>
                                 </li>
@@ -425,7 +486,6 @@
                                     <p class="desc">NTU-India Connect Program during July 17 - 19, 2017.</p>
                                   <ul>
                                       <li style="width:50%;"><a href="#website">
-                                      <!-- <span class="fa fa-globe"></span> -->
                                        Details</a></li>
                                     </ul>
                                   </div>
@@ -443,7 +503,6 @@
                                     <p class="desc">Statistical Modelling and Inference for Computer Experiments" by Prof. Pritam Ranjan IIM Indore.</p>
                                   <ul>
                                       <li style="width:50%;"><a href="#website">
-                                      <!-- <span class="fa fa-globe"></span> -->
                                        Details</a></li>
                                     </ul>
                                   </div>
@@ -461,7 +520,6 @@
                                     <p class="desc">High Performance Parallel Programming on Modern Processors.</p>
                                   <ul>
                                       <li style="width:50%;"><a href="#website">
-                                      <!-- <span class="fa fa-globe"></span> -->
                                        Details</a></li>
                                     </ul>
                                   </div>
@@ -479,7 +537,6 @@
                                     <p class="desc">Short Term Course On Recent Advances in Network and Cloud Security.</p>
                                   <ul>
                                       <li style="width:50%;"><a href="#website">
-                                      <!-- <span class="fa fa-globe"></span> -->
                                        Details</a></li>
                                     </ul>
                                   </div>
@@ -491,6 +548,7 @@
                     </div>
             </div>
         </div>
+
         
         <div class="col-md-4 col-sm-4 col-xs-12 info-panel" style="margin: 0;"> 
             <div class="panel panel-default">
@@ -523,50 +581,8 @@
             </div>
             
         </div> 
- </div>
- <div class="row mb-5 " style="background-color:#F9F6EF">
-    <p align="center" style="font-family: 'Fjalla One', sans-serif; font-size:2em; padding-top:5px;"><font color="black"><strong>Academics</strong></font></p>
-              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                  <div class="card card-inverse card-info">
-                      <img class="card-img-top" src="images/Homepage_UndergraduatePrograms.jpg">
-                      <div class="card-block">
-                        <h4 class="card-title mt-3">Undergraduate Program</h4>
-                          <div class="card-text">
-                              B. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
-                          </div>
-                        <br /><a href="btech_program.php" class="btn btn-info float-right btn-sm">Read More...</a>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                  <div class="card card-inverse card-info">
-                      <img class="card-img-top" src="images/Homepage_SpecializedMastersPrograms.jpg">
-                      <div class="card-block">
-                        <h4 class="card-title mt-3">Masters Program</h4>
-                          <div class="card-text">
-                              M. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
-                          </div>
-                        <br /><a href="" class="btn btn-info float-right btn-sm">Read More...</a>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                  <div class="card card-inverse card-info">
-                      <img class="card-img-top" src="images/Homepage_DoctoralPrograms.jpg">
-                      <div class="card-block">
-                        <h4 class="card-title mt-3">Doctoral Program</h4>
-                          <div class="card-text">
-                               Ph. D. Program at Discipline of Computer Science & Engineering, IIT Indore
-                          </div>
-                        <br /><a href="phd_program.php" class="btn btn-info float-right btn-sm">Read More...</a>
-                      </div>
-                  </div>
-              </div>
-
-              
-          </div>
+ </div> -->
+ 
 
 <?php include('footer.php') ; ?>
 

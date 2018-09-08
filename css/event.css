@@ -127,7 +127,7 @@
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: white;
-    background-image: linear-gradient(to bottom, #013953, #5d8aa8);
+    background-image: linear-gradient(to right, #013953, #5d8aa8);
 }
 	.event-list > li > .info > ul,
 	.event-list > li > .social > ul {
