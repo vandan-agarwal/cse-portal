@@ -99,12 +99,12 @@
                   <td style="background-color:#013953; height:30px; color:white; font-weight:bold; font-family: 'Sintony';" width="20%" id="latestupdates">
                   &nbsp;LATEST UPDATES :
                   </td>
-                  <td  width="86%"> 
-                    
+                  <td  width="86%" style="background-color: #eef3f6"> 
+                       <marquee id='scroll_news' style="font-family: 'Sintony';" >
                       <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();"> 
-                          <a href="phdadmissionwebsite/2017_10/adv.html"><font color="#022d10">PhD Admission Advertisement | </font></a> 
-						   <a href="http://www.iiti.ac.in/Careers/careers.php"><font color="#022d10">Faculty Recruitment | </font></a> 
-						   <a href="http://academic.iiti.ac.in:8080/Admm/28_3_2018%20Advertisement-for%20MTech-Admission.pdf"><font color="##022d10">MS admission advertisement</font></a>
+                          <a href="phdadmissionwebsite/2017_10/adv.html"><font color="#013953">PhD Admission Advertisement | </font></a> 
+						   <a href="http://www.iiti.ac.in/Careers/careers.php"><font color="#013953">Faculty Recruitment | </font></a> 
+						   <a href="http://academic.iiti.ac.in:8080/Admm/28_3_2018%20Advertisement-for%20MTech-Admission.pdf"><font color="#013953">MS admission advertisement</font></a>
                        </div>
                     </marquee>
                   </td>
