@@ -21,6 +21,10 @@ h3{
   color: red!important;
   /*font-weight: bold;*/
 }
+.carousel-inner{
+	border: 3px groove #5d8aa8;
+	border-radius: 15px;
+}
 
 .carousel-control {
   padding-top:10%;
@@ -30,6 +34,7 @@ h3{
 .carousel-control.left, .carousel-control.right {
     background-color: none;
     opacity: 1;
+    margin-left: 0;
     transition-duration: .2s; 	
 }
 .carousel-control.left:hover, .carousel-control.right:hover {
@@ -60,17 +65,15 @@ h3{
   background-color:rgba(255, 255, 255, .8)!important;
   margin-left: 0px;
   color: #013953;
-  font-weight: 500;
+font-weight: 600;
   width: 100%;
-  	/*font-family: 'Ubuntu Condensed', sans-serif;
 font-family: 'Play', sans-serif;
-*/font-family: 'Crete Round', serif;
   text-align: center;
   padding-left: 4px!important;
   padding-top: 4px!important;
   padding-bottom: 4px!important;
   text-shadow: none;
-  font-size: 1.3em;
+  font-size: 1.5em;
   
 }
 .item{
@@ -80,7 +83,7 @@ font-family: 'Play', sans-serif;
   height: 100%;
   width: 100%;
   background: linear-gradient(to right, #5d8aa8, #013953, #5d8aa8);
-
+  filter: brightness(.8);
 }	
 .panel-footer{
   font-weight: bold;
@@ -148,6 +151,10 @@ font-family: 'Play', sans-serif;
 	.carousel-caption{
 		bottom: 0px;
 	}
+	.carousel-inner{
+	border: 2px groove #5d8aa8;
+	border-radius: 10px;
+}
 .carousel-caption p{
   font-weight: 400;
   width: 100%;

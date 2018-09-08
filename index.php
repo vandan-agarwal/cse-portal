@@ -41,30 +41,30 @@
               <?php include('menu1.php'); ?>
               
     		   <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:10px;" >
-                  <div class="carousel-inner my-slider" role="listbox">
+                  <div class="carousel-inner my-slider" role="listbox" style="    box-shadow: 0 0 1.5em 1.8px rgb(0,0,0,.6);">
                     <div class="item active">
-                      <img src="images/slider_img/cseiiti1.jpg" class="slider img-thumbnail" style="height: 100%;">
+                      <img src="images/slider_img/cseiiti6.jpg" class="slider img-thumbnail" style="height: 100%;">
                        <div class="carousel-caption" style="left: 5%; width: 90%; bottom: 4px;" >
                        <p>First Caption</p>
                       </div>
                     </div>
 
                     <div class="item" >
-                      <img src="images/slider_img/cseiiti2.jpg" class="slider img-thumbnail" style="height: 100%;">
+                      <img src="images/slider_img/cseiiti13.jpg" class="slider img-thumbnail" style="height: 100%;">
                       <div class="carousel-caption" style="left: 5%; width: 90%; bottom: 4px;">
                        <p>Second Caption</p>
                       </div>
                     </div>
 
                     <div class="item">
-                      <img src="images/slider_img/cseiiti3.jpg" class="slider img-thumbnail" style="height: 100%; bottom: 0;">
+                      <img src="images/slider_img/cseiiti9.jpg" class="slider img-thumbnail" style="height: 100%; bottom: 0;">
                       <div class="carousel-caption" style="left: 5%; width: 90%; bottom: 4px;">
                        <p>Third Caption</p>
                       </div>
                     </div>
 
                     <div class="item">
-                      <img src="images/slider_img/cseiiti4.jpg" class="slider img-thumbnail" style="height: 100%;">
+                      <img src="images/slider_img/cseiiti11.jpg" class="slider img-thumbnail" style="height: 100%;">
                       <div class="carousel-caption" style="left: 5%; width: 90%; bottom: 4px;">
                        <p>Fourth Caption</p>
                       </div>
@@ -91,16 +91,16 @@
 
         <div class="row" style="margin-top:20px;">
               <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top:-10px;"> 
-
+                
                  <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
                   <div class="alert-success" style="margin-bottom:10px; height:30px;">
                   <table width="100%">
                   <tr>
-                  <td style="background-color:#022d10; height:30px; color:white; font-weight:bold; font-family: 'Sintony';" width="20%" id="latestupdates">
+                  <td style="background-color:#013953; height:30px; color:white; font-weight:bold; font-family: 'Sintony';" width="20%" id="latestupdates">
                   &nbsp;LATEST UPDATES :
                   </td>
                   <td  width="86%"> 
-                    <marquee id='scroll_news' style="font-family: 'Sintony';" >
+                    
                       <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();"> 
                           <a href="phdadmissionwebsite/2017_10/adv.html"><font color="#022d10">PhD Admission Advertisement | </font></a> 
 						   <a href="http://www.iiti.ac.in/Careers/careers.php"><font color="#022d10">Faculty Recruitment | </font></a> 
