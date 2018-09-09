@@ -2,7 +2,6 @@
     <!-- Bootstrap Core CSS -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/card.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
@@ -11,10 +10,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Crete+Round|Kanit|Monoton|Play|Ubuntu+Condensed" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Lekton|Lobster|Merienda|Monoton|Pacifico|Play|Righteous|Ruslan+Display" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Merienda|Monoton|Pacifico|Ruslan+Display" rel="stylesheet">
+
     <link href="css/header.css" rel="stylesheet">
     <link href="css/slider.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="css/event.css" rel="stylesheet">
+    <link href="css/card.css" rel="stylesheet">
 
 
 </head>
@@ -360,6 +362,10 @@
                          <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
                          <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
+                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li> <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
+                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li> <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
+                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li> 
+                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
                          <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
@@ -372,45 +378,39 @@
     </div>
      
     <div class="col-md-12 col-sm-8 col-xs-12 col-lg-9"> 
-    <p align="center" style="font-family: 'Fjalla One', sans-serif; font-size:2em; padding-top:5px;"><font color="#013953"><strong>Academics</strong></font></p>
+    <h1 style="font-family: 'Crete Round', serif; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Academics</h1>
   </div>
-                  <div class="col-sm-4 col-lg-3" style="height: 410px;">
-                        <h4>Undergraduate Program</h4>
-                          <div>
-                              B. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
+                  <div class="col-sm-3">
+                      <div class="cardnew" style="height: 360px;">
+                        <a href="btech_program.php" style="text-decoration: none;"><h2 class="cardnew-header">Undergraduate Program</h2></a>
+                          <div class="cardnew-content" style="height: 200px;  top: 100px;">
+                             Discipline of Computer Science and Engineering, IIT Indore currently offers a 4-year BTech program. Total number of seats available are 70. Admission to the program is offered through "IIT Joint Entrance Examination (JEE)".
                           </div>
-                        <br /><a href="btech_program.php" class="btn btn-info float-right btn-sm">Read More...</a>
-                      </div>
+                         <a class="Read-more" href="btech_program">Read more...</a>
+                       </div>
                   </div>
-                </div>
-                  <div class="col-sm-4 col-lg-3">
-                  <div class="card card-inverse card-info">
-                     <!--  <img class="card-img-top" src="images/Homepage_SpecializedMastersPrograms.jpg">
-                      --> <div class="card-block">
-                        <h4 class="card-title mt-3">Masters Program</h4>
-                          <div class="card-text">
+                  <div class="col-sm-3">
+                    <div class="cardnew" style="height: 360px;">
+                       <a href="#" style="text-decoration: none;"><h2 class="cardnew-header">Masters Program</h2></a>
+                          <div class="cardnew-content" style="height: 200px;  top: 100px;">
                               M. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
                           </div>
-                        <br /><a href="" class="btn btn-info float-right btn-sm">Read More...</a>
-                      </div>
-                  </div>
-                </div>
-                  <div class="col-sm-4 col-lg-3">
-                  <div class="card card-inverse card-info">
-                     <!--  <img class="card-img-top" src="images/Homepage_DoctoralPrograms.jpg">
-                      --> <div class="card-block">
-                        <h4 class="card-title mt-3">Doctoral Program</h4>
-                          <div class="card-text">
-                               Ph. D. Program at Discipline of Computer Science & Engineering, IIT Indore
-                          </div>
-                        <br /><a href="phd_program.php" class="btn btn-info float-right btn-sm">Read More...</a>
-                      </div>
+                       <a class="Read-more" href="btech_program">Read more...</a>
+                       </div>
                     </div>
-                  </div>
-                     </div>
-          
-            </div> 
- 
+                  <div class="col-sm-3">
+                        <div class="cardnew" style="height: 360px;">
+                        <a href="phd_program.php"  style="text-decoration: none;  top: 100px;" ><h2 class="cardnew-header">Doctoral Program</h2></a> 
+                          <div class="cardnew-content" style="height: 200px; top: 100px;">
+                              Discipline of Computer Science and Engineering, IIT Indore offers Doctor of Philosophy (PhD) program in almost all current areas of Computer Science. 
+It welcomes and accepts applications for admission to PhD program throughout the year. It is looking for highly motivated and dedicated research scholars for its PhD program. In general, students selected for PhD program have to undergo course-work during first two semesters before actually starting their individual doctoral research work. During these two semesters, students get an opportunity to acquaint themselves with the research activities of faculty members and suitably select their individual research supervisor.
+                          </div>
+                       <a class="Read-more" href="btech_program">Read more...</a>
+                       </div>
+                      </div>
+                      </div>
+   </div>
+                    
   
 <!-- 
     <div class="row" style="margin-top:15px;"> 
