@@ -1,4 +1,4 @@
-        html {
+-        html {
             font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
             font-size: 14px;
         }
@@ -88,10 +88,10 @@
  .cardnew >.cardnew-heading>a:before {
   content: "";
   position: absolute;
-  margin: 6%;
-  width: 88%;
+  margin: 5%;
+  width: 90%;
   height: 4px;
-  top: 7px;
+  top: 6px;
   z-index: 5000;
   left: 0;
   background-color: white;

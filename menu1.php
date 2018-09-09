@@ -64,7 +64,7 @@
   position: absolute;
   width: 100%;
   height: 3px;
-  top: 0;
+  top: 1px;
   left: 0;
   background-color: #013953;
   visibility: hidden;

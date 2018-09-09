@@ -14,7 +14,7 @@
 <footer class="container-fluid text-center bg-lightgray" style="margin-bottom:0px;">
 
         <div class="copyrights" style="margin-top:10px;  ">
-            <p>&copy; Discipline of Computer Science and Engineering 
+            <p style="font-size: 0.9em;">&copy; Discipline of Computer Science and Engineering 
                 <br>
             </p>
             
