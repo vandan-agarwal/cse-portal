@@ -12,17 +12,34 @@
         .cardnew {
             font-size: 1em;
             padding: 0;
-            border: 2px groove #5d8aa8;
-            box-shadow: 0 3px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+            box-shadow: 0px 3px 3px 0 #013953;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:  10px;
             background-color: white;
             width: 100%;
             height: 100%;
         }
+        .col-sm-3>.cardnew:nth-child(even){
+            box-shadow: .5px 3px 3px 0 #5d8aa8;
+           
+         }
+         .cardnew-heading{
+            background-image: linear-gradient(to bottom, #013953, #5d8aa8);  
+            margin-top: 0;
+        }
+        .cardnew-heading:nth-child(even){
+            background-color: #5d8aa8;
+           
+         }
+
+
+
         .cardnew-header{
             font-family: 'Fjalla One', sans-serif;
             text-align: center;
-            color: #5d8aa8;
-            padding-top: 10px;
+            height: 100%;
+            color: white;
+            padding-top: 14px;
             text-decoration: none;
         }
         
@@ -68,6 +85,27 @@
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+ .cardnew >.cardnew-heading>a:before {
+  content: "";
+  position: absolute;
+  margin: 6%;
+  width: 88%;
+  height: 4 px;
+  top: 7px;
+  z-index: 5000;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+  transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+}
+ .cardnew>.cardnew-heading > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 
         .card-block {
             font-size: 1em;
@@ -76,7 +114,7 @@
             padding: 1em;
             border: none;
             border-top: 1px solid rgba(34, 36, 38, .1);
-            box-shadow: none;
+            box-shadow: 5px 2px red;
             padding-bottom: 0px;
             padding-top: 0px;
             padding-left: 0px;

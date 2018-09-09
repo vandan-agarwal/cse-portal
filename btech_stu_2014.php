@@ -20,7 +20,7 @@
 
     <!-- Page Content -->
     <?php include('header.php') ; ?>
-    <div class="container" style="background-color:white; margin-top:-20px;">
+    <div class="container" style="background-color:white; ">
 
     <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
