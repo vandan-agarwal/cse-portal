@@ -44,32 +44,42 @@
               <?php include('menu1.php'); ?>
               
     		   <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:10px;" >
-                  <div class="carousel-inner my-slider" role="listbox" style="    box-shadow: 0 0 1.5em 1.8px rgb(0,0,0,.6);">
+                  <div class="carousel-inner my-slider" role="listbox" >
                     <div class="item active">
                       <img src="images/slider_img/cseiiti6.jpg" class="slider img-thumbnail" style="height: 100%;">
-                       <div class="carousel-caption" style="left: 5%; width: 90%; bottom: 4px;" >
-                       <p>First Caption</p>
+                       <div class="carousel-caption" style="left: 0%; width: 85%; bottom: 0; padding: 0; " >
+                        <header class="Caption-header">
+                        <div class="header__fg"></div>
+                       <h4 class="Caption-heading">First Caption</h4>
                       </div>
+                    </header>
                     </div>
 
                     <div class="item" >
                       <img src="images/slider_img/cseiiti13.jpg" class="slider img-thumbnail" style="height: 100%;">
-                      <div class="carousel-caption" style="left: 5%; width: 90%; bottom: 4px;">
-                       <p>Second Caption</p>
+                      <div class="carousel-caption" style="left: 0%; width: 85%; bottom: 0; padding: 0; " >
+                        <header class="Caption-header">
+                        <div class="header__fg"></div>
+                       <h4 class="Caption-heading">Second caption</h4>
                       </div>
                     </div>
 
+
                     <div class="item">
                       <img src="images/slider_img/cseiiti9.jpg" class="slider img-thumbnail" style="height: 100%; bottom: 0;">
-                      <div class="carousel-caption" style="left: 5%; width: 90%; bottom: 4px;">
-                       <p>Third Caption</p>
+                      <div class="carousel-caption" style="left: 0%; width: 85%; bottom: 0; padding: 0; " >
+                        <header class="Caption-header">
+                        <div class="header__fg"></div>
+                       <h4 class="Caption-heading">Third Caption</h4>
                       </div>
                     </div>
 
                     <div class="item">
                       <img src="images/slider_img/cseiiti11.jpg" class="slider img-thumbnail" style="height: 100%;">
-                      <div class="carousel-caption" style="left: 5%; width: 90%; bottom: 4px;">
-                       <p>Fourth Caption</p>
+                      <div class="carousel-caption" style="left: 0%; width: 85%; bottom: 0; padding: 0; " >
+                        <header class="Caption-header">
+                        <div class="header__fg"></div>
+                       <h4 class="Caption-heading">Fourth caption</h4>
                       </div>
                     </div>
             </div>
@@ -209,7 +219,7 @@
         <div class="header_full"></div>
         <h2 class="fullwidth-heading" >EVENTS</h2>
         </header>
-  <ul class="nav nav-pills" style="width: 100%; border: 1px solid #013953; border-radius: 4px">
+  <ul class="nav nav-pills" style="width: 100%;  border-radius: 4px">
     <li class="active" ><a data-toggle="pill" href="#home"><span class="badge badge-primary" style="background-color: #013953; color: white;">1</span></a></li>
     <li><a class="Next" data-toggle="pill" href="#menu1"><span class="badge badge-primary" style="background-color: #013953; color: white;">2</span></a></li>
     <li><a data-toggle="pill" href="#menu2"><span class="badge badge-primary" style="background-color: #013953; color: white;">3</span></a></li>
@@ -356,7 +366,7 @@
 </div>
 
 <div class="row" style="margin-top:25px;">
-    <div class="col-md-12 col-sm-4 col-xs-12 col-lg-3">
+    <div class="col-sm-3">
       <div class="News panel-aside" style="width: 100%;">
         <header class="aside-header">
         <div class="header__bg"></div>
@@ -382,9 +392,10 @@
       </div>
     </div>
      
-    <div class="col-md-12 col-sm-8 col-xs-12 col-lg-9"> 
+   <div class="col-sm-9"> 
     <h1 style="font-family: 'Crete Round', serif; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Academics</h1>
   </div>
+
                   <div class="col-sm-3">
                       <div class="cardnew" style="height: 360px;">
                       <div class="cardnew-heading" style="height: 80px;">
@@ -419,8 +430,8 @@ It welcomes and accepts applications for admission to PhD program throughout the
                        <a class="Read-more" href="btech_program">Read more...</a>
                        </div>
                       </div>
-                      </div>
-   </div>
+                    </div>
+</div>
                     
   
 <!-- 

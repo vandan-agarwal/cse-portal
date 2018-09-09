@@ -20,9 +20,8 @@
   /*font-weight: bold;*/
 }
 .carousel-inner{
-	border: 3px groove #5d8aa8;
-	border-radius: 15px;
-}
+	/*border: 3px groove #507a95;
+*/}
 
 .carousel-control {
   padding-top:10%;
@@ -40,17 +39,43 @@
     transition-duration: .3s;
     transform: scale(1.2);
 }
+.Caption-header {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+}
+.header__fg {
+  position: absolute;
+  top: 0;
+  bottom: 5px;
+  right: -10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:  linear-gradient(to top right, #5d8aa8, #013953);
+  transform: skewX(25deg);
+  transform-origin: bottom right;
+}
+.Caption-heading {
+  text-align: left;
+  position: relative;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 8px 5px 8px 5px;
+}
 
 .glyphicon-chevron-left:before {
     content: "\e079";
     color: white;
-    background: #5d8aa8;
-}
+    background: linear-gradient(to right, #5d8aa8, #013953);
+ }
 .glyphicon-chevron-right:before {
     content: "\e080";
     color: white;
-    background-color: #5d8aa8;
-}
+    background: linear-gradient(to left, #5d8aa8, #013953);
+ }
 
 .glyphicon-chevron-right:hover{
      display:block!important;
@@ -80,7 +105,7 @@ font-family: 'Play', sans-serif;
 .slider{
   height: 100%;
   width: 100%;
-  background: linear-gradient(to right, #5d8aa8, #013953, #5d8aa8);
+  background: linear-gradient(to top right, #5d8aa8, #013953, #5d8aa8);
   filter: brightness(.8);
 }	
 .panel-footer{
@@ -245,20 +270,16 @@ font-family: 'Play', sans-serif;
  	.item{
 	height: 55vw;
 	}
-	.carousel-caption{
-		bottom: 0px;
-	}
-	.carousel-inner{
-	border: 2px groove #5d8aa8;
-	border-radius: 10px;
-}
-.carousel-caption p{
-  font-weight: 400;
-  width: 100%;
+.carousel-caption{
+  height: 25px;
   padding-left: 0px!important;
   padding-top: 0px!important;
   padding-bottom: 0px!important;
-  font-size: 1.1em;
+  font-size: 1em;
+}
+.caption-heading{
+  padding: 3px 0 3px 4px;
+  font-size: 1em;
 }
 .aside-header {
    width: 75%;
