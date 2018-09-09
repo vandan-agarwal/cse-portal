@@ -7,7 +7,8 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 70px;
+    padding-bottom: 0; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 
     /*background-color: #d1d8de;*/
     /*font-family: 'Sintony', sans-serif;*/

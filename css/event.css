@@ -87,18 +87,18 @@
 		color: #013953;
 	}
 	.eventnew >.desc {
-		width: 100%;
-		padding: 20px;
-		font-size: 12.5px;
-		font-weight: 300;
-		margin: 0px;
-		text-align: center;
-		font-family: 'Sintony', sans-serif!important;
-	}
+    width: 100%;
+    padding: 20px 0 20px 0;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0px;
+    text-align: left;
+    font-family: 'Sintony', sans-serif!important;
+}
 	.eventnew > .Details{
 		position: absolute;
 		bottom: 0;
-		right: 5px;
+		right: 15px;
 		text-decoration: none;
 		padding: 3px 10px 4px 10px;
 		border-radius: 5px;

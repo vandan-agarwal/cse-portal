@@ -2,12 +2,13 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 .bg-lightgray
 {
-    background-color:LightGray;
-    margin-top: 0px;
+    margin-top: 10px;
     border-radius: 0px;
-    color: black;
-    color: #022d10;
     font-weight: bold;
+    margin-bottom: 0;
+    color: white;
+    background: linear-gradient(to bottom, #5d8aa8, #013953);
+}
 }
 </style>
 <footer class="container-fluid text-center bg-lightgray" style="margin-bottom:10px;">
