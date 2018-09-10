@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="descri*ption" content="">
     <meta name="author" content="">
 
     <title>Discipline of Computer Science and Engineering </title>
@@ -33,7 +33,7 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Raleway" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet"> 
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Crimson+Text|Orbitron|Prompt|Righteous" rel="stylesheet">
@@ -41,7 +41,7 @@
 </head>
 
 
-<div class="container-fluid" style="color:#022d10; font-size:2em; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#5d8aa8), to(#013953)); margin-top:-85px; font-family: 'Fjalla One', sans-serif;">
+<div class="container-fluid" style="color:#022d10; font-size:2em; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#5d8aa8), to(#013953)); margin-top:-94px; font-family: 'Fjalla One', sans-serif;">
 
 <div class="col-sm-8 iiti_logo" style="float: left; ">
 
@@ -60,16 +60,16 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.php"> 
                         <h5 style="display: inline">
-                            <font style="font-family:calibri">Home</font>
+                            <font style="font-family: 'Raleway', sans-serif;">Home</font>
                         </h5>
                     </a>
                 </li>
                 <li><a href="http://www.iiti.ac.in/"target="_blank">
                         <h5 style="display: inline">
-                            <font style="font-family:calibri">
+                            <font style="font-family: 'Raleway', sans-serif;">
                             IIT Indore</font></h5></a></li>
                 <li>
-                    <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=iiti.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1#identifier"target="_blank"> <h5 style="display: inline"><font style="font-family:calibri">  Webmail</font></h5></a>
+                    <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=iiti.ac.in&amp;service=mail&amp;sacu=1&amp;rip=1#identifier"target="_blank"> <h5 style="display: inline"><font style="font-family: 'Raleway', sans-serif;">  Webmail</font></h5></a>
                 </li>
             </ul>
             </div>

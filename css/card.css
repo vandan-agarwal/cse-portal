@@ -50,6 +50,7 @@
             padding: 0 5px 0 5px;
             width: 90%;
             margin: auto;
+            font-size: 1em;
             overflow: hidden;
             text-align: center;
             color: #013953;
@@ -90,7 +91,7 @@
   margin: 5%;
   width: 90%;
   height: 4px;
-  top: 6px;
+  top: 70px;
   z-index: 5000;
   left: 0;
   background-color: white;

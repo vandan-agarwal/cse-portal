@@ -49,12 +49,11 @@
   position: absolute;
   top: 0;
   bottom: 5px;
-  right: -10;
-  left: 0;
-  width: 100%;
+  right: -15%;
+  width: 110%;
   height: 100%;
   background-image:  linear-gradient(to top right, #5d8aa8, #013953);
-  transform: skewX(25deg);
+  transform: skewX(-25deg);
   transform-origin: bottom right;
 }
 .Caption-heading {
@@ -236,18 +235,39 @@ font-family: 'Play', sans-serif;
   margin-left: -25px;
   font-size: 1em;
   color: white;
-  padding: 3px 0 5px 5px;
-  background-image:  linear-gradient(to right,#5d8aa8,#013953);
+  padding: 10px 0 10px 5px;
   }
   .News>li:nth-child(even) {
-    background-image:  linear-gradient(to right, #013953, #5d8aa8);
   }
   .News li>a{
-  font-family: 'Crete Round', serif;
   font-size: 1.1em;
   color: white;
   padding: 3px 0 5px 0;
   }
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: white;
+    background-image: linear-gradient(to bottom, #013953, #013953);
+}
+.nav-pills>li>a {
+    border-radius: 0px;
+    color: #013953;
+}
+.nav-pills>li+li {
+    margin-left: 0;}
+
+  .alert-success{
+    height: 30px;
+  }
+  }
+  .latestupdates{
+    width: 30%;
+    height: 30px;
+  }
+  #latest-updates{
+    font-size: 1em;
+    padding: 10px 0 0 15px;
+  }
+
 
    /* width: 25%;
     height: 70px;
@@ -287,6 +307,14 @@ font-family: 'Play', sans-serif;
 .fullwidth-header {
   width: 75%;
 }
+  .latestupdates-header{
+    width: 100%;
+  }
+  #latest-updates{
+    font-size: .7em;
+    padding: 2px 0 0 2px;
+  
+  }
 }
  @media (max-width: 400px)
  {
