@@ -1,33 +1,42 @@
-<style type="text/css">
-  .img-htr{
-      /*background-color: red!important;*/
-      height:130px;
-      width:120px;
-  }
-
-  .panel-success{
-    border-radius: 0px!important;
-  }
-</style>
-
-
 
 <html lang="en">
 <!DOCTYPE html>
+<head>
+	<link href="css/card.css" rel="stylesheet">
+	<style type="text/css">
+
+  .staff_image{
+  	height: 180px;
+  	width: 70%;
+  	margin: auto;
+  	border-radius: 10%;
+  	box-shadow: 0px 1px 3px 0 #013953;
+  	}
+  .cardnew-header{
+            padding-top: 8px;
+        }
+        
+        .card-header h2{
+            font-size: 1em;
+        }
+ 
+</style>
+
+</head>
 <body>
 
     <!-- Navigation -->
 
     <!-- Page Content -->
     <?php include('header.php') ; ?>
-    <div class="container" style="background-color:white; ">
+    <div class="container" style="background-color:white;">
 
     <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
         <?php include('menu1.php'); ?>
 
 
-<!DOCTYPE html>
+<!-- 
+ <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
 <meta charset="UTF-8" />
@@ -38,45 +47,76 @@
 <link rel="stylesheet" type="text/css" href="footer.css" />
 
 <style type="text/css" media="all">
- <![CDATA
-@import url("plugin.css?ver=1.8");
-@import url("datatables.css?ver=1.8");
-.style4 {
-	font-size: x-large;
-	color: #f47321;
-	font-weight: bold;
-}
-.style7 {font-size: medium}
 </style>
 </head>
 <body class="page page-id-150 page-template page-template-default">
-<!-------------------Header Text------------------------------------------------------------------------->
-  <!-- call toptext() -->
   <script type="text/javascript">
-	<!--
     toptext();
-	//-->
   </script>
-<!-------------------Header Text End---------------------------------------------------------------------> 
-
-<!------------------Header Menu-------------------------------------------------------------------------->
-<!-- call topmenu() -->
  <script type="text/javascript">
-	<!--
     topmenu();
-	//-->
   </script>
+ -->
+ <div class="row" style="margin-top: 15px;">
+ 	<h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Staff Members</h2>
+ 	<div class="col-sm-3" style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 370px;">
+                <img class="staff_image"src="imgs/jitendra.jpg" alt="" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 30px;">
+                    <h4 class="cardnew-header">Mr. Jitendra Gupta</h4>
+                </div>	
+                <div class="cardnew-content" style="height: 90px; top: 260px; overflow: hidden; text-align: left; padding-left: 10%;">
+                     Manager Technical, <br>
+		  e-mail: jgupta@iiti.ac.in<br>
+                </div>
+	        </div>
+	</div>
 
-<!-----------------Header Menu End----------------------------------------------------------------------> 
+<div class="col-sm-3" style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 370px;">
+                <img class="staff_image"src="imgs/jitendra.jpg" alt="" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 30px;">
+                    <h4 class="cardnew-header">Mr. Jitendra Gupta</h4>
+                </div>	
+                <div class="cardnew-content" style="height: 90px; top: 260px; overflow: hidden; text-align: left; padding-left: 10%;">
+                     Manager Technical, <br>
+		  e-mail: jgupta@iiti.ac.in<br>
+                </div>
+	        </div>
+	</div>
+	<div class="col-sm-3" style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 370px;">
+                <img class="staff_image"src="imgs/jitendra.jpg" alt="" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 30px;">
+                    <h4 class="cardnew-header">Mr. Jitendra Gupta</h4>
+                </div>	
+                <div class="cardnew-content" style="height: 90px; top: 260px; overflow: hidden; text-align: left; padding-left: 10%;">
+                     Manager Technical, <br>
+		  e-mail: jgupta@iiti.ac.in<br>
+                </div>
+	        </div>
+	</div>
 
-		 
-		 
-<!-----------------Main Body Content--------------------------------------------------------------------> 
 
- 
+
+<div class="col-sm-3" style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 370px;">
+                <img class="staff_image"src="imgs/jitendra.jpg" alt="" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 30px;">
+                    <h4 class="cardnew-header">Mr. Jitendra Gupta</h4>
+                </div>	
+                <div class="cardnew-content" style="height: 90px; top: 260px; overflow: hidden; text-align: left; padding-left: 10%;">
+                     Manager Technical, <br>
+		  e-mail: jgupta@iiti.ac.in<br>
+                </div>
+	        </div>
+	</div>
+
+
 <div id="content" ><!-- Size could be varied as here height is specified only for viewing purposes-->
   <div align="center"><span class="contenthead style4"><b>Staff Members @ Discipline of CSE, IIT Indore<b></span>  </div>
-  <table id="wp-table-reloaded-id-1-no-1" class="wp-table-reloaded wp-table-reloaded-id-1" width="500">
+  	<div class="table-responsive">
+  <table id="wp-table-reloaded-id-1-no-1" class="wp-table-reloaded wp-table-reloaded-id-1" width="100%">
 <tbody class="row-hover">
 
 <tr class="row-1">
@@ -132,6 +172,7 @@ e-mail: lalit[AT]iiti[DOT]ac[DOT]in,<br>
 </tr>
 </tbody>
 </table>
+</div>
 
 </div>
 <?php include('footer.php') ; ?>

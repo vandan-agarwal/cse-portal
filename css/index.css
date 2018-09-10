@@ -106,7 +106,7 @@ font-family: 'Play', sans-serif;
   height: 100%;
   width: 100%;
   background: linear-gradient(to top right, #5d8aa8, #013953, #5d8aa8);
-  filter: brightness(.8);
+  filter: brightness(1);
 }	
 .panel-footer{
   font-weight: bold;

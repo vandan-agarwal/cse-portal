@@ -1,19 +1,33 @@
-<style type="text/css">
-  .img-htr{
-      /*background-color: red!important;*/
-      height:130px;
-      width:120px;
-  }
-
-  .panel-success{
-    border-radius: 0px!important;
-  }
-</style>
-
+5
 
 
 <html lang="en">
 <!DOCTYPE html>
+<head>
+	<link href="css/card.css" rel="stylesheet">
+	<style type="text/css">
+
+  .faculty_image{
+  	height: 220px;
+  	width: 70%;
+  	margin: auto;
+  	border-radius: 10%;
+  	box-shadow: 0px 1px 3px 0 #013953;
+  	}
+  .cardnew >.cardnew-heading>a:before {
+  top: 264px;
+  }
+  .cardnew-header{
+            padding-top: 8px;
+        }
+        
+        .card-header h2{
+            font-size: 1em;
+        }
+ 
+</style>
+
+</head>
 <body>
 
     <!-- Navigation -->
@@ -23,11 +37,10 @@
     <div class="container" style="background-color:white;">
 
     <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
         <?php include('menu1.php'); ?>
 
 
-
+<!-- 
  <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -39,37 +52,172 @@
 <link rel="stylesheet" type="text/css" href="footer.css" />
 
 <style type="text/css" media="all">
- <![CDATA
-@import url("plugin.css?ver=1.8");
-@import url("datatables.css?ver=1.8");
 </style>
 </head>
 <body class="page page-id-150 page-template page-template-default">
-<!-------------------Header Text------------------------------------------------------------------------->
-  <!-- call toptext() -->
   <script type="text/javascript">
-	<!--
     toptext();
-	//-->
   </script>
-<!-------------------Header Text End---------------------------------------------------------------------> 
-
-<!------------------Header Menu-------------------------------------------------------------------------->
-<!-- call topmenu() -->
  <script type="text/javascript">
-	<!--
     topmenu();
-	//-->
   </script>
-
-<!-----------------Header Menu End----------------------------------------------------------------------> 
-
-		 
-		 
-<!-----------------Main Body Content--------------------------------------------------------------------> 
-
- 
-<div id="content" ><!-- Size could be varied as here height is specified only for viewing purposes-->
+ -->
+ <div class="row" style="margin-top: 15px;">
+ 	<h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Faculty Members</h2>
+ 	<div class="col-sm-4" style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 500px;">
+                <img class="faculty_image" src="faculty_pics/nsc.jpg" alt="Dr. Narendra S. Chaudhari" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 39px;">
+                    <a href="http://iiti.ac.in/people/~narendra/" target="_newTab"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">Dr. Narendra S. Chaudhari</h3></a> 
+                </div>
+                <div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">
+                    <em>PhD, IIT Bombay</em><br/>
+					<em>Professor (currently on deputation to VNIT Nagpur as Director)</em><br/>
+					<strong>Research Interests :</strong> 
+					Algorithms, Theoretical Computer Science, Soft Computing, Game Artificial Intellignce (AI).
+					<br/>
+					<strong>e-mail:</strong> nsc@iiti.ac.in<br />
+                </div>
+                <a class="Read-more" href="http://iiti.ac.in/people/~narendra/" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>
+	        </div>
+	</div>
+	<div class="col-sm-4"  style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 500px;">
+                <img class="faculty_image" src="faculty_pics/abhishek.jpg" alt="Dr. Abhishek Srivastava" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 39px;">
+                    <a href="http://www.iiti.ac.in/people/~asrivastava" target="_newTab"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">Dr. Abhishek Srivastava</h3></a> 
+                </div>
+                <div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">
+                    <em>PhD, University of Alberta, Edmonton, Canada</em><br/>
+		<em>Associate Professor </em><br/>
+		<strong>Research Interests :</strong> 
+		Service-Oriented Systems, Dynamic Systems, Geographically Distributed Development Environments, Agile Techniques, Software-as-a-Service.
+		<br/>
+		<strong>e-mail:</strong> asrivastava@iiti.ac.in<br />
+                </div>
+                <a class="Read-more" href="http://www.iiti.ac.in/people/~asrivastava" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>
+	        </div>
+	</div>
+	<div class="col-sm-4"  style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 500px;">
+                <img class="faculty_image" src="faculty_pics/aruna.jpg" alt="Dr. Aruna Tiwari" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 39px;">
+                    <a href="http://iiti.ac.in/people/~artiwari/" target="_newTab"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">Dr. Aruna Tiwari</h3></a> 
+                </div>
+                <div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">
+                    <em>PhD, RGPV Bhopal</em><br/>
+		<em>Associate Professor</em><br/>
+		<strong>Research Interests :</strong> 
+		Soft Computing Techniques, Neural Network Learning Algorithms, Genetic Algorithms/Evolutionary Approaches.
+		<br/>
+		<strong>e-mail:</strong> artiwari@iiti.ac.in<br />
+                </div>
+                <a class="Read-more" href="http://iiti.ac.in/people/~artiwari/" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>
+	 </div>
+	</div>
+	<div class="col-sm-4" style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 500px;">
+                <img class="faculty_image" src="faculty_pics/nsc.jpg" alt="Dr. Narendra S. Chaudhari" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 39px;">
+                    <a href="http://iiti.ac.in/people/~narendra/" target="_newTab"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">Dr. Narendra S. Chaudhari</h3></a> 
+                </div>
+                <div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">
+                    <em>PhD, IIT Bombay</em><br/>
+					<em>Professor (currently on deputation to VNIT Nagpur as Director)</em><br/>
+					<strong>Research Interests :</strong> 
+					Algorithms, Theoretical Computer Science, Soft Computing, Game Artificial Intellignce (AI).
+					<br/>
+					<strong>e-mail:</strong> nsc@iiti.ac.in<br />
+                </div>
+                <a class="Read-more" href="http://iiti.ac.in/people/~narendra/" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>
+	        </div>
+	</div>
+	<div class="col-sm-4"  style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 500px;">
+                <img class="faculty_image" src="faculty_pics/abhishek.jpg" alt="Dr. Abhishek Srivastava" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 39px;">
+                    <a href="http://www.iiti.ac.in/people/~asrivastava" target="_newTab"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">Dr. Abhishek Srivastava</h3></a> 
+                </div>
+                <div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">
+                    <em>PhD, University of Alberta, Edmonton, Canada</em><br/>
+		<em>Associate Professor </em><br/>
+		<strong>Research Interests :</strong> 
+		Service-Oriented Systems, Dynamic Systems, Geographically Distributed Development Environments, Agile Techniques, Software-as-a-Service.
+		<br/>
+		<strong>e-mail:</strong> asrivastava@iiti.ac.in<br />
+                </div>
+                <a class="Read-more" href="http://www.iiti.ac.in/people/~asrivastava" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>
+	        </div>
+	</div>
+	<div class="col-sm-4"  style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 500px;">
+                <img class="faculty_image" src="faculty_pics/aruna.jpg" alt="Dr. Aruna Tiwari" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 39px;">
+                    <a href="http://iiti.ac.in/people/~artiwari/" target="_newTab"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">Dr. Aruna Tiwari</h3></a> 
+                </div>
+                <div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">
+                    <em>PhD, RGPV Bhopal</em><br/>
+		<em>Associate Professor</em><br/>
+		<strong>Research Interests :</strong> 
+		Soft Computing Techniques, Neural Network Learning Algorithms, Genetic Algorithms/Evolutionary Approaches.
+		<br/>
+		<strong>e-mail:</strong> artiwari@iiti.ac.in<br />
+                </div>
+                <a class="Read-more" href="http://iiti.ac.in/people/~artiwari/" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>
+	 </div>
+	</div><div class="col-sm-4" style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 500px;">
+                <img class="faculty_image" src="faculty_pics/nsc.jpg" alt="Dr. Narendra S. Chaudhari" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 39px;">
+                    <a href="http://iiti.ac.in/people/~narendra/" target="_newTab"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">Dr. Narendra S. Chaudhari</h3></a> 
+                </div>
+                <div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">
+                    <em>PhD, IIT Bombay</em><br/>
+					<em>Professor (currently on deputation to VNIT Nagpur as Director)</em><br/>
+					<strong>Research Interests :</strong> 
+					Algorithms, Theoretical Computer Science, Soft Computing, Game Artificial Intellignce (AI).
+					<br/>
+					<strong>e-mail:</strong> nsc@iiti.ac.in<br />
+                </div>
+                <a class="Read-more" href="http://iiti.ac.in/people/~narendra/" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>
+	        </div>
+	</div>
+	<div class="col-sm-4"  style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 500px;">
+                <img class="faculty_image" src="faculty_pics/abhishek.jpg" alt="Dr. Abhishek Srivastava" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 39px;">
+                    <a href="http://www.iiti.ac.in/people/~asrivastava" target="_newTab"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">Dr. Abhishek Srivastava</h3></a> 
+                </div>
+                <div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">
+                    <em>PhD, University of Alberta, Edmonton, Canada</em><br/>
+		<em>Associate Professor </em><br/>
+		<strong>Research Interests :</strong> 
+		Service-Oriented Systems, Dynamic Systems, Geographically Distributed Development Environments, Agile Techniques, Software-as-a-Service.
+		<br/>
+		<strong>e-mail:</strong> asrivastava@iiti.ac.in<br />
+                </div>
+                <a class="Read-more" href="http://www.iiti.ac.in/people/~asrivastava" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>
+	        </div>
+	</div>
+	<div class="col-sm-4"  style="margin-bottom: 15px;">
+            <div class="cardnew" style="height: 500px;">
+                <img class="faculty_image" src="faculty_pics/aruna.jpg" alt="Dr. Aruna Tiwari" style="margin-left: 15%; margin-top: 10px;">
+				<div class="cardnew-heading" style="height: 39px;">
+                    <a href="http://iiti.ac.in/people/~artiwari/" target="_newTab"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">Dr. Aruna Tiwari</h3></a> 
+                </div>
+                <div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">
+                    <em>PhD, RGPV Bhopal</em><br/>
+		<em>Associate Professor</em><br/>
+		<strong>Research Interests :</strong> 
+		Soft Computing Techniques, Neural Network Learning Algorithms, Genetic Algorithms/Evolutionary Approaches.
+		<br/>
+		<strong>e-mail:</strong> artiwari@iiti.ac.in<br />
+                </div>
+                <a class="Read-more" href="http://iiti.ac.in/people/~artiwari/" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>
+	 </div>
+	</div>
+	        
+	<div id="content" >
 <h2 class="contenthead">Faculty Members of Discipline of CSE</h2>			
 <table id="wp-table-reloaded-id-1-no-1" class="wp-table-reloaded wp-table-reloaded-id-1">
 <tbody class="row-hover">
@@ -142,7 +290,7 @@
 		<strong>Research Interests :</strong> 
 		Pattern Recognition, Computer Vision, Image Processing, Biometrics.
 		<br/>
-		<strong>e-mail:</strong> surya [AT] iiti [dot] ac [dot] in<br />
+		<strong>e-mail:</strong> surya@iiti.ac.in<br />
 		</font></td>
 </tr>
 
@@ -221,33 +369,11 @@
 </tr> -->	
 </tbody>
 </table>
- <?php include('footer.php') ; ?>
 </div>
-
-<!-----------------Main Body Content End---------------------------------------------------------------------->
-
-
-<!----------------------------Footer Menu-------------------------------------------------------------------------->
-
-<!-- call bottommenu() -->
- <script type="text/javascript">
-	<!--
-    bottommenu();
-	//-->
-  </script>
-
-<!----------------------------Footer Menu End---------------------------------------------------------------------->
-<!-------------------------- Footer Copyright Text------------------------------------------------------------>
-
-<!-- call bottomtext() -->
- <script type="text/javascript">
-	<!--
-    bottomtext();
-	//-->
-  </script>
-<!-------------------------- Footer Copyright Text End------------------------------------------------------------>
-
-
+</div>
+</div>
+</div>
+ <?php include('footer.php') ; ?>
     
 </body>
 </html>

@@ -73,25 +73,7 @@
 </head>
 
 
-<body class="page page-id-150 page-template page-template-default">
-
-<!-------------------Header Text------------------------------------------------------------------------->
-  <!-- call toptext() -->
-  <script type="text/javascript">
-	<!--
-    toptext();
-	//-->
-  </script>
-<!-------------------Header Text End---------------------------------------------------------------------> 
-
-<!------------------Header Menu-------------------------------------------------------------------------->
-<!-- call topmenu() -->
- <script type="text/javascript">
-	<!--
-    topmenu();
-	//-->
-  </script>
-
+<body >
 <!-----------------Header Menu End----------------------------------------------------------------------> 
 
 		 
@@ -99,9 +81,8 @@
 <!-----------------Main Body Content-------------------------------------------------------------------->  
    
 
-<div id="content"><!-- Size could be varied as here height is specified only for viewing purposes-->
-  <h2 class="contenthead">PhD Students at Discipline of CSE, IIT Indore</h2>
-  
+<div id="content" class="table-responsive"><!-- Size could be varied as here height is specified only for viewing purposes-->
+  <h2 class="contenthead">PhD Students/h2>
   <table width="879" id="phdlist">
   <tr>
    <th width="75">S. No.</th>
@@ -322,7 +303,7 @@
   
     
     
-<div id="content">
+<div id="content" class="table-responsive">
   <table width="1380" id="phdlist">
   <h2 class="contenthead"> Graduated Ph. D. Students</h2>
   
@@ -386,9 +367,9 @@
 	
 	</table>
   <p class="contenthead">&nbsp;</p>
-  <?php include('footer.php') ; ?>
+  
 </div>
-
+<?php include('footer.php') ; ?>
 
 <!-----------------Main Body Content End---------------------------------------------------------------------->
 
