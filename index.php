@@ -223,7 +223,6 @@
         </header>
   <div class="responsive" style="background-color: ">
    <div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
-
                                  <time datetime="2014-07-20">
                                     <span class="day">4</span>
                                     <span class="month">Jul</span>
@@ -430,8 +429,8 @@ It welcomes and accepts applications for admission to PhD program throughout the
   speed: 300,
   slidesToShow: 4,
   autoplay: true,
-  infinite: true, 
-  autoplaySpeed: 7000,
+  infinite: true,  
+  autoplaySpeed: 6000,
   slidesToScroll: 4,
   responsive: [
     {
