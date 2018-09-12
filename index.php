@@ -218,20 +218,28 @@
       </div>
     </div> --> 
   </div>
-    <div class="row" style="margin-top: 10px;">
+    <div class="row" id="EVENTS" style="margin-top: 10px;">
  <div class="container">
   <header class="fullwidth-header">
         <div class="header_full"></div>
         <h2 class="fullwidth-heading" >EVENTS</h2>
         </header>
-  <div class="responsive" id="EVENTS" style="background-color: ">
+        <event-modal
+                    v-for="Event in Eventslist"
+                    v-bind:event="Event"
+                  >
+                      
+
+    </event-modal>
+  <div class="responsive"  style="background-color: ">
     <event-item
                     v-for="event in Eventslist"
                     v-bind:Event="event"
                   >
                       
+
     </event-item>
-       <!-- <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
+      <!--  <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
                                   <time>
                                     <span class="day">17</span>
                                     <span class="month">Jul</span>
@@ -240,9 +248,28 @@
                                   </time>
                                     <h3 class="title">NTU-India Connect Program</h3>
                                     <p class="desc">NTU-India Connect Program during July 17 - 19, 2017.</p>
-                                  <a class="Details" href="#">Details</a>
+                                  <button type="button" class="btn btn-primary Details " data-toggle="modal" data-target="#exampleModalCenter">Details</button>
+                   </div>
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-<div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!--<div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
                                   <time datetime="2014-07-20">
                                     <span class="day">07</span>
                                     <span class="month">Apr</span>
