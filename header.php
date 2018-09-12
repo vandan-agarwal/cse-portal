@@ -18,8 +18,8 @@
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet"></script>
+    <!-- <script src="js/bootstrap.min.js"></script>
+    --> <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
@@ -75,7 +75,7 @@
             </div>
             </div>
 </div>	  
-</div>
+</div>  <!-- 
 <script>
 $('ul.nav li.dropdown').hover(function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(100);
@@ -83,4 +83,5 @@ $('ul.nav li.dropdown').hover(function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(100);
 });
 
-</script>
+</script> -->
+

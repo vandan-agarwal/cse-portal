@@ -11,6 +11,8 @@
    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Crete+Round|Kanit|Monoton|Anton|Play|Ubuntu+Condensed" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Merienda|Monoton|Pacifico|Ruslan+Display" rel="stylesheet">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link href="css/header.css" rel="stylesheet">
@@ -33,6 +35,7 @@
 <html lang="en">
 <!DOCTYPE html>
 <body>
+
 
     <!-- Navigation -->
 
@@ -130,7 +133,7 @@
 
 
 
-
+<!-- Button trigger modal -->
   <div class="row" style="margin-top:10px;">
         <div class="col-md-12 col-sm-8 col-xs-12 col-lg-8"> 
           <div id="About_cse" style="margin-top: 20px; ">
@@ -221,20 +224,15 @@
         <div class="header_full"></div>
         <h2 class="fullwidth-heading" >EVENTS</h2>
         </header>
-  <div class="responsive" style="background-color: ">
-   <div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
-                                 <time datetime="2014-07-20">
-                                    <span class="day">4</span>
-                                    <span class="month">Jul</span>
-                                    <span class="year">2014</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                    <h3 class="title">GIAN Course</h3>
-                                    <p class="desc"> Linear and Non-linear Systems with Applications in Medical Imaging, Optimal Design, and Graphics.</p>
-                                  <a class="Details" href="#">Details</a>
-       </div>
-       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
-                                  <time datetime="2014-07-20">
+  <div class="responsive" id="EVENTS" style="background-color: ">
+    <event-item
+                    v-for="event in Eventslist"
+                    v-bind:Event="event"
+                  >
+                      
+    </event-item>
+       <!-- <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
+                                  <time>
                                     <span class="day">17</span>
                                     <span class="month">Jul</span>
                                     <span class="year">2017</span>
@@ -345,7 +343,7 @@
                                   <a class="Details" href="#">Details</a>
                                  
        </div>
-</div>
+ --></div>
 </div>
 </div>
 <div class="row" style="margin-top:25px;">
@@ -421,6 +419,8 @@ It welcomes and accepts applications for admission to PhD program throughout the
  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
  <script type="text/javascript">
     $(document).ready(function(){
        $('.responsive').slick({
@@ -463,6 +463,8 @@ It welcomes and accepts applications for admission to PhD program throughout the
 
 
   </script>
+  <script type="text/javascript" src="data.js"></script>
+ 
 </body>
 
 
