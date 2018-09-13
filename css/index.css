@@ -57,7 +57,6 @@
   transform-origin: bottom right;
 }
 .Caption-heading {
-  text-align: left;
   position: relative;
   color: white;
   text-align: center;
@@ -80,8 +79,8 @@
      display:block!important;
 }
 .carousel-caption{
-	bottom: 10px;
-	margin-left: 0;
+  width: 85%;
+  left: 15%;
 }
 .carousel-caption p{
   background-color:rgba(255, 255, 255, .8)!important;
@@ -99,7 +98,7 @@ font-family: 'Play', sans-serif;
   
 }
 .item{
-	height: 35vw;
+	height: 30vw;
 }
 .slider{
   height: 100%;
@@ -288,18 +287,22 @@ font-family: 'Play', sans-serif;
  		height: 70vh;
  	}
  	.item{
-	height: 55vw;
-	}
+	height: 40vw;  
+	}  
 .carousel-caption{
+  display: none;
   height: 25px;
   padding-left: 0px!important;
   padding-top: 0px!important;
   padding-bottom: 0px!important;
   font-size: 1em;
+   width: 98%;
+
 }
 .caption-heading{
-  padding: 3px 0 3px 4px;
-  font-size: 1em;
+  text-align: right;
+  padding: 0px 5px 0px 0;
+  font-size: .5em;
 }
 .aside-header {
    width: 75%;
@@ -320,6 +323,11 @@ font-family: 'Play', sans-serif;
  {
  	.panel-body{
  	font-size: 13px;
+ 	}
+ }
+ @media(min-width: 1500px){
+ 	.item{
+ 		height: 25vw;
  	}
  }
  

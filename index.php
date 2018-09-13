@@ -50,42 +50,42 @@
     		   <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:10px;" >
                   <div class="carousel-inner my-slider" role="listbox" >
                     <div class="item active">
-                      <img src="images/slider_img/cseiiti6.jpg" class="slider img-thumbnail" style="height: 100%;">
-                       <div class="carousel-caption" style="left: 15%; width: 85%; bottom: 0; padding: 0; " >
+                      <img src="images/slider_img/cseiiti6.jpg" alt="Impressive performance by IIT Indore at ACM-ICPC 2017, placed second in india and 56th in the world" class="slider img-thumbnail" style="height: 100%;">
+                       <div class="carousel-caption" style="bottom: 0; padding: 0;	 ">
                         <header class="Caption-header">
                         <div class="header__fg"></div>
-                       <h4 class="Caption-heading">First Caption</h4>
+                       <h4 class="Caption-heading" style="font-family: 'Raleway', sans-serif;">Impressive performance by IIT Indore at ACM-ICPC 2017, placed second in india and 56th in the world</h4>
                       </div>
                     </header>
                     </div>
 
                     <div class="item" >
-                      <img src="images/slider_img/cseiiti13.jpg" class="slider img-thumbnail" style="height: 100%;">
-                      <div class="carousel-caption" style="left: 15%; width: 85%; bottom: 0; padding: 0; " >
+                      <img src="images/slider_img/GIAN_course_on_APRTB.jpg" class="slider img-thumbnail" style="height: 100%;">
+                      <div class="carousel-caption"  style="bottom: 0; padding: 0; ">
                         <header class="Caption-header">
                         <div class="header__fg"></div>
-                       <h4 class="Caption-heading">Second caption</h4>
+                       <h4 class="Caption-heading" style="font-family: 'Raleway', sans-serif;">Prof. Massimo Tistarelli of University of Sassari, Italy Delivering GIAN lacture (March 2018)</h4>
                       </div>
                     </header>
                     </div>
 
 
                     <div class="item">
-                      <img src="images/slider_img/cseiiti9.jpg" class="slider img-thumbnail" style="height: 100%; bottom: 0;">
-                      <div class="carousel-caption" style="left: 15%; width: 85%; bottom: 0; padding: 0; " >
+                      <img src="images/slider_img/GIAN_course_on_MSF.jpg" class="slider img-thumbnail" style="height: 100%; bottom: 0;">
+                      <div class="carousel-caption" style="bottom: 0; padding: 0;" >
                         <header class="Caption-header">
                         <div class="header__fg"></div>
-                       <h4 class="Caption-heading">Third Caption</h4>
+                       <h4 class="Caption-heading" style="font-family: 'Raleway', sans-serif;">Prof. Gaurav Sharma of University of Rchester, USA delivering GIAN lecture (March 2018)</h4>
                       </div>
                     </header>
                     </div>
 
                     <div class="item">
-                      <img src="images/slider_img/cseiiti11.jpg" class="slider img-thumbnail" style="height: 100%;">
-                      <div class="carousel-caption" style="left: 15%; width: 85%; bottom: 0; padding: 0; " >
+                      <img src="images/slider_img/topcoder-campus-srm-2-cropped.jpg" class="slider img-thumbnail" style="height: 100%;">
+                      <div class="carousel-caption" style="bottom: 0; padding: 0; " >
                         <header class="Caption-header">
                         <div class="header__fg"></div>
-                       <h4 class="Caption-heading">Fourth caption</h4>
+                       <h4 class="Caption-heading" style="font-family: 'Raleway', sans-serif;">Students participating in Topcoder sponsered onsite programmming competition at CSE, IIT Indore</h4>
                       </div>
                     </header>
                     </div>
@@ -236,8 +236,6 @@
                     v-for="event in Eventslist"
                     v-bind:Event="event"
                   >
-                      
-
     </event-item>
       <!--  <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
                                   <time>
