@@ -3,6 +3,9 @@
 <!DOCTYPE html>
 <head>
 	<link href="css/card.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<style type="text/css">
 
   .staff_image{
@@ -24,10 +27,6 @@
 
 </head>
 <body>
-
-    <!-- Navigation -->
-
-    <!-- Page Content -->
     <?php include('header.php') ; ?>
     <div class="container" style="background-color:white;">
 
@@ -35,28 +34,6 @@
         <?php include('menu1.php'); ?>
 
 
-<!-- 
- <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-<head>
-<meta charset="UTF-8" />
-<title>Discipline of Computer Science and Engineering (CSE), IIT Indore.</title>
-
-<script type="text/javascript" src="jsfunctions.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="cseweb.css" />
-<link rel="stylesheet" type="text/css" href="footer.css" />
-
-<style type="text/css" media="all">
-</style>
-</head>
-<body class="page page-id-150 page-template page-template-default">
-  <script type="text/javascript">
-    toptext();
-  </script>
- <script type="text/javascript">
-    topmenu();
-  </script>
- -->
  <div class="row" style="margin-top: 15px;">
  	<h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Staff Members</h2>
  	<div class="col-sm-3" style="margin-bottom: 15px;">

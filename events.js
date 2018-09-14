@@ -33,7 +33,25 @@ Vue.component('event-modal',{
                 '</div>'
 })
 
-
+//Faculty members-components
+Vue.component('Faculty-modal',{
+    props: ['Faculty'],
+    template:  '<div class="col-sm-4" style="margin-bottom: 15px;">'+
+            '<div class="cardnew" style="height: 500px;">'+
+                '<img class="faculty_image" v-bind:src="Faculty.img" style="margin-left: 15%; margin-top: 10px;"/>'+
+                '<div class="cardnew-heading" style="height: 39px;">'+
+                    '<a v-bind:href="Faculty.profileLink"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">{{Faculty.name}}</h3></a>'+ 
+                '</div>'+
+                '<div class="cardnew-content" style="height: 170px; top: 300px; overflow: hidden; text-align: left; padding-left: 10%;">'+
+                    '<em>PhD, {{Faculty.phdFrom}}</em><br/>'+
+                    '<em>{{Faculty.currentPost}}</em><br/>'+
+                    '<strong>Research Interests :</strong>{{Faculty.ResearchInterest}}<br/>'+
+                    '<strong>e-mail:</strong> {{Faculty.email}}<br/>'+
+                '</div>'+
+                '<a class="Read-more" v-bind:href="{{Faculty.profileLink}}" target="_newTab">Read more <span class="glyphicon glyphicon-new-window"></span></a>'+
+            '</div>'+
+    '</div>'
+})
 //Events-object
 var Events = new Vue({
     el: '#EVENTS',
@@ -175,3 +193,20 @@ var Events = new Vue({
     }
 })
 
+//Faculty-members-object
+var FacultyMembers = new Vue({
+    el: '#FacultyMembers',
+    data: {
+      FacultyList:
+      [    { 
+            name: ">Dr. Narendra S. Chaudhari",
+            img: 'faculty_pics/nsc.jpg',
+            phdFrom: "IIT Bombay",
+            currentPost: "Professor (currently on deputation to VNIT Nagpur as Director)" ,
+            ResearchInterest: "Algorithms, Theoretical Computer Science, Soft Computing, Game Artificial Intellignce (AI)." ,
+            email: "nsc@iiti.ac.in",
+            profileLink: "http://iiti.ac.in/people/~narendra/"
+        }
+        ]
+    }
+})

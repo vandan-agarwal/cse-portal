@@ -187,36 +187,6 @@
   </div>
   </div>
 
-    <!-- 
-    <div class="col-md-12 col-sm-4 col-xs-12 col-lg-3">
- 
-      <div class="Latest-updates panel-aside" style="width: 100%;">
-        <header class="aside-header">
-        <div class="header__bg"></div>
-        <h4 class="aside-heading">LATEST UPDATES</h4>
-        </header>
-        <div class="aside-body">
-          <ul>
-            <li><a href="phdadmissionwebsite/2017_10/adv.html"><font color="#013953" >PhD Admission Advertisement </font></a> </li>
-            <li><a href="http://www.iiti.ac.in/Careers/careers.php"><font color="#013953">Faculty Recruitment </font></a> </li>
-            <li> <a href="http://academic.iiti.ac.in:8080/Admm/28_3_2018%20Advertisement-for%20MTech-Admission.pdf"><font color="#013953">MS admission advertisement</font></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="RECRUITMENTS panel-aside" style="width: 100%;">
-        <header class="aside-header">
-        <div class="header__bg"></div>
-        <h4 class="aside-heading">RECRUITMENTS</h4>
-        </header>
-         <div class="aside-body">
-          <ul>
-            <li><a href="phdadmissionwebsite/2017_10/adv.html"><font color="#013953">PhD Admission Advertisement </font></a> </li>
-            <li><a href="http://www.iiti.ac.in/Careers/careers.php"><font color="#013953">Faculty Recruitment </font></a> </li>
-            <li> <a href="http://academic.iiti.ac.in:8080/Admm/28_3_2018%20Advertisement-for%20MTech-Admission.pdf"><font color="#013953">MS admission advertisement</font></a></li>
-          </ul>
-        </div>
-      </div>
-    </div> --> 
   </div>
     <div class="row" id="EVENTS" style="margin-top: 10px;">
  <div class="container">
@@ -224,6 +194,7 @@
         <div class="header_full"></div>
         <h2 class="fullwidth-heading" >EVENTS</h2>
         </header>
+        <!--event's data can be edited from Events instance of events.js -->
         <event-modal
                     v-for="Event in Eventslist"
                     v-bind:event="Event"
@@ -237,167 +208,10 @@
                     v-bind:Event="event"
                   >
     </event-item>
-      <!--  <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
-                                  <time>
-                                    <span class="day">17</span>
-                                    <span class="month">Jul</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                    <h3 class="title">NTU-India Connect Program</h3>
-                                    <p class="desc">NTU-India Connect Program during July 17 - 19, 2017.</p>
-                                  <button type="button" class="btn btn-primary Details " data-toggle="modal" data-target="#exampleModalCenter">Details</button>
-                   </div>
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
   </div>
-</div> -->
-<!--<div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
-                                  <time datetime="2014-07-20">
-                                    <span class="day">07</span>
-                                    <span class="month">Apr</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                 
-                                    <h3 class="title">Short Term Course  </h3>
-                                    <p class="desc">Short Term Course On Recent Advances in Network and Cloud Security.</p>
-                                    <a class="Details" href="#">Details</a>
-                              
-      </div>
-       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
-                                 <time datetime="2014-07-20">
-                                    <span class="day">18</span>
-                                    <span class="month">Apr</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                  
-                                    <h3 class="title">Research Seminar </h3>
-                                    <p class="desc">Statistical Modelling and Inference for Computer Experiments" by Prof. Pritam Ranjan IIM Indore.</p>
-                                  <a class="Details" href="#">Details</a>
-                                 
-      </div>
-      <div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
-
-                                 <time datetime="2014-07-20">
-                                    <span class="day">4</span>
-                                    <span class="month">Jul</span>
-                                    <span class="year">2014</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                    <h3 class="title">GIAN Course</h3>
-                                    <p class="desc"> Linear and Non-linear Systems with Applications in Medical Imaging, Optimal Design, and Graphics.</p>
-                                  <a class="Details" href="#">Details</a>
-       </div>
-       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
-                                  <time datetime="2014-07-20">
-                                    <span class="day">17</span>
-                                    <span class="month">Jul</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                    <h3 class="title">NTU-India Connect Program</h3>
-                                    <p class="desc">NTU-India Connect Program during July 17 - 19, 2017.</p>
-                                  <a class="Details" href="#">Details</a>
-      </div>
-<div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
-                                  <time datetime="2014-07-20">
-                                    <span class="day">07</span>
-                                    <span class="month">Apr</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                 
-                                    <h3 class="title">Short Term Course  </h3>
-                                    <p class="desc">Short Term Course On Recent Advances in Network and Cloud Security.</p>
-                                    <a class="Details" href="#">Details</a>
-                              
-      </div>
-       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
-                                 <time datetime="2014-07-20">
-                                    <span class="day">18</span>
-                                    <span class="month">Apr</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                  
-                                    <h3 class="title">Research Seminar </h3>
-                                    <p class="desc">Statistical Modelling and Inference for Computer Experiments" by Prof. Pritam Ranjan IIM Indore.</p>
-                                  <a class="Details" href="#">Details</a>
-                                 
-      </div>
-      <div class="eventnew col-sm-3 col-xs-12" style="min-height: 175px;">
-                                  <time datetime="2014-07-20">
-                                    <span class="day">07</span>
-                                    <span class="month">Apr</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                 
-                                    <h3 class="title">Short Term Course  </h3>
-                                    <p class="desc">Short Term Course On Recent Advances in Network and Cloud Security.</p>
-                                    <a class="Details" href="#">Details</a>
-                              
-      </div>
-       <div class="eventnew col-sm-3  col-xs-12" style="min-height: 175px;">
-                                 <time datetime="2014-07-20">
-                                    <span class="day">18</span>
-                                    <span class="month">Apr</span>
-                                    <span class="year">2017</span>
-                                    <span class="time">ALL DAY</span>
-                                  </time>
-                                  
-                                    <h3 class="title">Research Seminar </h3>
-                                    <p class="desc">Statistical Modelling and Inference for Computer Experiments" by Prof. Pritam Ranjan IIM Indore.</p>
-                                  <a class="Details" href="#">Details</a>
-                                 
-       </div>
- --></div>
 </div>
 </div>
 <div class="row" style="margin-top:25px;">
-   <!--  <div class="col-sm-3">
-      <div class="News panel-aside" style="width: 100%;">
-        <header class="aside-header">
-        <div class="header__bg"></div>
-        <h3 class="aside-heading">News</h3>
-        </header>
-        <div class="News-list" style="height: 400px; overflow-y: scroll; background-color: #5d8aa8;">
-                        <ul class="News fa-ul">
-                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
-                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
-                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li> <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
-                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li> <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
-                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li> 
-                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
-                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
-                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                         <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp;<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.</li>
-                        <li><i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.</li>
-                        
-                        </ul>
-        </div>
-      </div>
-    </div>
-    -->  
    <div class="col-sm-12"> 
     <h1 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Academics</h1>
   </div>
@@ -488,7 +302,7 @@ It welcomes and accepts applications for admission to PhD program throughout the
 
 
   </script>
-  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="events.js"></script>
  
 </body>
 
