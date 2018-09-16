@@ -240,8 +240,10 @@
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <font size="3">Programs</font><b class="caret" style="color: white;"></b></a> 
           <ul class="dropdown-menu dropdown1">
-            <li><a href="phd_program.php">PhD</a></li>
+            
             <li><a href="btech_program.php">BTech</a></li>
+            <li><a href="ms_program.php">MS</a></li>
+            <li><a href="phd_program.php">PhD</a></li>
             
             
           </ul>
