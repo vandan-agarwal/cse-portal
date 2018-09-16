@@ -31,9 +31,9 @@
 
             <ul class="quick-links" style="list-style-type: none; text-decoration: none; margin-left: -40px;">
                          <li> <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="http://iiti.ac.in/" target="_newTab" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">IITI-Home </a></li>
-                        <li> <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="https://www.facebook.com/iitiofficial/"  target="_newTab" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">Social-media </a></li></li>
-                         <li> <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="http://progclub.iiti.ac.in/" target="_newTab" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">Programming club</a></li></li>
-                         <li><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="reach_iiti.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">How to reach....</a></li></li>
+                        <li> <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="cse_courses.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">Courses</a></li></li>
+                         <li> <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="research_area.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">Research Areas</a></li></li>
+                         <li><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="reach_iiti.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">How to reach</a></li></li>
             </ul>
         </div>
         <div class="copyrights col-sm-12" style="margin-top:10px;">

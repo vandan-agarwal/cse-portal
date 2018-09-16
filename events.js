@@ -193,20 +193,3 @@ var Events = new Vue({
     }
 })
 
-//Faculty-members-object
-var FacultyMembers = new Vue({
-    el: '#FacultyMembers',
-    data: {
-      FacultyList:
-      [    { 
-            name: ">Dr. Narendra S. Chaudhari",
-            img: 'faculty_pics/nsc.jpg',
-            phdFrom: "IIT Bombay",
-            currentPost: "Professor (currently on deputation to VNIT Nagpur as Director)" ,
-            ResearchInterest: "Algorithms, Theoretical Computer Science, Soft Computing, Game Artificial Intellignce (AI)." ,
-            email: "nsc@iiti.ac.in",
-            profileLink: "http://iiti.ac.in/people/~narendra/"
-        }
-        ]
-    }
-})

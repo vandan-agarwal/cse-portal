@@ -7,9 +7,9 @@ Vue.component('faculty-item',{
                 '<div class="cardnew-heading" style="height: 39px;">'+
                     '<a v-bind:href="Faculty.profileLink"  style="text-decoration: none;  top: 500px;" ><h3 class="cardnew-header">{{Faculty.name}}</h3></a>'+ 
                 '</div>'+
-                '<div class="cardnew-content" style="height: 170px; to0p: 300px; overflow-y: scroll; text-align: left; padding-left: 10%;">'+
+                '<div class="cardnew-content" style="height: 170px; top: 300px; overflow-y: scroll; text-align: left; padding-left: 10%;">'+
                     '<em>PhD, {{Faculty.phdFrom}}</em><br/>'+
-                    '<em>{{Faculty.currentPost}}</em><br/>'+
+                    '<span v-html="Faculty.currentPost"></span><br/>'+
                     '<strong>Research Interests : </strong>{{Faculty.ResearchInterest}}<br/>'+
                     '<strong>e-mail:</strong> {{Faculty.email}}<br/>'+
                 '</div>'+

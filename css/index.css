@@ -1,4 +1,4 @@
-
+  
 
 .panel-body ul{
     /*color: red;*/
@@ -227,25 +227,28 @@ font-family: 'Play', sans-serif;
 .News{
   list-style-type: none;
   margin-left: -10px;
+  padding-top: 2px;
   margin-bottom: 15px;
 }
 .News li{
   list-style-type: none;
   margin-left: -25px;
   font-size: 1em;
-  color: white;
+  color: #013953;
+  background-image: linear-gradient(to top left,#9cb7c9, #ffffff);
   padding: 10px 0 10px 5px;
   }
   .News>li:nth-child(even) {
+     background-image: linear-gradient(to bottom right,#ffffff,#eef3f6); 
   }
   .News li>a{
   font-size: 1.1em;
-  color: white;
+  color: #013953;
   padding: 3px 0 5px 0;
   }
   .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: white;
-    background-image: linear-gradient(to bottom, #013953, #013953);
+    background-image: linear-gradient(to bottom, #013953, #5d8aa8);
 }
 .nav-pills>li>a {
     border-radius: 0px;

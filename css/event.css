@@ -11,11 +11,13 @@
     	box-sizing: border-box;
     	padding-top: 10px;
     	padding-bottom: 10px;
-    	box-shadow: 2px 1px 1px 0px #013953;
-    }
+    	background-image: linear-gradient(to bottom right,#eff3f6,#ffffff); 
+/*    	box-shadow: 2px 1px 1px 0px #013953;
+*/    }
     .eventnew:nth-child(even){
-		box-shadow: -2px -1px 1px 0px #5d8aa8;
-	}
+    	 background-image: linear-gradient(to bottom right, #ffffff,#9cb7c9);
+		/*box-shadow: -2px -1px 1px 0px #5d8aa8;
+	*/}
     /*.event-list {
 		list-style: none;
 		font-family: 'Lato', sans-serif;
