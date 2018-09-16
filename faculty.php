@@ -1,6 +1,3 @@
-5
-
-
 <html lang="en">
 <!DOCTYPE html>
 <head>
@@ -42,29 +39,6 @@
     <div class="row">
         <?php include('menu1.php'); ?>
 
-
-<!-- 
- <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-<head>
-<meta charset="UTF-8" />
-<title>Discipline of Computer Science and Engineering (CSE), IIT Indore.</title>
-
-<script type="text/javascript" src="	jsfunctions.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="cseweb.css" />
-<link rel="stylesheet" type="text/css" href="footer.css" />
-
-<style type="text/css" media="all">
-</style>
-</head>
-<body class="page page-id-150 page-template page-template-default">
-  <script type="text/javascript">
-    toptext();
-  </script>
- <script type="text/javascript">
-    topmenu();
-  </script>
- -->
  <div class="row" style="margin-top: 15px;" id="FacultyMembers">
  	<h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Faculty Members</h2>
  	<!--Faculty's data can be edited from FacultyMembers instance of faculty-members.js -->

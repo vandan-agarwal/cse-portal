@@ -184,16 +184,16 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle  trial" data-toggle="dropdown"><font size="3">People</font>  <b class="caret" style="color: white;"></b> </a> 
           <ul class="dropdown-menu dropdown1" id="Peoples">
-            <li><a href="faculty.php" target="_blank"> Faculty</a></li>
-            <li><a href="staff.php" target="_blank">Staff</a></li>
-			       <li><a href="phdstudents.php" target="_blank" >PhD Students </a></li>
+            <li><a href="faculty.php"> Faculty</a></li>
+            <li><a href="staff.php">Staff</a></li>
+			       <li><a href="phdstudents.php" >PhD Students </a></li>
 				   <li class="dropdown dropdown-submenu">
             <a href="#" class="dropdown-toggle " data-toggle="dropdown">B. Tech Students</a>
             <ul class="dropdown-menu dropdown2">
-              <li><a href="btech_stu_2014.php">2014 Btach</a></li>
-              <li><a href="btech_stu_2015.php">2015 Btach</a></li>
-			  <li><a href="btech_stu_2016.php">2016 Btach</a></li>
-			  <li><a href="btech_stu_2017.php">2017 Btach</a></li>
+              <li><a href="btech_stu_2014.php">2014 B.tech</a></li>
+              <li><a href="btech_stu_2015.php">2015 B.tech</a></li>
+			  <li><a href="btech_stu_2016.php">2016 B.tech</a></li>
+			  <li><a href="btech_stu_2017.php">2017 B.tech</a></li>
               
 			  </ul>
             		

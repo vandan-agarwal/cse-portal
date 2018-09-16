@@ -159,6 +159,7 @@
 	      <div class="News-list" style="height: 400px; overflow-y: scroll;    background-image:  linear-gradient(to bottom, #eff3f6,#9cb7c9); box-sizing: border-box; border: 1px solid #5d8aa8;
 	 ">
 	                        <ul class="News fa-ul" id="NEWS">	
+	                        	<!--news can be edited the News instance of  news.js-->
 	                        	<news-item v-for="News in NewsList"
                     v-bind:news="News"
                     v-bind:key="News.id">
@@ -171,14 +172,12 @@
 	          <div class="News-list" style="height: 400px; overflow-y: scroll;    background-image:  linear-gradient(to bottom, #eff3f6,#9cb7c9);box-sizing: border-box; border: 1px solid #5d8aa8;
 	 ">
 	          <ul class="News fa-ul" style="margin-top: 20px;" id="RECRUITMENTS">
-
+	          					<!--recruitments can be edited the Recruitments instance of  recruitments.js-->
 	          					<recruitments-item v-for="Recruitment in RecruitmentsList"
                     v-bind:recruitment="Recruitment"
                     v-bind:key="Recruitment.id">
      </recruitments-item>
-	                         <!-- <li><i class="far fa-newspaper"></i>&nbsp; <a href="phdadmissionwebsite/2017_10/adv.html">PhD Admission Advertisement</a> </li>
-	                        <li><i class="far fa-newspaper"></i>&nbsp; <a href="http://www.iiti.ac.in/Careers/careers.php">Faculty Recruitment </a></li>
-	                        <li><i class="far fa-newspaper"></i>&nbsp; <a href="http://academic.iiti.ac.in:8080/Admm/28_3_2018%20Advertisement-for%20MTech-Admission.pdf">MS admission advertisement</a></li> -->
+	                         
 	                      </ul>
 	                    </div>
 	  `        

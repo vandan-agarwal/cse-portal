@@ -254,6 +254,9 @@ font-family: 'Play', sans-serif;
     border-radius: 0px;
     color: #013953;
 }
+.slick-prev {
+    left: -30px;
+}
 .nav-pills>li+li {
     margin-left: 0;}
 

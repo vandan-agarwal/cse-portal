@@ -1,6 +1,10 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Abel|Merienda|Monoton|Pacifico|Raleway" rel="stylesheet">
+    
+       <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.css">
+        <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
     <style>
+
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 .bg-lightgray
 {
@@ -30,10 +34,10 @@
             <h3 style="text-decoration: underline;"> Quick-links</h3>
 
             <ul class="quick-links" style="list-style-type: none; text-decoration: none; margin-left: -40px;">
-                         <li> <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="http://iiti.ac.in/" target="_newTab" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">IITI-Home </a></li>
-                        <li> <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="cse_courses.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">Courses</a></li></li>
-                         <li> <span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="research_area.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">Research Areas</a></li></li>
-                         <li><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="reach_iiti.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;">How to reach</a></li></li>
+                         <li> <i class="fas fa-link" style="padding-right: 8px"></i><a href="http://iiti.ac.in/" target="_newTab" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; font-weight: 550; color: white;">IITI-Home </a></li>
+                        <li> <i class="fas fa-link" style="padding-right: 8px"></i><a href="cse_courses.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white;font-weight: 550;">Courses</a></li></li>
+                         <li> <i class="fas fa-link" style="padding-right: 8px"></i><a href="research_area.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white; font-weight: 550;">Research Areas</a></li></li>
+                         <li><i class="fas fa-link" style="padding-right: 8px"></i><a href="reach_iiti.php" style="font-family: 'Raleway', sans-serif; text-decoration-style: : none; font-size: 1em; color: white; font-weight: 550;">How to reach</a></li></li>
             </ul>
         </div>
         <div class="copyrights col-sm-12" style="margin-top:10px;">

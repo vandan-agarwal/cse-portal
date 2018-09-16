@@ -1,4 +1,4 @@
-//recruitments component
+    //recruitments component
 Vue.component('recruitments-item',{
     props: ['recruitment'],
     template: '<li><i class="far fa-newspaper" style="padding-right: 10px;"></i><span v-html="recruitment.content"></span></li>'
@@ -6,7 +6,7 @@ Vue.component('recruitments-item',{
 
 
 //recruitments object
-var recruitments = new Vue({
+var Recruitments = new Vue({
     el: '#RECRUITMENTS',
     data: {
       RecruitmentsList:

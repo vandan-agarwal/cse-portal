@@ -23,7 +23,16 @@ var FacultyMembers = new Vue({
     el: '#FacultyMembers',
     data: {
       FacultyList:
-      [    { 
+      [ { 
+           name: "Dr. Narendra S. Chaudhari",
+           img: 'faculty_pics/nsc.jpg',
+           phdFrom: "IIT Bombay",
+           currentPost: "Professor (currently on deputation to VNIT Nagpur as Director)" ,
+           ResearchInterest: "Algorithms, Theoretical Computer Science, Soft Computing, Game Artificial Intellignce (AI)." ,
+           email: "nsc@iiti.ac.in",
+           profileLink: "http://iiti.ac.in/people/~narendra/"
+        }, 
+        { 
             name: "Dr. Abhishek Srivastava",
             img: 'faculty_pics/abhishek.jpg',
             phdFrom: "University of Alberta, Edmonton, Canada",
@@ -51,24 +60,24 @@ var FacultyMembers = new Vue({
             profileLink: "http://www.iiti.ac.in/people/~asengupt"
         }, 
         { 
-            name: "Dr. Bodhisatwa Mazumdar",
-            img: 'faculty_pics/bodhi.jpg',
-            phdFrom: "IIT Kharagpur",
-            currentPost: "Associate Professor " ,
-            ResearchInterest: "Hardware Security, Side-channel Analysis, Cryptography, Digital VLSI Design." ,
-            email: "bodhisatwa@iiti.ac.in",
-            profileLink: "http://iiti.ac.in/people/~bodhisatwa/"
-        }, 
-        { 
-            name: "Dr. Gourinath Banda",
-            img: 'faculty_pics/gourinath.jpg',
-            phdFrom: "CBIT, Roskilde University",
-            currentPost: "Associate Professor " ,
-            ResearchInterest: "Embedded Systems (Cyber-physical systems, Internet-of-Things, Wireless Sensor Networks, etc.) and theirÂ Formal Verification (Model Checking, Abstract Interpretation, Program Transformation and Generation, Program Analysis),Â Semantics-based Emulation of Languages and Systems." ,
-            email: "gourinath@iiti.ac.in",
-            profileLink: "http://iitiiot.bitbucket.org/index.html"
+            name: "Dr. Surya Prakash",
+            img: 'faculty_pics/surya.jpg',
+            phdFrom: "IIT Kanpur",
+            currentPost: "Assistant Professor and <b>Head</b>" ,
+            ResearchInterest: "Pattern Recognition, Computer Vision, Image Processing, Biometrics." ,
+            email: "surya@iiti.ac.in",
+            profileLink: "http://www.iiti.ac.in/people/~surya"
         },
-         { 
+        { 
+            name: "Dr. Somnath Dey",
+            img: 'faculty_pics/somnath.jpg',
+            phdFrom: "IIT Kharagpur",
+            currentPost: "Assistant Professor " ,
+            ResearchInterest: "Human Computer Interaction, Image Processing, Computer Graphics, Biometric Security." ,
+            email: "somnathd@iiti.ac.in",
+            profileLink: "http://www.iiti.ac.in/people/~asrivastava"
+        },
+        { 
             name: "Dr. Kapil Ahuja",
             img: 'faculty_pics/kapil.jpg',
             phdFrom: "Virginia Tech",
@@ -78,13 +87,13 @@ var FacultyMembers = new Vue({
             profileLink: "http://www.iiti.ac.in/people/~kahuja/"
         },
         { 
-           name: "Dr. Narendra S. Chaudhari",
-           img: 'faculty_pics/nsc.jpg',
-           phdFrom: "IIT Bombay",
-           currentPost: "Professor (currently on deputation to VNIT Nagpur as Director)" ,
-           ResearchInterest: "Algorithms, Theoretical Computer Science, Soft Computing, Game Artificial Intellignce (AI)." ,
-           email: "nsc@iiti.ac.in",
-           profileLink: "http://iiti.ac.in/people/~narendra/"
+            name: "Dr. Gourinath Banda",
+            img: 'faculty_pics/gourinath.jpg',
+            phdFrom: "CBIT, Roskilde University",
+            currentPost: "Associate Professor " ,
+            ResearchInterest: "Embedded Systems (Cyber-physical systems, Internet-of-Things, Wireless Sensor Networks, etc.) and theirÂ Formal Verification (Model Checking, Abstract Interpretation, Program Transformation and Generation, Program Analysis),Â Semantics-based Emulation of Languages and Systems." ,
+            email: "gourinath@iiti.ac.in",
+            profileLink: "http://iitiiot.bitbucket.org/index.html"
         },
         { 
            name: "Dr. Neminath Hubballi",
@@ -95,25 +104,15 @@ var FacultyMembers = new Vue({
            email: "neminath@iiti.ac.in",
            profileLink: "http://iiti.ac.in/people/~neminath/"
         },
-         { 
-            name: "Dr. Somnath Dey",
-            img: 'faculty_pics/somnath.jpg',
+        { 
+            name: "Dr. Bodhisatwa Mazumdar",
+            img: 'faculty_pics/bodhi.jpg',
             phdFrom: "IIT Kharagpur",
-            currentPost: "Assistant Professor " ,
-            ResearchInterest: "Human Computer Interaction, Image Processing, Computer Graphics, Biometric Security." ,
-            email: "somnathd@iiti.ac.in",
-            profileLink: "http://www.iiti.ac.in/people/~asrivastava"
-        },
-         { 
-            name: "Dr. Surya Prakash",
-            img: 'faculty_pics/surya.jpg',
-            phdFrom: "IIT Kanpur",
-            currentPost: "Assistant Professor and <b>Head</b>" ,
-            ResearchInterest: "Pattern Recognition, Computer Vision, Image Processing, Biometrics." ,
-            email: "surya@iiti.ac.in",
-            profileLink: "http://www.iiti.ac.in/people/~surya"
-        }
-        
+            currentPost: "Associate Professor " ,
+            ResearchInterest: "Hardware Security, Side-channel Analysis, Cryptography, Digital VLSI Design." ,
+            email: "bodhisatwa@iiti.ac.in",
+            profileLink: "http://iiti.ac.in/people/~bodhisatwa/"
+        }   
         ]
     }
 })
