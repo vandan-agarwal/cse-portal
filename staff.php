@@ -22,7 +22,6 @@
         .card-header h2{
             font-size: 1em;
         }
- 
 </style>
 
 </head>

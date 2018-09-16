@@ -16,8 +16,7 @@
 <style type="text/css" media="all">
 #research_areas
 {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left:50px;
+  font-family: Arial, Helvetica,
   width:850px; 
   color: #013953; 
   border-collapse:collapse;

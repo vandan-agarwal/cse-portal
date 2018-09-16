@@ -11,7 +11,7 @@
 #research_areas
 {
   font-family: Arial, Helvetica, sans-serif;
-  margin-left:50px;
+  margin: auto;
   width:850px;  
   border-collapse:collapse;
 }

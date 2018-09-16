@@ -12,7 +12,7 @@
     border-radius: 0px;
     margin-bottom: 0;
     color: white;
-    background: linear-gradient(to bottom, #5d8aa8, #013953);
+    background: linear-gradient(to bottom,#013953,#5d8aa8);
 }
 }
 </style>
