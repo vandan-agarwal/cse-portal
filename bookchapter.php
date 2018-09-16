@@ -1,76 +1,40 @@
-<style type="text/css">
-  .img-htr{
-      /*background-color: red!important;*/
-      height:130px;
-      width:120px;
-  }
-
-  .panel-success{
-    border-radius: 0px!important;
-  }
-</style>
-
-
-
 <html lang="en">
 <!DOCTYPE html>
-<body>
-
-    <!-- Navigation -->
-
-    <!-- Page Content -->
-    <?php include('header.php') ; ?>
-    <div class="container" style="background-color:white; margin-top:-20px;">
-
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <?php include('menu1.php'); ?>
-		<!DOCTYPE html>
-<html>
 <head>
-<title>Discipline of Computer Science and Engineering (CSE), IIT Indore.</title>
-
-<script type="text/javascript" src="jsfunctions.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="cseweb.css" />
-<link rel="stylesheet" type="text/css" href="footer.css" />
-<style type="text/css">
-<!--
-.style2 {font-size: 14px; }
--->
-</style>
+  <link href="css/card.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
+ <style type="text/css">
+ .nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
+    color: #013953; 
+ }
+ .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-image:  linear-gradient(to top left, #013953, #5d8aa8); 
+ }
+ ol{
+    color: #013953;
+   }
+  
+   
+ </style>
+ }
 </head>
 <body>
-<!-------------------Header Text------------------------------------------------------------------------->
-  <!-- call toptext() -->
-  <script type="text/javascript">
-	<!--
-    toptext();
-	//-->
-  </script>
-<!-------------------Header Text End---------------------------------------------------------------------> 
-
-<!------------------Header Menu-------------------------------------------------------------------------->
-<!-- call topmenu() -->
- <script type="text/javascript">
-	<!--
-    topmenu();
-	//-->
-  </script>
-
-<!-----------------Header Menu End----------------------------------------------------------------------> 
-
-
-<!-----------------Main Body Content-------------------------------------------------------------------->
-   
-<div id="content"><!-- Size could be varied as here height is specified only for viewing purposes-->
-	<h2 class="contenthead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <a href="journal.php">Journal</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="conference.php"> Conference</a> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="patent.php">Patent</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="book.php">Books</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="bookchapter.php"><font color="#F47321">Book Chapters</font></a></h2>
-</div>
-   
-<!-------  -----------------------List of publications-----------------------------------------------------> 
-
-<div id="content"><!-- Size could be varied as here height is specified only for viewing purposes-->
-
-<ol style="margin-left:50px;margin-right:30px;"> 
+   <?php include('header.php') ; ?>
+    <div class="container" style="background-color:white;">
+    <div class="row">
+        <?php include('menu1.php'); ?>
+      <ul class="nav nav-pills" style="margin-top: 15px; border-bottom: 2px groove #5d8aa8;">
+      <li><a style="border-radius: 0%; text-align: center; font-size: 1.5em;" href="journal.php">Journals</a></li>
+      <li><a style="border-radius: 0%; text-align: center; font-size: ;  font-size: 1.5em;" href="#conference.php">Conferences</a></li>
+      <li><a style="border-radius: 0%; text-align: center;  font-size: 1.5em;" href="patent.php">Patents</a></li>
+      <li><a style="border-radius: 0%; text-align: center; font-size: 1.5em; "   href="book.php">Books</a></li>
+      <li class="active"><a style="border-radius: 0%; text-align: center; font-size: 1.5em;" data-toggle="pill" href="#bookchapters">Book Chapters</a></li>
+    </ul>
+    <div class="tab-content">
+     <div id="bookchapters" class="tab-pane fade in active">
+    <ol style="margin-top: 20px;"> 
 
 <li class="style2">Anirban Sengupta, Dipanjan Roy <em><strong>"Low Cost Dual-Phase Watermark for Protecting CE Devices in IoT Framework"</strong></em>, Springer Book: Security and Fault Tolerance in Internet of Things, Invited Book Chapter, March 2018.</li>
 <br>
@@ -103,35 +67,11 @@
 <li class="style2">Arpit Bhardwaj and Aruna Tiwari, <em><strong>&quot;A Novel Genetic Programming Based Classifier Design Using a New Constructive  Crossover Operator with a Local Search Technique&quot;</strong></em>,&nbsp;&nbsp; De-Shuang Huang,  Vitoantonio Bevilacqua, Juan Carlos Figueroa, Prashan Premaratne, &nbsp;  Springer-Verlag Berlin Heidelberg, &nbsp; 978-3-642-39479-9, 28-31 July2013.</li>
 </br>
 </ol>
-<?php include('footer.php') ; ?>
+
 </div>
-
-<!---------------------------------------------- Journal Publications ---------------------------------------------->
-
-   
-<!-----------------Main Body Content End----------------------------------------------------------------------> 
-
- 
-<!----------------------------Footer Menu-------------------------------------------------------------------------->
-
-<!-- call bottommenu() -->
- <script type="text/javascript">
-	<!--
-    bottommenu();
-	//-->
-  </script>
-
-<!----------------------------Footer Menu End---------------------------------------------------------------------->
-<!-------------------------- Footer Copyright Text------------------------------------------------------------>
-
-<!-- call bottomtext() -->
- <script type="text/javascript">
-	<!--
-    bottomtext();
-	//-->
-  </script>
-<!-------------------------- Footer Copyright Text End------------------------------------------------------------>
-
-    
+ </div>
+</div>
+</div>
+  <?php include('footer.php') ; ?>    
 </body>
-</html>
+</html> 

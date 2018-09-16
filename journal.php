@@ -1,85 +1,42 @@
-<style type="text/css">
-  .img-htr{
-      /*background-color: red!important;*/
-      height:130px;
-      width:120px;
-  }
-
-  .panel-success{
-    border-radius: 0px!important;
-  }
-</style>
-
-
-
 <html lang="en">
 <!DOCTYPE html>
-<body>
-
-    <!-- Navigation -->
-
-    <!-- Page Content -->
-    <?php include('header.php') ; ?>
-    <div class="container" style="background-color:white; margin-top:-20px;">
-
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <?php include('menu1.php'); ?>
-
-
-
-<!DOCTYPE html>
-<html>
 <head>
-<title>Discipline of Computer Science and Engineering (CSE), IIT Indore.</title>
-
-<script type="text/javascript" src="jsfunctions.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="cseweb.css" />
-<link rel="stylesheet" type="text/css" href="footer.css" />
-<style type="text/css">
-<!--
-.style2 {font-size: 14px; }
-.style4 {font-size: 14px; color: #4C3300; }
-.style6 {color: #4C3300}
--->
-</style>
+  <link href="css/card.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
+ <style type="text/css">
+ .nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
+    color: #013953; 
+ }
+ .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-image:  linear-gradient(to top left, #013953, #5d8aa8); 
+ }
+ ol{
+    color: #013953;
+   }
+  
+   
+ </style>
+ }
 </head>
 <body>
-<!-------------------Header Text------------------------------------------------------------------------->
-  <!-- call toptext() -->
-  <script type="text/javascript">
-	<!--
-    toptext();
-	//-->
-  </script>
-<!-------------------Header Text End---------------------------------------------------------------------> 
-
-<!------------------Header Menu-------------------------------------------------------------------------->
-<!-- call topmenu() -->
- <script type="text/javascript">
-	<!--
-    topmenu();
-	//-->
-  </script>
-
-<!-----------------Header Menu End----------------------------------------------------------------------> 
+   <?php include('header.php') ; ?>
+    <div class="container" style="background-color:white;">
+    <div class="row">
+        <?php include('menu1.php'); ?>
+      <ul class="nav nav-pills" style="margin-top: 15px; border-bottom: 2px groove #5d8aa8;">
+      <li class="active"><a style="border-radius: 0%; text-align: center; font-size: 1.5em;"data-toggle="pill" href="#journals">Journals</a></li>
+      <li ><a style="border-radius: 0%; text-align: center; font-size: ;  font-size: 1.5em;"  href="conference.php">Conferences</a></li>
+      <li><a style="border-radius: 0%; text-align: center;  font-size: 1.5em;" href="patent.php">Patents</a></li>
+      <li><a style="border-radius: 0%; text-align: center; font-size: 1.5em; "  href="book.php">Books</a></li><li><a style="border-radius: 0%; text-align: center; font-size: 1.5em;" href="bookchapter.php">Book Chapters</a></li>
+    </ul>
+    <div class="tab-content">
+     <div id="journals" class="tab-pane fade in active">
+   <ol id="journals-list" style="margin-top: 20px;">
 
 
-<!-----------------Main Body Content-------------------------------------------------------------------->
-   
-<div id="content"><!-- Size could be varied as here height is specified only for viewing purposes-->
-	<h2 class="contenthead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <a href="journal.php"><font color="#F47321">Journal</font></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="conference.php"> Conference</a> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="patent.php">Patent</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="book.php">Books</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="bookchapter.php">Book Chapters</a></h2>
-</div>
-   
-<!-------  -----------------------List of publications-----------------------------------------------------> 
-
-
-<!---------------------------------------------- Journal Publications ---------------------------------------------->
-<div id="content"><!-- Size could be varied as here height is specified only for viewing purposes-->
-  <ol style="margin-left:50px;margin-right:30px;">
-
-
-  		<li class="style2">Syed Sadaf Ali and Surya Prakash,  <em><strong>"3-Dimensional Secured Fingerprint Shell",</strong></em>  Pattern Recognition Letters, 2018 (Accepted). <a href="https://www.sciencedirect.com/science/article/pii/S0167865518301375?via%3Dihub">[Link]</a></li>
+      <li class="style2">Syed Sadaf Ali and Surya Prakash,  <em><strong>"3-Dimensional Secured Fingerprint Shell",</strong></em>  Pattern Recognition Letters, 2018 (Accepted). <a href="https://www.sciencedirect.com/science/article/pii/S0167865518301375?via%3Dihub">[Link]</a></li>
         </br>
 
         <li class="style2">Iyyakutti Iyappan G and Surya Prakash,  <em><strong>"3D Ear Recognition using Global and Local Features",</strong></em>  IET Biometrics, IET, 2018 (Accepted). <a href="http://www.iiti.ac.in/people/~surya/publications.html">[Link]</a></li>
@@ -179,18 +136,8 @@
 
     <li class="style2">Anirban Sengupta "<em><strong>Hardware Vulnerabilities and its Effect on CE Devices: Design-for-Security against Trojan"</strong></em>,&nbsp;IEEE Consumer Electronics, Accepted, Oct 2017.</li>
     <br>
-
-    
-
-      
-
-
-
     <li class="style2">Anirban Sengupta "<em><strong>Hardware Security of CE Devices: Threat Models and Defence against IP Trojans and IP Piracy"</strong></em>, IEEE Consumer Electronics, Accepted, Sep 2017.</li>
     <br>
-
-   
-
     <li class="style2">Anirban Sengupta, Dipanjan Roy "<em><strong>Automated Low Cost Scheduling Driven Watermarking Methodology for Modern CAD High-Level Synthesis Tools"</strong></em>&nbsp;Elsevier Journal of Advances in Engineering Software, Accepted, June 2017.</li>
     <br>
 
@@ -332,35 +279,10 @@
     </span>
     <li class="style2">Narendra S. Chaudhari, <i><strong>&quot;Improved polynomial algorithm for 3-SAT&quot;</strong></i>, The Journal of the Indian Academy of Mathematics, Vol. 32, No. 1 (Oct. 2010) pp. 251-267.  
   </ol>
-  <?php include('footer.php') ; ?>
 </div>
-   
-
-
-   
-<!-----------------Main Body Content End----------------------------------------------------------------------> 
-
- 
-<!----------------------------Footer Menu-------------------------------------------------------------------------->
-
-<!-- call bottommenu() -->
- <script type="text/javascript">
-	<!--
-    bottommenu();
-	//-->
-  </script>
-
-<!----------------------------Footer Menu End---------------------------------------------------------------------->
-<!-------------------------- Footer Copyright Text------------------------------------------------------------>
-
-<!-- call bottomtext() -->
- <script type="text/javascript">
-	<!--
-    bottomtext();
-	//-->
-  </script>
-<!-------------------------- Footer Copyright Text End------------------------------------------------------------>
-
-    
+ </div>
+</div>
+</div>
+  <?php include('footer.php') ; ?>    
 </body>
-</html>
+</html> 

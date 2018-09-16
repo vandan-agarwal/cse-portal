@@ -210,7 +210,7 @@
 		      	<ul class="dropdown-menu dropdown2">
 		    	  <li><a href="srprojects.php">Research Projects</a></li>
             <li><a href="gian.php">GIAN Projects</a></li>
-			      <li><a href="patent.php">Fellowships</a></li>
+			      <li><a href="Fellowships.php">Fellowships</a></li>
             </ul>
 		      	</li>
 				    <li class="dropdown dropdown-submenu">

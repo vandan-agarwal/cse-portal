@@ -1,58 +1,26 @@
-<style type="text/css">
-  .img-htr{
-      /*background-color: red!important;*/
-      height:130px;
-      width:120px;
-  }
-
-  .panel-success{
-    border-radius: 0px!important;
-  }
-</style>
-
-
-
 <html lang="en">
 <!DOCTYPE html>
-<body>
-
-    <!-- Navigation -->
-
-    <!-- Page Content -->
-    <?php include('header.php') ; ?>
-    <div class="container" style="background-color:white;">
-
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <?php include('menu1.php'); ?>
-		<!DOCTYPE html>
-<html>
 <head>
-<title>Discipline of Computer Science and Engineering (CSE), IIT Indore.</title>
-
-<script type="text/javascript" src="jsfunctions.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="cseweb.css" />
-<link rel="stylesheet" type="text/css" href="footer.css" />
-
-<style type="text/css">
-#inner_content
-{
-	padding:20px;
+  <link href="css/card.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style type="text/css">
+#research_areas font{
+  color: #013953;
 }
-</style>
-<style type="text/css" media="all">
 #research_areas
 {
   font-family: Arial, Helvetica, sans-serif;
   margin-left:50px;
   width:850px;  
+  color: #013953;
   border-collapse:collapse;
 }
 #research_areas th
 {
-  color:#f47321;
+  color:#013953;
   text-align:left;
-  height:50px;
+  font-size: 1.4em;
 }
 #research_areas tr
 {
@@ -65,36 +33,15 @@
 }
 </style>
 </head>
-
-
 <body>
-<!-------------------Header Text------------------------------------------------------------------------->
-  <!-- call toptext() -->
-  <script type="text/javascript">
-	<!--
-    toptext();
-	//-->
-  </script>
-<!-------------------Header Text End---------------------------------------------------------------------> 
+    <?php include('header.php') ; ?>
+    <div class="container" style="background-color:white;">
+    <div class="row">
+        <?php include('menu1.php'); ?>
 
-<!------------------Header Menu-------------------------------------------------------------------------->
-<!-- call topmenu() -->
- <script type="text/javascript">
-	<!--
-    topmenu();
-	//-->
-  </script>
-
-<!-----------------Header Menu End----------------------------------------------------------------------> 
-
-
-<!-----------------Main Body Content-------------------------------------------------------------------->
-
-<div id="content">
-<h2 class="contenthead">Research Areas</h2>
+<h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Research Areas</h2>
 <div id="inner_content">
-Discipline of Computer Science and Engineering at IIT Indore is actively contributing in several important research areas listed below. 
-
+<div class="container table-responsive" style="margin-top: 15px;">
 <table id="research_areas">
 <tr><th>Research Areas</th><th>Faculty Members</th></tr>
 <tr><td>Algorithms and Complexity               </td> <td> 
@@ -209,32 +156,9 @@ Static Analysis                    </td><td> <a href="http://iitiiot.bitbucket.o
 </tr>
 </table>
 </div>
-  <?php include('footer.php') ; ?>
 </div>
-   
- <!-----------------Main Body Content End---------------------------------------------------------------------->  
-   
- 
-<!----------------------------Footer Menu-------------------------------------------------------------------------->
-
-<!-- call bottommenu() -->
- <script type="text/javascript">
-	<!--
-    bottommenu();
-	//-->
-  </script>
-
-<!----------------------------Footer Menu End---------------------------------------------------------------------->
-<!-------------------------- Footer Copyright Text------------------------------------------------------------>
-
-<!-- call bottomtext() -->
- <script type="text/javascript">
-	<!--
-    bottomtext();
-	//-->
-  </script>
-<!-------------------------- Footer Copyright Text End------------------------------------------------------------>
-
-    
+</div>
+</div>
+  <?php include('footer.php') ; ?>
 </body>
 </html>

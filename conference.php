@@ -1,79 +1,39 @@
-<style type="text/css">
-  .img-htr{
-      /*background-color: red!important;*/
-      height:130px;
-      width:120px;
-  }
-
-  .panel-success{
-    border-radius: 0px!important;
-  }
-</style>
-
-
-
 <html lang="en">
 <!DOCTYPE html>
-<body>
-
-    <!-- Navigation -->
-
-    <!-- Page Content -->
-    <?php include('header.php') ; ?>
-    <div class="container" style="background-color:white; margin-top:-20px;">
-
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <?php include('menu1.php'); ?>
-		<!DOCTYPE html>
-<html>
 <head>
-<title>Discipline of Computer Science and Engineering (CSE), IIT Indore.</title>
-
-<script type="text/javascript" src="jsfunctions.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="cseweb.css" />
-<link rel="stylesheet" type="text/css" href="footer.css" />
-<style type="text/css">
-<!--
-.style2 {font-size: 14px; }
--->
-</style>
+  <link href="css/card.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
+ <style type="text/css">
+ .nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
+    color: #013953; 
+ }
+ .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-image:  linear-gradient(to top left, #013953, #5d8aa8); 
+ }
+ ol{
+    color: #013953;
+   }
+  
+   
+ </style>
+ }
 </head>
 <body>
-<!-------------------Header Text------------------------------------------------------------------------->
-  <!-- call toptext() -->
-  <script type="text/javascript">
-	<!--
-    toptext();
-	//-->
-  </script>
-<!-------------------Header Text End---------------------------------------------------------------------> 
-
-<!------------------Header Menu-------------------------------------------------------------------------->
-<!-- call topmenu() -->
- <script type="text/javascript">
-	<!--
-    topmenu();
-	//-->
-  </script>
-
-<!-----------------Header Menu End----------------------------------------------------------------------> 
-
-
-<!-----------------Main Body Content-------------------------------------------------------------------->
-   
-<div id="content"><!-- Size could be varied as here height is specified only for viewing purposes-->
-	<h2 class="contenthead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <a href="journal.html">Journal</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="conference.php"> <font color="#F47321">Conference</font></a> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="patent.php">Patent</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="book.php">Books</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="bookchapter.php">Book Chapters</a></h2>
-</div>
-   
-   
-
-<!-------------------------------------- Conference Publications ---------------------------------------->   
-<div id="content"><!-- Size could be varied as here height is specified only for viewing purposes-->
-  <br>
-<ol style="margin-left:50px;margin-right:30px;">
-  
-
+   <?php include('header.php') ; ?>
+    <div class="container" style="background-color:white;">
+    <div class="row">
+        <?php include('menu1.php'); ?>
+      <ul class="nav nav-pills" style="margin-top: 15px; border-bottom: 2px groove #5d8aa8;">
+      <li ><a style="border-radius: 0%; text-align: center; font-size: 1.5em;" href="journal.php">Journals</a></li>
+      <li class="active"><a style="border-radius: 0%; text-align: center; font-size: ;  font-size: 1.5em;" data-toggle="pill" href="#conferences">Conferences</a></li>
+      <li><a style="border-radius: 0%; text-align: center;  font-size: 1.5em;" href="patent.php">Patents</a></li>
+      <li><a style="border-radius: 0%; text-align: center; font-size: 1.5em; "  href="book.php">Books</a></li><li><a style="border-radius: 0%; text-align: center; font-size: 1.5em;" href="bookchapter.php">Book Chapters</a></li>
+    </ul>
+    <div class="tab-content">
+     <div id="conferences" class="tab-pane fade in active">
+    <ol style="margin-top: 20px;">
   <li class="style2">Dipanjan Roy, Anirban Sengupta <em><strong>"Reusable Intellectual Property Core Protection for Both Buyer and Seller",</strong></em> Proc. 36th IEEE International Conference on Consumer Electronics (ICCE) 2018, Las Vegas, Accepted, Jan 2018.</li>
    <br>
 
@@ -407,7 +367,7 @@
 <li class="style2">Jaya Thomas, and Narendra S. Chaudhari, <i><b><strong>&quot;Knapsack Cryptosystem and its Reduction to 3-CNF</strong></i><strong>&quot;</strong></b>, In Proceedings of Twenty Fifth National Convention of Computer Engineers and National Seminar, The Computer Engineering Division, The Institution of Engineers (India): Networked Home Systems and Services (Ed. D. Singh) Himanshu Publications - New Delhi (ISBN 978-81-7906-266-1) Udaipur, India (04-06 Feb. 2011) pp. 23-26.</li>
 <span class="style2"></br>
 </span>
-<li class="style2">Rajkumar Jain, and Narendra S. Chaudhari, <i><b><strong>&quot;Cluster Analysis in Social Networks and 2-CNF&quot;</strong></i></b>, In Proceedings of Twenty Fifth National Convention of Computer Engineers and National Seminar, The Computer Engineering Division, The Institution of Engineers (India): Networked Home Systems and Services (Ed. D. Singh) Himanshu Publications - New Delhi (ISBN 978-81-7906-266-1) Udaipur, India (04-06 Feb. 2011) pp. 169-172.	</li>
+<li class="style2">Rajkumar Jain, and Narendra S. Chaudhari, <i><b><strong>&quot;Cluster Analysis in Social Networks and 2-CNF&quot;</strong></i></b>, In Proceedings of Twenty Fifth National Convention of Computer Engineers and National Seminar, The Computer Engineering Division, The Institution of Engineers (India): Networked Home Systems and Services (Ed. D. Singh) Himanshu Publications - New Delhi (ISBN 978-81-7906-266-1) Udaipur, India (04-06 Feb. 2011) pp. 169-172.  </li>
 <br>  
 <li class="style2">Narendra S. Chaudhari, Aruna Tiwari and Jaya Thomas, <i><b><strong>&quot;A Novel SVM Based Approach for Noisy Data Elemination</strong></i><strong>"</strong></b>, In Proceedings,  11th International Conference on Control, Automation, robotics and Vision (ICARCV 2010), Grand Copthrone Waterfront Hotel, Singapore, (07-10 Dec, 2010) pp. 1760-1765.</li>
 <span class="style2"></br>
@@ -426,32 +386,11 @@
 </span>
 <li class="style2">Anuradha Purohit, Narendra S. Chaudhari, and Aruna Tiwari, <i><b><strong>&quot;Construction of Classifier with Feature Selection based on Genetic Programming&quot;</strong></i></b>, IEEE World Congress on Evolutionary Computation (Computational Intelligence), Centre de Convencions Internacional de Barcelona, Barcelona, Spain, proceedings pp. 1-5 (18-23 July, 2010) Proceedings pp. 01-05, 2010.</li>
 </ol>
-<?php include('footer.php') ; ?>
+
 </div>
-   
-<!-----------------Main Body Content End----------------------------------------------------------------------> 
-
- 
-<!----------------------------Footer Menu-------------------------------------------------------------------------->
-
-<!-- call bottommenu() -->
- <script type="text/javascript">
-	<!--
-    bottommenu();
-	//-->
-  </script>
-
-<!----------------------------Footer Menu End---------------------------------------------------------------------->
-<!-------------------------- Footer Copyright Text------------------------------------------------------------>
-
-<!-- call bottomtext() -->
- <script type="text/javascript">
-	<!--
-    bottomtext();
-	//-->
-  </script>
-<!-------------------------- Footer Copyright Text End------------------------------------------------------------>
-
-    
+ </div>
+</div>
+</div>
+  <?php include('footer.php') ; ?>    
 </body>
-</html>
+</html> 

@@ -1,43 +1,14 @@
-<style type="text/css">
-  .img-htr{
-      /*background-color: red!important;*/
-      height:130px;
-      width:120px;
-  }
-
-  .panel-success{
-    border-radius: 0px!important;
-  }
-</style>
-
-
 
 <html lang="en">
 <!DOCTYPE html>
-<body>
-
-    <!-- Navigation -->
-
-    <!-- Page Content -->
-    <?php include('header.php') ; ?>
-    <div class="container" style="background-color:white; ">
-
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <?php include('menu1.php'); ?>
-		<!DOCTYPE html>
-<html>
 <head>
-<title>Discipline of Computer Science and Engineering (CSE), IIT Indore.</title>
-
-<script type="text/javascript" src="jsfunctions.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="cseweb.css" />
-<link rel="stylesheet" type="text/css" href="footer.css" />
-
-<style type="text/css">
+  <link href="css/card.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+ <style type="text/css">
 #inner_content
 {
-	padding:20px;
+  padding:20px;
 }
 .Estilo1 {color: #FF0000}
 </style>
@@ -47,8 +18,12 @@
 {
   font-family: Arial, Helvetica, sans-serif;
   margin-left:50px;
-  width:850px;  
+  width:850px; 
+  color: #013953; 
   border-collapse:collapse;
+}
+#research_areas strong{
+  color: #013953;
 }
 #research_areas th
 {
@@ -66,39 +41,17 @@
    margin-left:30px;
 }
 .style2 {font-family: Georgia, "Times New Roman", Times, serif}
-</style>
+</style> 
 </head>
-
-
 <body>
-<!-------------------Header Text------------------------------------------------------------------------->
-  <!-- call toptext() -->
-  <script type="text/javascript">
-	<!--
-    toptext();
-	//-->
-  </script>
-<!-------------------Header Text End---------------------------------------------------------------------> 
+    <?php include('header.php') ; ?>
+    <div class="container" style="background-color:white;">
+    <div class="row">
+        <?php include('menu1.php'); ?>
 
-<!------------------Header Menu-------------------------------------------------------------------------->
-<!-- call topmenu() -->
- <script type="text/javascript">
-	<!--
-    topmenu();
-	//-->
-  </script>
-
-<!-----------------Header Menu End----------------------------------------------------------------------> 
-
-
-<!-----------------Main Body Content-------------------------------------------------------------------->
-<div id="content">
-<h2 class="contenthead"> Courses offered under GIAN @ CSE, IIT Indore </h2>
-
+<h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >GIAN Courses</h2>
+<div class="container table-responsive">
 <table width="850" id="research_areas">
-
-
-
 <tr>
   <td valign="middle">1.</td>
   <td valign="top"><p class="style2"><strong>Course Title:</strong> <a href="GIAN/MSF_brochure_[10_days].pdf">Media Security and Forensics</a><br>
@@ -188,34 +141,11 @@ To register for this course <a href="http://gian.iiti.ac.in/register.php">click 
       To register for this course <a href="http://gian.iiti.ac.in/register.php">click here</a></span>
     <p></td>
 </tr>
+
 </table>
 </div>
- <?php include('footer.php') ; ?>
 </div>
-   
- <!-----------------Main Body Content End---------------------------------------------------------------------->  
-   
- 
-<!----------------------------Footer Menu-------------------------------------------------------------------------->
-
-<!-- call bottommenu() -->
- <script type="text/javascript">
-	<!--
-    bottommenu();
-	//-->
-  </script>
-
-<!----------------------------Footer Menu End---------------------------------------------------------------------->
-<!-------------------------- Footer Copyright Text------------------------------------------------------------>
-
-<!-- call bottomtext() -->
- <script type="text/javascript">
-	<!--
-    bottomtext();
-	//-->
-  </script>
-<!-------------------------- Footer Copyright Text End------------------------------------------------------------>
-
-    
+</div>
+ <?php include('footer.php') ; ?>    
 </body>
 </html>
