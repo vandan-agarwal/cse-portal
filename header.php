@@ -16,25 +16,10 @@
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <!-- <script src="js/bootstrap.min.js"></script>
     --> <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet"></script>
-
-    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet"> 
-
-    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Russo+One|Raleway" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Oswald|Francois+One|Hammersmith+One|Cabin+Condensed|Days+One|Sintony|Fjalla+One|Archivo+Black|Anton|Fjalla+One|Russo+One|Raleway|Paytone+One|Francois+One" rel="stylesheet"> 
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Crimson+Text|Orbitron|Prompt|Righteous" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
@@ -75,13 +60,5 @@
             </div>
             </div>
 </div>	  
-</div>  <!-- 
-<script>
-$('ul.nav li.dropdown').hover(function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(100);
-}, function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(100);
-});
-
-</script> -->
+</div>  
 

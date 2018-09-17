@@ -8,9 +8,9 @@
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
 	    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
-	   <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Crete+Round|Kanit|Monoton|Anton|Play|Ubuntu+Condensed" rel="stylesheet">
-	   <link href="https://fonts.googleapis.com/css?family=Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
-	   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Merienda|Monoton|Pacifico|Ruslan+Display" rel="stylesheet">
+	   <link href="https://fonts.googleapis.com/css?family=" rel="stylesheet">
+	   <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Fjalla+One|Merienda|Monoton|Pacifico|Ruslan+Display|Crete+Round|Kanit|Monoton|Anton|Play|Ubuntu+Condensed|Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
+	   <link href="https://fonts.googleapis.com/css?family=" rel="stylesheet">
 	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -25,26 +25,17 @@
 
 
 	</head>
-
 	<style>
 	.carousel-caption{
 		bottom: 0;
 	}
-	 
 	</style>
-
 
 	<html lang="en">
 	<!DOCTYPE html>
 	<body>
-
-
-	    <!-- Navigation -->
-
-	    <!-- Page Content -->
-	    <?php include('header.php') ; ?>
+	<?php include('header.php') ; ?>
 	    <div class="container" style="background-color:white;">
-
 	    <div class="row" >
 	            <div class="col-md-12 col-sm-12 col-xs-12">
 	              <?php include('menu1.php'); ?>
@@ -307,6 +298,6 @@
 	</body>
 
 
-	</html>
+</html>
 
 
