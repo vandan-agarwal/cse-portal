@@ -3,9 +3,9 @@ Vue.component('btech-item',{
     template:  
             '<div class="col-sm-2" style="margin-bottom: 15px;">'+
             '<div class="cardnew" style="height: 210px;">'+
-                '<img class="student_image" v-bind:src="btech.img" style="margin-left: 14%; margin-top: 5px;">'+
+                '<img class="student_image" v-bind:src="btech.img" style="margin-top: 5px;">'+
                 '<div class="cardnew-heading" style="height: 50px;">'+
-                    '<h4 class="cardnew-header" style="line-height: 22px;">{{btech.name}}</br>{{btech.RollNo}}</h4>'+
+                    '<h5 class="cardnew-header" style="line-height: 22px;">{{btech.name}}</br>{{btech.RollNo}}</h5>'+
                 '</div>'+  
             '</div></div>'
 })
@@ -16,11 +16,6 @@ var btechStudents2014 = new Vue({
     data: {
       BtechList:
       [    
-        // {
-        //     RollNo: ' CSE140001001',
-        //     name: 'AAKASH HANDA',
-        //     img: 'stu_pics/btech_2014/140001001_AAKASH HANDA .jpg'
-        // }
             {
                     RollNo: 'CSE140001001',
                     name:' AAKASH HANDA ',

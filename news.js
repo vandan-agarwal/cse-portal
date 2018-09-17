@@ -1,7 +1,7 @@
 //news component
 Vue.component('news-item',{
     props: ['news'],
-    template: '<li><i class="far fa-newspaper" style="padding-right: 10px;"></i><span v-html="news.content"></span></li>'
+    template: '<li><i class="far fa-newspaper" style="padding-right: 10px; "></i><span v-html="news.content"></span></li>'
 })
 //NEWS object
 var News = new Vue({

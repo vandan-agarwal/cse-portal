@@ -54,6 +54,7 @@
             overflow: hidden;
             text-align: left;
             color: #013953;
+            font-family:'Sintony', sans-serif !important;
         }
         .cardnew > .Read-more{
         position: absolute;

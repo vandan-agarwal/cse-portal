@@ -10,11 +10,14 @@
 
   .staff_image{
   	height: 180px;
-  	width: 70%;
+  	width: 160px;
   	margin: auto;
   	border-radius: 10%;
   	box-shadow: 0px 1px 3px 0 #013953;
   	}
+    .cardnew{
+      text-align: center;
+    }
   .cardnew-header{
             padding-top: 8px;
         }

@@ -11,11 +11,11 @@
     	box-sizing: border-box;
     	padding-top: 10px;
     	padding-bottom: 10px;
-    	background-image: linear-gradient(to bottom right,#eff3f6,#ffffff); 
+    	background-color: #eff3f6; 
 /*    	box-shadow: 2px 1px 1px 0px #013953;
 */    }
     .eventnew:nth-child(even){
-    	 background-image: linear-gradient(to bottom right, #ffffff,#9cb7c9);
+    	 background-image: linear-gradient(to bottom right, #ffffff, #8cabc0);
 		/*box-shadow: -2px -1px 1px 0px #5d8aa8;
 	*/}
     /*.event-list {

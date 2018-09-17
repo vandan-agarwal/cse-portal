@@ -13,7 +13,8 @@
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 15px;
   margin:auto;
-  width:850px;  
+  width:90%;
+  min-width: 870px;  
   color: #013953;
   border-collapse:collapse;
 }

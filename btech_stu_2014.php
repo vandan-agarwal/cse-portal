@@ -13,9 +13,13 @@
   .student_image{
     height: 140px;
     width: 76%;
+    max-width: 135px;
     margin: auto;
     border-radius: 0%;
     box-shadow: 0px 1px 3px 0 #013953;
+    }
+    .cardnew{
+      text-align: center;
     }
   .cardnew-header{
     padding: 4px 5px 4px 5px;

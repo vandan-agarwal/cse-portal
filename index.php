@@ -108,7 +108,7 @@
 	        <div class="header__bg" style="height: 100%; width: 100%;"></div>
 	        <h4 class="aside-heading" id="latest-updates">LATEST UPDATES :</h4>
 	        </header><td  width="86%" style="background-color: #eef3f6"> 
-	                       <marquee id='scroll_news' style="font-family: 'Sintony';" >
+	                       <marquee id='scroll_news' style="font-family: 'Sintony', sans-serif!important;" >
 	                      <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();"> 
 	                          <a href="phdadmissionwebsite/2017_10/adv.html"><font color="#013953">PhD Admission Advertisement | </font></a> 
 	               <a href="http://www.iiti.ac.in/Careers/careers.php"><font color="#013953">Faculty Recruitment | </font></a> 
@@ -130,11 +130,11 @@
 	  <div class="row" style="margin-top:10px;">
 	        <div class="col-md-12 col-sm-8 col-xs-12 col-lg-8"> 
 	          <div id="About_cse" style="margin-top: 20px; ">
-	            <h1 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb">&nbsp;ABOUT CSE</h1>
-	            <p style="text-align: justify; font-family: 'Exo', sans-serif; font-size: 1.15em; color: #013953; font-weight: 500;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Discipline of Computer Science and Engineering (CSE) was set up in July 2009. It is one of the disciplines under the School of Engineering and offers Bachelor of Technology (BTech) and Doctor of Philosophy (PhD) programs. The discipline adopts a modern approach to teaching wherein students are rendered in adequate academic freedom to innovate and learn in the process. State of the art facilities including the latest software and advanced hardware are available in various laboratories for the use in both teaching and research. This facilitates adequate implementation of major B.Tech projects and for verification and validation of research results.
-	                 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The faculty members of the discipline are from diverse streams and specializations. Being a part of an emerging and relatively new institute, together with extremely competent research faculty, the Computer Science and Engineering faculty of IIT Indore offer a unique interactive platform for the students to explore the arena of fundamental and applied research.
-	                  <br />
-	                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indore is fast developing into a major IT hub in central India. Organizations like CSC and Impetus have a strong presence in the city and major players like TCS, Infosys, and Wipro are in the process of setting up their offices. For the discipline this provides an excellent opportunity to foster industry-academia partnerships.
+	            <h1 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb">ABOUT CSE</h1>
+	            <p style="text-align: justify; font-family: 'Exo', sans-serif; font-size: 1.15em; color: #013953; font-weight: 500;">The Discipline of Computer Science and Engineering (CSE) was set up in July 2009. It is one of the disciplines under the School of Engineering and offers Bachelor of Technology (BTech) and Doctor of Philosophy (PhD) programs. The discipline adopts a modern approach to teaching wherein students are rendered in adequate academic freedom to innovate and learn in the process. State of the art facilities including the latest software and advanced hardware are available in various laboratories for the use in both teaching and research. This facilitates adequate implementation of major B.Tech projects and for verification and validation of research results.
+	                 <br /><br />The faculty members of the discipline are from diverse streams and specializations. Being a part of an emerging and relatively new institute, together with extremely competent research faculty, the Computer Science and Engineering faculty of IIT Indore offer a unique interactive platform for the students to explore the arena of fundamental and applied research.
+	                  <br /><br/>
+	                  Indore is fast developing into a major IT hub in central India. Organizations like CSC and Impetus have a strong presence in the city and major players like TCS, Infosys, and Wipro are in the process of setting up their offices. For the discipline this provides an excellent opportunity to foster industry-academia partnerships.
 	            </p>
 	          </div>
 	        
@@ -149,7 +149,7 @@
 	    <div id="home" class="tab-pane fade in active">
 	      <div class="News-list" style="height: 400px; overflow-y: scroll;    background-image:  linear-gradient(to bottom, #eff3f6,#9cb7c9); box-sizing: border-box; border: 1px solid #5d8aa8;
 	 ">
-	                        <ul class="News fa-ul" id="NEWS">	
+	                        <ul class="News fa-ul" id="NEWS" style="font-family: 'Sintony', sans-serif!important;">	
 	                        	<!--news can be edited the News instance of  news.js-->
 	                        	<news-item v-for="News in NewsList"
                     v-bind:news="News"
@@ -162,7 +162,7 @@
 	      
 	          <div class="News-list" style="height: 400px; overflow-y: scroll;    background-image:  linear-gradient(to bottom, #eff3f6,#9cb7c9);box-sizing: border-box; border: 1px solid #5d8aa8;
 	 ">
-	          <ul class="News fa-ul" style="margin-top: 20px;" id="RECRUITMENTS">
+	          <ul class="News fa-ul" style="margin-top: 20px;" id="RECRUITMENTS" style="font-family: 'Sintony', sans-serif!important;">
 	          					<!--recruitments can be edited the Recruitments instance of  recruitments.js-->
 	          					<recruitments-item v-for="Recruitment in RecruitmentsList"
                     v-bind:recruitment="Recruitment"
@@ -210,7 +210,7 @@
 	                      <div class="cardnew-heading" style="height: 80px;">
 	                        <a href="btech_program.php" style="text-decoration: none;"><h2 class="cardnew-header">Undergraduate Program</h2></a>
 	                      </div>
-	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 15px;">&nbsp;&nbsp;&nbsp;&nbsp;
+	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 15px;">
 	                             Discipline of Computer Science and Engineering, IIT Indore currently offers a 4-year BTech program. Total number of seats available are 70. Admission to the program is offered through "IIT Joint Entrance Examination (JEE)".
 	                          </div>
 	                         <a class="Read-more" href="btech_program">Read more<i class="fas fa-arrow-circle-right" style="padding-left: 5px;"></i></a>
@@ -221,7 +221,7 @@
 	                        <div class="cardnew-heading" style="height: 80px;">
 	                       <a href="#" style="text-decoration: none;"><h2 class="cardnew-header">Masters Program</h2></a>
 	                    </div>
-	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 15px;">&nbsp;&nbsp;&nbsp;&nbsp;
+	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 15px;">
 	                              M. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
 	                          </div>
 	                       <a class="Read-more" href="btech_program">Read more<i class="fas fa-arrow-circle-right" style="padding-left: 5px;"></i></a>
@@ -232,7 +232,7 @@
 	                        <div class="cardnew-heading" style="height: 80px;">
 	                        <a href="phd_program.php"  style="text-decoration: none;  top: 100px;" ><h2 class="cardnew-header">Doctoral Program</h2></a> 
 	                        </div>
-	                          <div class="cardnew-content" style="height: 200px; top: 110px; padding: 5px 10px 0px 15px;">&nbsp;&nbsp;&nbsp;&nbsp;
+	                          <div class="cardnew-content" style="height: 200px; top: 110px; padding: 5px 10px 0px 15px;">
 	                              Discipline of Computer Science and Engineering, IIT Indore offers Doctor of Philosophy (PhD) program in almost all current areas of Computer Science. 
 	It welcomes and accepts applications for admission to PhD program throughout the year. It is looking for highly motivated and dedicated research scholars for its PhD program. In general, students selected for PhD program have to undergo course-work during first two semesters before actually starting their individual doctoral research work. During these two semesters, students get an opportunity to acquaint themselves with the research activities of faculty members and suitably select their individual research supervisor.	
 	                          </div>

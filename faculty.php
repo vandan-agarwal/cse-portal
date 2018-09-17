@@ -8,14 +8,17 @@
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<style type="text/css">
   .faculty_image{
-  	height: 220px;
-  	width: 70%;
+  	height: 230px;
+  	width: 220px;
   	margin: auto;
   	border-radius: 10%;
   	box-shadow: 0px 1px 3px 0 #013953;
   	}
+    .cardnew{
+      text-align: center;
+    }
   .cardnew >.cardnew-heading>a:before {
-  top: 264px;
+  top: 273px;
   }
   .cardnew-header{
             padding-top: 8px;
