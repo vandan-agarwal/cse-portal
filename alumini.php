@@ -5,30 +5,30 @@
   <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <style type="text/css">
-#research_areas font{
+#alumini-list font{
   color: #013953;
 }
-#research_areas
+#alumini-list
 {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 15px;
   margin:auto;
-  width:850px;  
+  width:1200;  
   color: #013953;
   border-collapse:collapse;
 }
-#research_areas th
+#alumini-list th
 {
   color:#013953;
   text-align:left;
   font-size: 1.4em;
 }
-#research_areas tr
+#alumini-list tr
 {
   border-top: 1px solid #DADADA;
   height:50px;
 }
-#research_areas td
+#alumini-list td
 {
    margin-left:30px;
 }
@@ -40,11 +40,11 @@
     <div class="row">
         <?php include('menu1.php'); ?>
 
-<h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Research Areas</h2>
+<h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Graduated Ph. D. Students</h2>
 <div id="inner_content">
 <div class="container table-responsive" style="margin-top: 15px;">
-<table id="research_areas">
-<tr><th>Research Areas</th><th>Faculty Members</th></tr>
+<table id="alumini-list">
+<tr><th>S.No. </th><th>Name </th><th>Thesis </th><th>Title  </th><th>Month/Year of Graduation</th></tr>
 <tr><td>Algorithms and Complexity               </td> <td> 
 <a href="http://iiti.ac.in/people/~narendra/" target="_newTab">Dr. Narendra S. Chaudhari</a> 
 </td></tr>
