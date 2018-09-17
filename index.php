@@ -219,7 +219,7 @@
 	                      <div class="cardnew-heading" style="height: 80px;">
 	                        <a href="btech_program.php" style="text-decoration: none;"><h2 class="cardnew-header">Undergraduate Program</h2></a>
 	                      </div>
-	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 10px;">&nbsp;&nbsp;&nbsp;&nbsp;
+	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 15px;">&nbsp;&nbsp;&nbsp;&nbsp;
 	                             Discipline of Computer Science and Engineering, IIT Indore currently offers a 4-year BTech program. Total number of seats available are 70. Admission to the program is offered through "IIT Joint Entrance Examination (JEE)".
 	                          </div>
 	                         <a class="Read-more" href="btech_program">Read more<i class="fas fa-arrow-circle-right" style="padding-left: 5px;"></i></a>
@@ -230,7 +230,7 @@
 	                        <div class="cardnew-heading" style="height: 80px;">
 	                       <a href="#" style="text-decoration: none;"><h2 class="cardnew-header">Masters Program</h2></a>
 	                    </div>
-	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 10px;">&nbsp;&nbsp;&nbsp;&nbsp;
+	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 15px;">&nbsp;&nbsp;&nbsp;&nbsp;
 	                              M. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
 	                          </div>
 	                       <a class="Read-more" href="btech_program">Read more<i class="fas fa-arrow-circle-right" style="padding-left: 5px;"></i></a>
@@ -241,7 +241,7 @@
 	                        <div class="cardnew-heading" style="height: 80px;">
 	                        <a href="phd_program.php"  style="text-decoration: none;  top: 100px;" ><h2 class="cardnew-header">Doctoral Program</h2></a> 
 	                        </div>
-	                          <div class="cardnew-content" style="height: 200px; top: 110px; padding: 5px 10px 0px 10px;">&nbsp;&nbsp;&nbsp;&nbsp;
+	                          <div class="cardnew-content" style="height: 200px; top: 110px; padding: 5px 10px 0px 15px;">&nbsp;&nbsp;&nbsp;&nbsp;
 	                              Discipline of Computer Science and Engineering, IIT Indore offers Doctor of Philosophy (PhD) program in almost all current areas of Computer Science. 
 	It welcomes and accepts applications for admission to PhD program throughout the year. It is looking for highly motivated and dedicated research scholars for its PhD program. In general, students selected for PhD program have to undergo course-work during first two semesters before actually starting their individual doctoral research work. During these two semesters, students get an opportunity to acquaint themselves with the research activities of faculty members and suitably select their individual research supervisor.	
 	                          </div>
