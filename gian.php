@@ -5,6 +5,8 @@
   <link href="css/card.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  
  <style type="text/css">
 #inner_content
 {
@@ -14,28 +16,29 @@
 </style>
 
 <style type="text/css" media="all">
-#research_areas
+#gian 
 {
-  font-family: Arial, Helvetica,
-  width:850px; 
+  width: 100%;
+  min-width:850px; 
   color: #013953; 
   border-collapse:collapse;
 }
-#research_areas strong{
+#gian strong{
   color: #013953;
 }
-#research_areas th
+#gian th
 {
   color:#f47321;
   text-align:left;
   height:50px;
 }
-#research_areas tr
+#gian tr
 {
+  width: 100%;
   border-top: 1px solid #DADADA;
-  height:50px;
+
 }
-#research_areas td
+#gian td
 {
    margin-left:30px;
 }
@@ -50,8 +53,21 @@
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >GIAN Courses</h2>
 <div class="container table-responsive">
-<table width="850" id="research_areas">
-<tr>
+<table id="gian">
+  <tr v-for="gian in GianCoursesList"
+                    v-bind:gian="gian"
+                    v-bind:key="gian.id"
+                    is="gian-item"
+                    >
+                  </tr>
+  <!-- <div id="gian">
+    <gian-item v-for="gian in GianCoursesList"
+                    v-bind:gian="gian"
+                    v-bind:key="gian.id">
+     </gian-item> 
+  </div> -->
+
+<!-- <tr>
   <td valign="middle">1.</td>
   <td valign="top"><p class="style2"><strong>Course Title:</strong> <a href="GIAN/MSF_brochure_[10_days].pdf">Media Security and Forensics</a><br>
           <strong>Offered By:</strong> <a href="http://www2.ece.rochester.edu/~gsharma/">Prof. Gaurav Sharma, </a> University of Rochester<br>
@@ -106,7 +122,7 @@ of Sassari, Italy.<br>
   <strong>Co-ordinator:</strong> Dr. Surya Prakash<br>
   <strong>Course Schedule:</strong> August 01-10, 2016<br>
   <strong>Regitration Dates: </strong><br>
--Early Registration: on or before&nbsp; <span class="Estilo1"><del>June 10, 2016</del></span> June 25, 2016 <br>
+-Early Registration: on or before&nbsp; <span class="Estilo1"></span> June 25, 2016 <br>
 -Late Registration : on or before&nbsp; July 25, 2016<br>
 -Onsite registration will be available on higher rates.<br>
 To register for this course <a href="http://gian.iiti.ac.in/register.php">click here</a> | For course webpage&nbsp;<a href="http://cse.iiti.ac.in/GIAN/PMBP_data/index.html" target="_blank">click here</a></span></td>
@@ -139,12 +155,13 @@ To register for this course <a href="http://gian.iiti.ac.in/register.php">click 
       <strong>Course Schedule:</strong>December 05 -  17, 2016<br>
       To register for this course <a href="http://gian.iiti.ac.in/register.php">click here</a></span>
     <p></td>
-</tr>
+</tr> -->
 
 </table>
 </div>
 </div>
 </div>
- <?php include('footer.php') ; ?>    
+ <?php include('footer.php') ; ?>   
+ <script type="text/javascript" src="gian.js"></script> 
 </body>
 </html>
