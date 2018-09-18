@@ -16,7 +16,7 @@
   width: 100%; 
   color: #013953;
   min-width: 1150px; 
-
+  max-width: 1400px;
   border-collapse:collapse;
 }
 #srprojects th
@@ -40,15 +40,13 @@
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Sponsored Research Projects</h2>
 <div class="container table-responsive">
-<table width="850" id="srprojects" style="margin-top: 10px;">
-	<div id="srprojects">
-<sr-header> </sr-header>
-<!--SR-Projects csn be added in Srprojects instance of srprojects.js file-->
-<sr-item v-for="srp in SRProjectsList"
+<table width="850" id="srprojects" style="margin-top: 10px;"> 
+ <tr v-for="srp in SRProjectsList"
                     v-bind:sr="srp"
-                    v-bind:key="srp.id">
-</sr-item>
-</div>
+                    v-bind:key="srp.id"
+                    is="sr-item"
+                    >
+                  </tr>
 </table>
 </div>
 </div>

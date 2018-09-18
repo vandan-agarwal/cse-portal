@@ -14,7 +14,8 @@
   margin-top: 15px;
   margin:auto;
   width:90%;
-  min-width: 870px;  
+  min-width: 870px; 
+  max-width: 1000px; 
   color: #013953;
   border-collapse:collapse;
 }
