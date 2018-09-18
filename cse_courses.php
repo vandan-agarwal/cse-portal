@@ -4,13 +4,16 @@
   <link href="css/card.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ 
   <style type="text/css">
 .courselist
 {
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
-  margin-top: 15px; 
-  width:850px;  
+  margin-top: 15px;
+  width: 100%; 
+  min-width:850px;  
   border-collapse:collapse;
   color: #013953;
 }
@@ -40,9 +43,16 @@
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;">Courses Offered</h2>
 <div id="inner_content">
 <div class="container table-responsive" style="margin-top: 15px;">
-  <table class="courselist">
-<tr><th>Course Code</th><th>Course Name</th><th>L-P-T</th><th>Credit</th></tr>
-<tr><td>CS 103</td><td>Computer Programming</td><td>2-0-0</td><td>2</td></tr>
+  <table class="courselist" id="courses">
+ <tr><th>Course Code</th><th>Course Name</th><th>L-P-T</th><th>Credit</th></tr>
+ <!--coourse can be added in courses instance of coursesoffered.js-->
+  <tr v-for="courseOffered in CoursesList"
+                    v-bind:courseoffered="courseOffered"
+                    v-bind:key="courseOffered.id"
+                    is="courseoffered-item"
+                    >
+                  </tr>
+<!--<tr><td>CS 103</td><td>Computer Programming</td><td>2-0-0</td><td>2</td></tr>
 <tr><td>CS 153</td><td>Computer Programming Lab</td><td>0-0-3</td><td>1.5</td></tr>
 
 <tr><td>CS 201</td><td>Discrete Mathematical Structures</td><td>2-1-0</td><td>3</td></tr>
@@ -91,15 +101,24 @@
 
 
 <tr><td>CS 493</td><td>B Tech Project (BTP)</td><td>0-0-40</td><td>20</td></tr>
-
+ -->
 </table>
+</div>
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;">Elective Courses</h2>
-<table class="courselist">
-<tr><th>Course Code</th><th>Course Name</th><th>L-P-T</th><th>Credit</th></tr>
-<tr><td>CS 401 / CS 601</td><td>Soft Computing</td>                             <td>2-0-2</td><td>3</td></tr>
+<div class="container table-responsive" style="margin-top: 15px;">
+<table class="courselist" id="electivecourses">
+   <!--electivecourses can be added in electivecourses instance of electivecourses.js-->
+   <tr><th>Course Code</th><th>Course Name</th><th>L-P-T</th><th>Credit</th></tr>
+  <tr v-for="electivecourse in CoursesList"
+                    v-bind:electivecourse="electivecourse"
+                    v-bind:key="electivecourse.id"
+                    is="electivecourse-item"
+                    >
+  </tr>
+<!-- <tr><td>CS 401 / CS 601</td><td>Soft Computing</td>                             <td>2-0-2</td><td>3</td></tr>
 <tr><td>CS 404 / EE 304</td><td>Digital Signal Processing</td> <td>3-1-0 </td><td>4</td></tr>
-<tr><td>CS 406 / CS 606</td><td>Data Mining and Data Warehousing</td>           <td>2-0-2</td><td>3</td></tr>
+<tr><td>CS 406 / CS 606</td><td>Data Mining and Data Warehousing</td>           <td>2-0-2</td><td>3</td></tr>-
 <tr><td>CS 407 </td><td> Peripherals and Interfaces</td><td>2-0-2</td><td>3</td></tr>
 <tr><td>CS 408 </td><td> Algorithms for Convex Programming</td> <td>2-0-2</td><td>3</td> </tr>
 <tr><td>CS 409 / CS 609</td><td>Advanced Topics in Database Management Systems</td><td> 2-1-0</td><td>  3</td></tr>
@@ -115,7 +134,7 @@
 <tr><td>CS 420 / CS 620</td><td>Embedded Systems</td>                   <td>2-1-0</td><td>  3</td></tr>
 <tr><td>CS 422 / CS 622</td><td>Numerical Simulation</td>                 <td>2-1-0</td><td>  3</td></tr>
 <tr><td>CS 424 </td><td>Functional and Logic Programming</td><td>2-0-2</td><td>3</td></tr>
-<tr><td>CS 701</td>    <td>Selected Topics in Advanced Algorithms</td>            <td>2-1-0</td><td>  3</td> </tr>
+<tr><td>CS 701</td>    <td>Selected Topics in Advanced Algorithms</td>            <td>2-1-0</td><td>  3</td> </tr> -->
 </table>
 </div>
 </div>
@@ -123,5 +142,8 @@
 </div>
 </body>
   <?php include('footer.php') ; ?>
+  <script type="text/javascript" src="coursesoffered.js"></script>
+
+  <script type="text/javascript" src="electivecourses.js"></script>
 </body>
 </html>

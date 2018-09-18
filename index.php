@@ -178,7 +178,6 @@
 
 	  </div>
 	    <div class="row" id="EVENTS" style="margin-top: 10px;">
-	 <div class="container">
 	  <header class="fullwidth-header">
 	        <div class="header_full"></div>
 	        <h2 class="fullwidth-heading" >EVENTS</h2>
@@ -199,7 +198,6 @@
 	    </event-item>
 	  </div>
 	</div>
-	</div>
 	<div class="row" style="margin-top:25px;">
 	   <div class="col-sm-12"> 
 	    <h1 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Academics</h1>
@@ -210,8 +208,7 @@
 	                      <div class="cardnew-heading" style="height: 80px;">
 	                        <a href="btech_program.php" style="text-decoration: none;"><h2 class="cardnew-header">Undergraduate Program</h2></a>
 	                      </div>
-	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 15px;">
-	                             Discipline of Computer Science and Engineering, IIT Indore currently offers a 4-year BTech program. Total number of seats available are 70. Admission to the program is offered through "IIT Joint Entrance Examination (JEE)".
+	                          <div class="cardnew-content" style="height: 200px; top: 112px; text-align: justify; padding: 5px 20px 5px 20px;">The B.Tech. Program in Computer Science Engineering is a four-year program with selection through the IIT Joint Entrance Examination. Students are encouraged to work on research projects from their second year onwards in addition to the mandatory summer internship after the third year and the final year project. Projects are inter–disciplinary and involve faculty members from other disciplines.Its strong and interactive curriculum and hands-on learning will make students capable of taking their career to the next level, whether it be in the professional engineering practice or in advanced study.
 	                          </div>
 	                         <a class="Read-more" href="btech_program">Read more<i class="fas fa-arrow-circle-right" style="padding-left: 5px;"></i></a>
 	                       </div>
@@ -221,7 +218,7 @@
 	                        <div class="cardnew-heading" style="height: 80px;">
 	                       <a href="#" style="text-decoration: none;"><h2 class="cardnew-header">Masters Program</h2></a>
 	                    </div>
-	                          <div class="cardnew-content" style="height: 200px;  top: 110px;  padding: 5px 10px 5px 15px;">
+	                          <div class="cardnew-content" style="height: 200px; top: 112px; text-align: justify; padding: 5px 20px 5px 20px;">
 	                              M. Tech Program at Discipline of Computer Science & Engineering, IIT Indore
 	                          </div>
 	                       <a class="Read-more" href="btech_program">Read more<i class="fas fa-arrow-circle-right" style="padding-left: 5px;"></i></a>
@@ -232,7 +229,7 @@
 	                        <div class="cardnew-heading" style="height: 80px;">
 	                        <a href="phd_program.php"  style="text-decoration: none;  top: 100px;" ><h2 class="cardnew-header">Doctoral Program</h2></a> 
 	                        </div>
-	                          <div class="cardnew-content" style="height: 200px; top: 110px; padding: 5px 10px 0px 15px;">
+	                          <div class="cardnew-content" style="    height: 200px; top: 112px; text-align: justify; padding: 5px 20px 5px 20px;">
 	                              Discipline of Computer Science and Engineering, IIT Indore offers Doctor of Philosophy (PhD) program in almost all current areas of Computer Science. 
 	It welcomes and accepts applications for admission to PhD program throughout the year. It is looking for highly motivated and dedicated research scholars for its PhD program. In general, students selected for PhD program have to undergo course-work during first two semesters before actually starting their individual doctoral research work. During these two semesters, students get an opportunity to acquaint themselves with the research activities of faculty members and suitably select their individual research supervisor.	
 	                          </div>

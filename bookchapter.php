@@ -5,6 +5,8 @@
   <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  
  <style type="text/css">
  .nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
     color: #013953; 
@@ -34,9 +36,14 @@
     </ul>
     <div class="tab-content">
      <div id="bookchapters" class="tab-pane fade in active">
-    <ol style="margin-top: 20px;"> 
-
-<li class="style2">Anirban Sengupta, Dipanjan Roy <em><strong>"Low Cost Dual-Phase Watermark for Protecting CE Devices in IoT Framework"</strong></em>, Springer Book: Security and Fault Tolerance in Internet of Things, Invited Book Chapter, March 2018.</li>
+    <ol style="margin-top: 20px;" id="bookChapter-list"> 
+      <li v-for="bookChapter in BookChaptersList"
+                    v-bind:bookchapter="bookChapter"
+                    v-bind:key="bookChapter.id"
+                    is="bookChapter-item"
+                    >
+                  </li>
+<!-- <li class="style2">Anirban Sengupta, Dipanjan Roy <em><strong>"Low Cost Dual-Phase Watermark for Protecting CE Devices in IoT Framework"</strong></em>, Springer Book: Security and Fault Tolerance in Internet of Things, Invited Book Chapter, March 2018.</li>
 <br>
 
 <li class="style2">
@@ -65,13 +72,14 @@
 </span>
 <li class="style2">Neha Bharill, Aruna Tiwari,<em><strong> &quot;Handling Big Data with Fuzzy Based Classification Approach&quot;</strong></em>,  e-book: Studies in Fuzziness and Soft Computing,&nbsp;&nbsp; Mo Jamshidi  moj@wacong.org (2) Vladik Kreinovich vladik@utep.edu (3) Janusz Kacprzyk , &nbsp;  Springer International Publishing Switzerland, &nbsp; ISBN 978-3-319-03673-1,  &nbsp;16-18 Dec 2013.</li><br>
 <li class="style2">Arpit Bhardwaj and Aruna Tiwari, <em><strong>&quot;A Novel Genetic Programming Based Classifier Design Using a New Constructive  Crossover Operator with a Local Search Technique&quot;</strong></em>,&nbsp;&nbsp; De-Shuang Huang,  Vitoantonio Bevilacqua, Juan Carlos Figueroa, Prashan Premaratne, &nbsp;  Springer-Verlag Berlin Heidelberg, &nbsp; 978-3-642-39479-9, 28-31 July2013.</li>
-</br>
+</br> -->
 </ol>
 
 </div>
  </div>
 </div>
 </div>
-  <?php include('footer.php') ; ?>    
+  <?php include('footer.php') ; ?>
+  <script type="text/javascript" src="bookChapter.js"></script>    
 </body>
 </html> 

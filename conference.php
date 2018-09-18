@@ -5,6 +5,8 @@
   <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  -
  <style type="text/css">
  .nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
     color: #013953; 
@@ -33,8 +35,15 @@
     </ul>
     <div class="tab-content">
      <div id="conferences" class="tab-pane fade in active">
-    <ol style="margin-top: 20px;">
-  <li class="style2">Dipanjan Roy, Anirban Sengupta <em><strong>"Reusable Intellectual Property Core Protection for Both Buyer and Seller",</strong></em> Proc. 36th IEEE International Conference on Consumer Electronics (ICCE) 2018, Las Vegas, Accepted, Jan 2018.</li>
+    <ol style="margin-top: 20px;" id="conference-list">
+      <li v-for="conference in ConferencesList"
+                    v-bind:conference="conference"
+                    v-bind:key="conference.id"
+                    is="conference-item"
+                    >
+                  </li>
+
+  <!-- <li class="style2">Dipanjan Roy, Anirban Sengupta <em><strong>"Reusable Intellectual Property Core Protection for Both Buyer and Seller",</strong></em> Proc. 36th IEEE International Conference on Consumer Electronics (ICCE) 2018, Las Vegas, Accepted, Jan 2018.</li>
    <br>
 
   <li class="style2">Anirban Sengupta, Dipanjan Roy <em><strong>"Multi-Phase Watermark for IP Core Protection",</strong></em> Proc. 36th IEEE International Conference on Consumer Electronics (ICCE) 2018, Las Vegas, Accepted, Jan 2018.</li>
@@ -384,13 +393,14 @@
 <li class="style2">Aruna Tiwari and Narendra S. Chaudhari, Satyam Saxena, Chetan Gurjar, <i><b><strong>&quot;Design of Intelligent Tutoring System using Neural Fuzzy Learning Technique&quot;</strong></i></b>, 2nd International Conference on Information Technology and Business Intelligence (ITBI-10), Sponsored by IEEE Computational Intelligence Society, Institute of Management Technology (IMT), Nagpur, Proceedings ISBN No:978-81-7446-900-7, paper no. 58, (12-14 Nov. 2010).</li>
 <span class="style2"></br>
 </span>
-<li class="style2">Anuradha Purohit, Narendra S. Chaudhari, and Aruna Tiwari, <i><b><strong>&quot;Construction of Classifier with Feature Selection based on Genetic Programming&quot;</strong></i></b>, IEEE World Congress on Evolutionary Computation (Computational Intelligence), Centre de Convencions Internacional de Barcelona, Barcelona, Spain, proceedings pp. 1-5 (18-23 July, 2010) Proceedings pp. 01-05, 2010.</li>
+<li class="style2">Anuradha Purohit, Narendra S. Chaudhari, and Aruna Tiwari, <i><b><strong>&quot;Construction of Classifier with Feature Selection based on Genetic Programming&quot;</strong></i></b>, IEEE World Congress on Evolutionary Computation (Computational Intelligence), Centre de Convencions Internacional de Barcelona, Barcelona, Spain, proceedings pp. 1-5 (18-23 July, 2010) Proceedings pp. 01-05, 2010.</li> -->
 </ol>
 
 </div>
  </div>
 </div>
 </div>
-  <?php include('footer.php') ; ?>    
+  <?php include('footer.php') ; ?>  
+  <script type="text/javascript" src="conference.js"></script>  
 </body>
 </html> 

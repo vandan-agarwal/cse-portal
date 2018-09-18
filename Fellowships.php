@@ -4,31 +4,29 @@
   <link href="css/card.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  
   <style type="text/css">
-#research_areas font{
+#fellowships font{
   color: #013953;
 }
-#research_areas
+#fellowships
 {
   font-family: Arial, Helvetica, sans-serif;
-  margin-left:50px;
-  width:850px;  
+  width:100%; 
+  min-width: 850px;
   border-collapse:collapse;
 }-
-#research_areas th
+#fellowships th
 {
   color:#f47321;
   text-align:left;
   height:50px;
 }
-#research_areas tr
+#fellowships tr
 {
   border-top: 1px solid #DADADA;
   height:50px;
-}
-#research_areas td
-{
-   margin-left:30px;
 }
 </style>
 </head>
@@ -41,23 +39,21 @@
 <h2 style="font-family: 'Audiowide'; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Fellowships</h2>
 <div class="container table-responsive">
 
-<table width="850" id="research_areas">
+<table id="fellowships">
+  <!--fellowships can be edited in the Fellowships instance of fellowships.js-->
+ <tr v-for="fellowship in FellowshipsList"
+                    v-bind:fellowship="fellowship"
+                    v-bind:key="fellowship.id"
+                    is="fellowship-item"
+                    >
+                  </tr>
   
-  <tr>
-  <td></br><font face="Georgia, Times New Roman, Times, serif" color="#4F3300"><strong>Title:</strong> Efficient Solution of Linear Systems arising in Non-Parametric Model Reduction of Second Order Systems.<strong> </br>
-        </br>
-Project Investigator:</strong> Dr. Kapil Ahuja</br>
-</br>
-<strong> Sponsoring Agency: </strong>&nbsp;IIT-TU9 Faculty Exchange Program of DAAD (German Academic Exchange Service).</br>
-</br>
-<strong> Duration: </strong>Visit&nbsp;to TU Braunschweig for month of June 2014 (Approved on 19th March 2014).</br>
-</br>
-<strong> Funding Amount: </strong>2200 Euros</font></td>
-  </tr>
 </table>
 </div>
 </div>
 </div>
 <?php include('footer.php') ; ?>    
+<script type="text/javascript" src="fellowships.js"></script>
+
 </body>
 </html>

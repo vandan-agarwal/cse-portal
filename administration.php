@@ -10,7 +10,7 @@
     <div class="container" style="background-color:white;">
     <div class="row">
         <?php include('menu1.php'); ?>
-<div id="inner_content" style="color: #013953;">	
+<div id="inner_content" style="color: #013953;  font-size: 1.1em;  font-family:'Sintony', sans-serif !important;">	
 	<h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: left;">Head of Discipline</h2>
 	 <b><a href="http://people.iiti.ac.in/~surya">Dr. Surya Prakash</a></b><br>
       E-mail: hodcse@iiti.ac.in<br>

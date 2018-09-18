@@ -12,7 +12,7 @@
         <?php include('menu1.php'); ?>
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: left;">Indore City</h2>
-<div id="inner_content" style="color: #013953;">
+<div id="inner_content" style="color: #013953;font-size: 1.1em;  font-family:'Sintony', sans-serif !important;">
   <p style="text-align: justify;">Indore is the commercial capital of Madhya Pradesh with many industries in the area of mechanical engineering, pharmacy and electronics. It is an educational-hub and have institutes of international repute like Raja Ramanna Center for Advanced Technology (RRCAT), IUCA, and IIM Indore. Indore has young and vibrant students' population. The city is well connected by road, rail and air and is strategically located in close proximity to Mumbai and Delhi.
   </p>
   <p style="text-align: justify;">

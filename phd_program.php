@@ -12,7 +12,7 @@
         <?php include('menu1.php'); ?>
 
 <h1 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;">PhD Program</h1>
-<div id="inner_content" style="color: #013953;">	
+<div id="inner_content" style="color: #013953; font-size: 1.1em;  font-family:'Sintony', sans-serif !important;">	
 Discipline of Computer Science and Engineering, IIT Indore offers Doctor of Philosophy (PhD) program in almost all current areas of Computer Science. 
 It welcomes and accepts applications for admission to PhD program throughout the year. It is looking for highly motivated and dedicated research scholars for its PhD program. In general, students selected for PhD program have to undergo course-work during first two semesters before actually starting their individual doctoral research work. During these two semesters, students get an opportunity to acquaint themselves with the research activities of faculty members and suitably select their individual research supervisor.
 <h3 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: left;">Areas of Research</h3>

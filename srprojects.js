@@ -3,7 +3,7 @@ Vue.component('sr-item',{
     props: ['sr'],
     template:  '<tr>'+
     '<td valign="middle">{{sr.Sno}}).&nbsp;</td>'+
-    '<td valign="top"><br><p class="style2"><strong>Title: </strong><span v-html="sr.title"></span><br/>'+
+    '<td valign="top"><br><font face="Georgia, Times New Roman, Times, serif" color="#4F3300"><p class="style2"><strong>Title: </strong><span v-html="sr.title"></span><br/>'+
           '<strong>Project Investigator: </strong> <span v-html="sr.projectInvestigator"></span><br/>'+
           '<strong>Sponsoring Agency: </strong>{{sr.sponsoringAgency}}<br>'+
           '<strong>Duration: </strong>{{sr.duration}}<br>'+

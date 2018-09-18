@@ -15,8 +15,6 @@
   margin: auto;
   width: 100%; 
   color: #013953;
-  min-width: 1150px; 
-  max-width: 1400px;
   border-collapse:collapse;
 }
 #srprojects th
@@ -39,8 +37,8 @@
         <?php include('menu1.php'); ?>
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Sponsored Research Projects</h2>
-<div class="container table-responsive">
-<table width="850" id="srprojects" style="margin-top: 10px;"> 
+<table id="srprojects" style="margin-top: 10px;"> 
+	<!--sr can be edited in the SrprojectsList instance of srprojects.js-->
  <tr v-for="srp in SRProjectsList"
                     v-bind:sr="srp"
                     v-bind:key="srp.id"
@@ -48,7 +46,6 @@
                     >
                   </tr>
 </table>
-</div>
 </div>
 </div>
 <?php include('footer.php') ; ?>

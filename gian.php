@@ -19,7 +19,6 @@
 #gian 
 {
   width: 100%;
-  min-width:850px; 
   color: #013953; 
   border-collapse:collapse;
 }

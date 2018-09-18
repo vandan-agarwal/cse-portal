@@ -12,7 +12,7 @@
         <?php include('menu1.php'); ?>
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;">Research Facilities</h2>
-<div id="inner_content" style="color: #013953;">  Various research and teaching laboratories in the CSE discipline are:
+<div id="inner_content" style="color: #013953; font-size: 1.1em;  font-family:'Sintony', sans-serif !important;">Various research and teaching laboratories in the CSE discipline are : 
 <ol>
     <li>Data structures and algorithms laboratory
     <li>Abstraction and paradigms of programming laboratory

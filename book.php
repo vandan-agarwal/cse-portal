@@ -5,6 +5,8 @@
   <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  
  <style type="text/css">
  .nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
     color: #013953; 
@@ -33,10 +35,18 @@
     </ul>
     <div class="tab-content">
      <div id="books" class="tab-pane fade in active">
-    <ol style="margin-top: 20px;"><li class="style2">Surya Prakash&nbsp;and Phalguni Gupta,&nbsp;<strong><em><a href = "http://link.springer.com/book/10.1007/978-981-287-375-0">Ear Biometrics in 2D and 3D: Localization and Recognition</a></em></strong>, Springer, 2015, ISBN 978-981-287-374-3.</li>
+    <ol style="margin-top: 20px;" id="book-list">
+    <!--books can be added from book instance of book.js-->
+    <li v-for="book in BooksList"
+                    v-bind:book="book"
+                    v-bind:key="book.id"
+                    is="book-item"
+                    >
+    </li>
+                  <!-- <li class="style2">Surya Prakash&nbsp;and Phalguni Gupta,&nbsp;<strong><em><a href = "http://link.springer.com/book/10.1007/978-981-287-375-0">Ear Biometrics in 2D and 3D: Localization and Recognition</a></em></strong>, Springer, 2015, ISBN 978-981-287-374-3.</li>
   <span class="style2"></br>
   </span>
-  <li class="style2">Somnath Dey and Debasis Samanta, <b><strong><em><a href = "http://www.degruyter.com/view/product/248399">"Unimodal and Multimodal Biometric Data Indexing"</a></em></strong></b>, De Gruyter, Berlin, Boston, 2014.</li>
+  <li class="style2">Somnath Dey and Debasis Samanta, <b><strong><em><a href = "http://www.degruyter.com/view/product/248399">"Unimodal and Multimodal Biometric Data Indexing"</a></em></strong></b>, De Gruyter, Berlin, Boston, 2014.</li> -->
 </ol>
 
 </div>
@@ -44,5 +54,6 @@
 </div>
 </div>
   <?php include('footer.php') ; ?>    
+  <script type="text/javascript" src="book.js"></script>
 </body>
 </html> 

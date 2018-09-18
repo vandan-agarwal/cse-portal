@@ -13,9 +13,9 @@
     <div class="row">
         <?php include('menu1.php'); ?>
 
-<h1 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;">B.Tech Program</h1>
-<div id="inner_content" style="color: #013953;">&nbsp;&nbsp;&nbsp;&nbsp;  
-Discipline of Computer Science and Engineering, IIT Indore currently offers a 4-year BTech program. Total number of seats available are 40. Admission to the program is offered through "IIT Joint Entrance Examination (JEE)". For more information about IIT-JEE, please visit <a href = "http://www.jeeadv.ac.in/" target="_newTab">JEE website</a>.
+<h1 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;">B.Tech. Program</h1>
+<div id="inner_content" style="color: #013953; font-size: 1.1em;  font-family:'Sintony', sans-serif !important;">
+The B.Tech. Program in Computer Science Engineering is a four-year program with selection through the IIT Joint Entrance Examination. Students are encouraged to work on research projects from their second year onwards in addition to the mandatory summer internship after the third year and the final year project. Projects are inter–disciplinary and involve faculty members from other disciplines.Its strong and interactive curriculum and hands-on learning will make students capable of taking their career to the next level, whether it be in the professional engineering practice or in advanced study.<br>
 </div>
 </div>
 </div>

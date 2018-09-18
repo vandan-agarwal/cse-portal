@@ -5,6 +5,8 @@
   <link rel="stylesheet" type="text/css" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round|Exo|Lekton|Lobster|Merienda|Monoton|Pacifico|Josefin+Sans|Play|Righteous|Ruslan+Display" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  
  <style type="text/css">
  .nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
     color: #013953; 
@@ -34,9 +36,15 @@
     <div class="tab-content">
      <div id="journals" class="tab-pane fade in active">
    <ol id="journals-list" style="margin-top: 20px;">
+    <!--jounal can be added inside Journals instance of journal.js-->
+<li v-for="journal in JournalsList"
+                    v-bind:journal="journal"
+                    v-bind:key="journal.id"
+                    is="journal-item"
+                    >
+                  </li>
 
-
-      <li class="style2">Syed Sadaf Ali and Surya Prakash,  <em><strong>"3-Dimensional Secured Fingerprint Shell",</strong></em>  Pattern Recognition Letters, 2018 (Accepted). <a href="https://www.sciencedirect.com/science/article/pii/S0167865518301375?via%3Dihub">[Link]</a></li>
+      <!-- <li class="style2">Syed Sadaf Ali and Surya Prakash,  <em><strong>"3-Dimensional Secured Fingerprint Shell",</strong></em>  Pattern Recognition Letters, 2018 (Accepted). <a href="https://www.sciencedirect.com/science/article/pii/S0167865518301375?via%3Dihub">[Link]</a></li>
         </br>
 
         <li class="style2">Iyyakutti Iyappan G and Surya Prakash,  <em><strong>"3D Ear Recognition using Global and Local Features",</strong></em>  IET Biometrics, IET, 2018 (Accepted). <a href="http://www.iiti.ac.in/people/~surya/publications.html">[Link]</a></li>
@@ -277,12 +285,13 @@
     <li class="style2">Li Shukai, Narendra S. Chaudhari, Manoranjan Dash, <strong><i>&quot;Selecting useful features for personal credit risk analysis&quot;</i></strong>, International Journal of Business Information Systems (IJBIS)  Vol. 6, No. 4, pp.  530-546 (Dec. 2010).</li>
     <span class="style2"></br>
     </span>
-    <li class="style2">Narendra S. Chaudhari, <i><strong>&quot;Improved polynomial algorithm for 3-SAT&quot;</strong></i>, The Journal of the Indian Academy of Mathematics, Vol. 32, No. 1 (Oct. 2010) pp. 251-267.  
+    <li class="style2">Narendra S. Chaudhari, <i><strong>&quot;Improved polynomial algorithm for 3-SAT&quot;</strong></i>, The Journal of the Indian Academy of Mathematics, Vol. 32, No. 1 (Oct. 2010) pp. 251-267.   -->
   </ol>
 </div>
  </div>
 </div>
 </div>
   <?php include('footer.php') ; ?>    
+  <script type="text/javascript" src="journal.js"></script>
 </body>
 </html> 
