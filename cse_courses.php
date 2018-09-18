@@ -42,7 +42,7 @@
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;">Courses Offered</h2>
 <div id="inner_content">
-<div class="container table-responsive" style="margin-top: 15px;">
+<div class="table-responsive" style="margin-top: 15px;">
   <table class="courselist" id="courses">
  <tr><th>Course Code</th><th>Course Name</th><th>L-P-T</th><th>Credit</th></tr>
  <!--coourse can be added in courses instance of coursesoffered.js-->
@@ -143,7 +143,6 @@
 </body>
   <?php include('footer.php') ; ?>
   <script type="text/javascript" src="coursesoffered.js"></script>
-
   <script type="text/javascript" src="electivecourses.js"></script>
 </body>
 </html>

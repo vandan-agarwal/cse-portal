@@ -13,7 +13,7 @@
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 15px;
   margin:auto;
-  width:90%;
+  width:95%;
   min-width: 870px; 
   max-width: 1000px; 
   color: #013953;
@@ -44,7 +44,7 @@
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Research Areas</h2>
 <div id="inner_content">
-<div class="container table-responsive" style="margin-top: 15px;">
+<div class="table-responsive" style="margin-top: 15px;">
 <table id="research_areas">
 <tr><th>Research Areas</th><th>Faculty Members</th></tr>
 <tr><td>Algorithms and Complexity               </td> <td> 

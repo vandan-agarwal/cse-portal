@@ -51,7 +51,6 @@
         <?php include('menu1.php'); ?>
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >GIAN Courses</h2>
-<div class="container table-responsive">
 <table id="gian">
   <tr v-for="gian in GianCoursesList"
                     v-bind:gian="gian"
@@ -157,7 +156,6 @@ To register for this course <a href="http://gian.iiti.ac.in/register.php">click 
 </tr> -->
 
 </table>
-</div>
 </div>
 </div>
  <?php include('footer.php') ; ?>   

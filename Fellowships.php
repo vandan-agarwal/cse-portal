@@ -14,7 +14,6 @@
 {
   font-family: Arial, Helvetica, sans-serif;
   width:100%; 
-  min-width: 850px;
   border-collapse:collapse;
 }-
 #fellowships th
@@ -37,8 +36,6 @@
         <?php include('menu1.php'); ?>
 
 <h2 style="font-family: 'Audiowide'; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >Fellowships</h2>
-<div class="container table-responsive">
-
 <table id="fellowships">
   <!--fellowships can be edited in the Fellowships instance of fellowships.js-->
  <tr v-for="fellowship in FellowshipsList"
@@ -49,7 +46,6 @@
                   </tr>
   
 </table>
-</div>
 </div>
 </div>
 <?php include('footer.php') ; ?>    

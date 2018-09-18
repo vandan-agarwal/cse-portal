@@ -261,11 +261,11 @@
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3">About us</font><b class="caret" style="color: white;"></b></a> 
           <ul class="dropdown-menu dropdown1">
-            <li><a href="cse_discipline_iit_indore.php"target="_blank">Discipline</a></li>
-      			<li><a href="administration.php"target="_blank">Administration </a></li>
-            <li><a href="facilities.php"target="_blank">Facilities</a></li>
-      			<li><a href="contact_us.php"target="_blank">Contact us</a></li>
-            <li><a href="about_indore.php"target="_blank">About Indore</a></li>
+            <li><a href="cse_discipline_iit_indore.php">Discipline</a></li>
+      			<li><a href="administration.php">Administration </a></li>
+            <li><a href="facilities.php">Facilities</a></li>
+      			<li><a href="contact_us.php">Contact us</a></li>
+            <li><a href="about_indore.php">About Indore</a></li>
           </ul>
         </li>
        <li><a href="reach_iiti.php"><font size="3">How to reach</font>  </a></li>
