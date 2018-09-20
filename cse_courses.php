@@ -27,11 +27,6 @@
   border-top: 1px solid #DADADA;
   height:50px;
 }
-.courselist td
-{
-   margin-left:30px;
-   
-} 
 </style>
 </head>
 <body>
@@ -106,7 +101,7 @@
 </div>
 
 <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;">Elective Courses</h2>
-<div class="container table-responsive" style="margin-top: 15px;">
+<div class="table-responsive" style="margin-top: 15px;">
 <table class="courselist" id="electivecourses">
    <!--electivecourses can be added in electivecourses instance of electivecourses.js-->
    <tr><th>Course Code</th><th>Course Name</th><th>L-P-T</th><th>Credit</th></tr>
