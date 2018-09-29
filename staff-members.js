@@ -23,21 +23,21 @@ var StaffMembers = new Vue({
             img: 'imgs/shailendra.jpg',
             post: "Deputy Manager (LAB)" ,
             email: "shailendra [AT] iiti [dot] ac [dot] in",
-            tel: ""
+            tel: "+91-7324-306-835"
             },
             { 
             name: "Mr. Lalit Jain",
             img: 'imgs/lalit.jpg',
             post: "Deputy Manager (LAB)" ,
             email: "lalit [AT] iiti [dot] ac [dot] in",
-            tel: ""
+            tel: "+91-7324-306-836"
             },
             { 
             name: "Mr. Jagat Singh ",
             img: 'imgs/jagat.jpg',
             post: "Deputy Manager (LAB)" ,
             email: "jagat[AT] iiti [dot] ac [dot] in",
-            tel: ""
+            tel: "+91-7324-306-835"
             },
             { 
             name: "Ms. Ujavala Gorakh Langhi",

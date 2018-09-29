@@ -227,7 +227,7 @@ font-family: 'Play', sans-serif;
 .News{
   list-style-type: none;
   margin-left: -10px;
-  padding-top: 2px;
+  padding: 5px 3px 0px 3px;
   margin-bottom: 15px;
 }
 .News li{
@@ -241,7 +241,7 @@ font-family: 'Play', sans-serif;
   .News>li:nth-child(even) {
      background-image: linear-gradient(to bottom right,#ffffff,#eef3f6); 
   }
-  .News li>a{
+  .News>li>a{
   font-size: 1.1em;
   color: #013953;
   padding: 3px 0 5px 0;

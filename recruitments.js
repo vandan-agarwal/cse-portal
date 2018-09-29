@@ -12,15 +12,15 @@ var Recruitments = new Vue({
       RecruitmentsList:
       [    { 
             id: 1,          //id must be unique
-            content: '<a href="phdadmissionwebsite/2017_10/adv.html">PhD Admission Advertisement</a>'
+            content: '<a href="http://academic.iiti.ac.in/phd_advertisement/advertisement%20from%20CSE.pdf" target="_blank">PhD Admission Advertisement</a>'
         },
        { 
             id: 2,          //id must be unique
-            content: '<a href="http://www.iiti.ac.in/Careers/careers.php">Faculty Recruitment </a>'
+            content: '<a href="http://www.iiti.ac.in/Careers/careers.php" target="_blank">Faculty Recruitment </a>'
         },
         { 
             id: 3,         //id must be unique
-            content: ' <a href="http://academic.iiti.ac.in:8080/Admm/28_3_2018%20Advertisement-for%20MTech-Admission.pdf">MS admission advertisement</a>'
+            content: ' <a href="http://academic.iiti.ac.in:8080/Admm/28_3_2018%20Advertisement-for%20MTech-Admission.pdf" target="_blank">MS admission advertisement</a>'
         }
         ]
     }

@@ -10,39 +10,27 @@ var News = new Vue({
       NewsList:
       [    { 
             id: 1,          //id must be unique
-            content: '<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.'
+            content: '<a href="https://pmrf.in/">Prime Minister’s Research Fellowship (PMRF)</a>'
         },
         { 
             id: 2,          //id must be unique
-            content: 'The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.'
+            content: '<a href="https://euristica.in/">Euristica 2018 - IIT Indore\'s First Coding Fest</a>'
         },
         { 
             id: 3,         //id must be unique
-            content: 'The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.'
+            content: '<a href="gian.html">Courses offered under GIAN @ CSE, IIT Indore</a>'
         },
         { 
             id: 4,          //id must be unique
-            content: 'The Discipline of Computer Science and Engineering (CSE) was set up in July 2009.'
+            content: 'Graduating student, <strong>Mr. Chaware Ketan Uday</strong>, of CSE receives The President of India Gold Medal in the 5th Convocation of IIT Indore.'
         },
         { 
             id: 5,          //id must be unique
-            content: '<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.'
+            content: '.Graduating student, <strong>Mr. Aishwary Gagrani</strong>, of CSE receives the Silver Medal in the 5th Convocation of IIT Indore.'
         },
         { 
             id: 6,          //id must be unique
-            content: '<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.'
-        },
-        { 
-            id: 7,          //id must be unique
-            content: '<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.'
-        },
-        { 
-            id: 8,          //id must be unique
-            content: '<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.'
-        },
-        { 
-            id: 9,          //id must be unique
-            content: '<a href="#"> The Discipline of Computer Science and Engineering (CSE)</a> was set up in July 2009.'
+            content: '<strong>Dr. Surya Prakash</strong> has taken over as Head, Discipline of CSE'
         }
         ]
     }
