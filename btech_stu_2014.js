@@ -15,7 +15,7 @@ var btechStudents2014 = new Vue({
     el: '#btech-2014',
     data: {
       BtechList:
-      [    
+      [         
             {
                     RollNo: 'CSE140001001',
                     name:' AAKASH HANDA ',

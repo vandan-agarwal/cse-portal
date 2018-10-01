@@ -190,15 +190,21 @@
 				   <li class="dropdown dropdown-submenu">
             <a href="#" class="dropdown-toggle " data-toggle="dropdown">B. Tech Students</a>
             <ul class="dropdown-menu dropdown2">
-              <li><a href="btech_stu_2014.php">2014 B.tech</a></li>
-              <li><a href="btech_stu_2015.php">2015 B.tech</a></li>
-			  <li><a href="btech_stu_2016.php">2016 B.tech</a></li>
-			  <li><a href="btech_stu_2017.php">2017 B.tech</a></li>
+              <li><a href="btech_stu_2015.php">2015 B.tech.</a></li>
+			  <li><a href="btech_stu_2016.php">2016 B.tech.</a></li>
+			  <li><a href="btech_stu_2017.php">2017 B.tech.</a></li>
+        <li><a href="btech_stu_2018.php">2018 B.tech.</a></li>
               
 			  </ul>
             		
 			</li>
-			<li><a href="alumini.php" >Alumini</a></li>
+			<li class="dropdown dropdown-submenu">
+            <a href="#" class="dropdown-toggle " data-toggle="dropdown">Alumini</a>
+            <ul class="dropdown-menu dropdown2">
+              <li><a href="btech_stu_2014.php">2014 B.tech.</a></li>  
+        </ul>
+                
+      </li>
 			                        
           </ul>
         </li>
