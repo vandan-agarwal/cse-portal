@@ -18,6 +18,10 @@
             width: 100%;
             height: 100%;
         }
+        .cardnew>img{
+          max-width: 100%;
+            
+        }
         .col-sm-3>.cardnew:nth-child(even){
             box-shadow: .5px 3px 3px 0 #5d8aa8;
            

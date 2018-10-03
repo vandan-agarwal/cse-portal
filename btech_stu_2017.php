@@ -36,7 +36,7 @@
 
 
  <div class="row" style="margin-top: 15px;" id="btech-2017">
-  <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >2017 B.tech Students</h2>
+  <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >2017 BTech Students</h2>
   <!-- list can be edited from btechStudents2014 instance of btech_stu_2014.js-->
     <btech-item v-for="student in BtechList"
                     v-bind:btech="student"

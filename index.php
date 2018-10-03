@@ -141,8 +141,8 @@
 	    </div>
 	    <div class="col-md-12 col-sm-4 col-xs-12 col-lg-4" style="overflow: hidden;">
 	  <ul class="nav nav-pills">
-	    <li class="active" style="width: 50%; margin: 0;"><a style="border-radius: 0%; text-align: center; font-family: 'Josefin Sans', sans-serif; font-size: 1.2em;"data-toggle="pill" href="#home">NEWS</a></li>
-	    <li style="width: 50%;  margin: 0;"><a style="border-radius: 0%; text-align: center; font-size: 1.2em; font-family: 'Josefin Sans', sans-serif;" data-toggle="pill" href="#menu1">RECRUITMENTS</a></li>
+	    <li class="active" style="width: 46%; margin: 0;"><a style="border-radius: 0%; text-align: center; font-family: 'Josefin Sans', sans-serif; font-size: 1.2em;"data-toggle="pill" href="#home">NEWS</a></li>
+	    <li style="width: 54%;  margin: 0;"><a style="border-radius: 0%; text-align: center; font-size: 1.2em; font-family: 'Josefin Sans', sans-serif;" data-toggle="pill" href="#menu1">RECRUITMENTS</a></li>
 	  </ul>
 	  
 	  <div class="tab-content">

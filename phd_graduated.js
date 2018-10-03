@@ -3,12 +3,12 @@ Vue.component('graduated-item',{
     props: ['graduated'],
     template:  
             '<div class="col-sm-3" style="margin-bottom: 15px;">'+
-            '<div class="cardnew" style="height: 325px;">'+
+            '<div class="cardnew" style="height: 340px;">'+
                 '<img class="student_image" v-bind:src="graduated.img" style="margin-top: 10px;">'+
                 '<div class="cardnew-heading" style="height: 32px;">'+
                     '<h4 class="cardnew-header">{{graduated.name}}</h4>'+
                 '</div>'+  
-                '<div class="cardnew-content" style="height: 80px; top: 245px; overflow-y: scroll; text-align: left; padding-left: 10%;"><b>Thesis title:</b> {{graduated.Thesistitle}}<br><b>Year of Graduation:</b> {{graduated.yearOfGraduation}}</div>'+
+                '<div class="cardnew-content" style="height: 90px; top: 245px; overflow-y: scroll; text-align: left; padding-left: 10%;"><b>Thesis title:</b> {{graduated.Thesistitle}}<br><b>Year of Graduation:</b> {{graduated.yearOfGraduation}}</div>'+
             '</div>'+
   '</div>' 
 })

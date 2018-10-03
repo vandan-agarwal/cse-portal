@@ -50,19 +50,10 @@
      </phd-item>
 
 </div>
-<div class="row" style="margin-top: 15px;" id="Graduated">
-  <h2 style="font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: center;" >GraduatedPhd PhD Students</h2>
-  <!--GraduatedPhd PhD Students can be added in the graduatedPhdStudents instance of phd_graduated.js file"-->
-  <graduated-item v-for="graduated in graduatedPhdList"
-                    v-bind:graduated="graduated"
-                    v-bind:key="graduated.id">
-     </graduated-item>
-
-</div>
+<a href="graduated_phd.php"><h3 style=" margin-top: 15px;font-family: 'Audiowide', cursive; color: #013953; text-shadow:2px 2px #bdcfdb; text-align: right;" >Graduated PhD Students <i class="fas fa-arrow-circle-right"></i></h3></a>
 </div>
 </div>
 <?php include('footer.php') ; ?>
 <script type="text/javascript" src="phd_students.js"></script>
-<script type="text/javascript" src="phd_graduated.js"></script>
 </body>
 </html>

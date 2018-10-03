@@ -51,7 +51,7 @@
   }
    .navbar-default .navbar-nav>li>a {
     color: white;
-    font-weight: 400;
+    font-weight: 500;
   }
   .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #013953;
@@ -154,14 +154,18 @@
     #navbar {
       text-align: center ;
     }
-    .menu1>li>a{
-      padding-right: 20px;
-      padding-left: 30px;
-    }
   }  
 #navbar-collapse-1{
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#013953), to(#5d8aa8));
   color: black!important;
+}
+.menu1{
+  width: 100%;
+}
+.menu1>li{
+  width: 12.5%;
+  text-align: center;
+  min-width: 120px;
 }
 
 </style>
@@ -176,7 +180,7 @@
       <span class="icon-bar" style="background-color: #013953;"></span>
       </button>
     </div>
-    <div class="collapse navbar-collapse" id="navbar-collapse-1" style="overflow-y: visible;">
+    <div class="collapse navbar-collapse " id="navbar-collapse-1" style="overflow-y: visible;">
       <ul class="nav navbar-nav menu1">
         <li><a href="index.php"> <font size="3"
            > Home </font> </a></li>
@@ -185,15 +189,16 @@
           <a href="#" class="dropdown-toggle  trial" data-toggle="dropdown"><font size="3">People</font>  <b class="caret" style="color: white;"></b> </a> 
           <ul class="dropdown-menu dropdown1" id="Peoples">
             <li><a href="faculty.php"> Faculty</a></li>
-            <li><a href="staff.php">Staff</a></li>
+            <li><a href="staff.php">Staff</a> </li>
 			       <li><a href="phdstudents.php" >PhD Students </a></li>
+              <li><a href="ms_students.php">MS Students</a></li>
 				   <li class="dropdown dropdown-submenu">
-            <a href="#" class="dropdown-toggle " data-toggle="dropdown">B. Tech Students</a>
+            <a href="#" class="dropdown-toggle " data-toggle="dropdown">BTech Students</a>
             <ul class="dropdown-menu dropdown2">
-              <li><a href="btech_stu_2015.php">2015 B.tech.</a></li>
-			  <li><a href="btech_stu_2016.php">2016 B.tech.</a></li>
-			  <li><a href="btech_stu_2017.php">2017 B.tech.</a></li>
-        <li><a href="btech_stu_2018.php">2018 B.tech.</a></li>
+              <li><a href="btech_stu_2015.php">2015 BTech</a></li>
+			  <li><a href="btech_stu_2016.php">2016 BTech</a></li>
+			  <li><a href="btech_stu_2017.php">2017 BTech</a></li>
+        <li><a href="btech_stu_2018.php">2018 BTech</a></li>
               
 			  </ul>
             		
@@ -201,7 +206,11 @@
 			<li class="dropdown dropdown-submenu">
             <a href="#" class="dropdown-toggle " data-toggle="dropdown">Alumini</a>
             <ul class="dropdown-menu dropdown2">
-              <li><a href="btech_stu_2014.php">2014 B.tech.</a></li>  
+              <li><a href="btech_stu_2013.php">2013 BTech</a></li> 
+              <li><a href="btech_stu_2014.php">2014 BTech</a></li> 
+              <li><a href="graduated_phd.php">Graduated PhD</a></li>  
+         
+         
         </ul>
                 
       </li>
@@ -236,7 +245,7 @@
 
 
 		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" >Teaching</font> <b class="caret" style="color: white;"></b></a> 
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><font size="3" >Teaching</font> <b class="caret" style="color: white;"></b></a> 
           <ul class="dropdown-menu dropdown1">
             <li><a href="cse_courses.php">Courses</a></li>
             <li><a href="http://moodle.cse.iiti.ac.in/moodle/" target="_blank">Moodle Login</a></li>
